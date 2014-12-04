@@ -1,6 +1,8 @@
 node_modules
+node_modules2
 .sass-cache
 .DS_Store
 cmd.bat
 gulp.lnk
 oldgit
+npm-debug.log
