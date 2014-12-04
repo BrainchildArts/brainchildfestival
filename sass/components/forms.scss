@@ -1,0 +1,52 @@
+input, textarea {
+    margin-bottom: $baseline;
+    padding: $baseline / 2;
+    width: 100%;
+    outline: none;
+    border: 1px solid hotpink;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    &:focus {
+        border-color: hotpink;
+    }
+}
+
+[placeholder]:focus::-webkit-input-placeholder {
+    transition: opacity 0.5s 0.5s ease;
+    opacity: .25;
+}
+
+[placeholder]:focus::-moz-placeholder {
+    transition: opacity 0.5s 0.5s ease;
+    opacity: .25;
+}
+
+[placeholder]:focus:-ms-input-placeholder {
+    transition: opacity 0.5s 0.5s ease;
+    opacity: .25;
+}
+
+input.button {
+    width: auto;
+    display: inline-block;
+    background: none;
+}
+
+textarea {
+    resize: vertical;
+    overflow: auto;
+    vertical-align: top;
+    min-height: $baseline * 8;
+}
+
+label {
+    line-height: $baseline;
+    margin-bottom: $baseline / 4;
+    display: block;
+}
+
+.error {
+    color: red;
+    display: block;
+    margin-bottom: $baseline / 2;
+}

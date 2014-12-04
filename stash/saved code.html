@@ -1,0 +1,11 @@
+saved code
+
+<!-- artist tiles -->
+<div class="tiles">
+			{{#each artists}}
+				<a class="tile" href="#" data-img="http://lorempixel.com/900/900/fashion/?ver={{@index}}" data-title="{{name}}" data-desc="{{bio}}" data-link="{{soundcloud}}">
+					<img src="http://lorempixel.com/500/500/fashion/?ver={{@index}}" alt="{{name}}"/>
+					<h3 class="tile__heading">{{name}}</h3>
+				</a>
+			{{/each}}
+			</div>

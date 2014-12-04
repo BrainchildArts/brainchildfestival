@@ -1,0 +1,78 @@
+
+.site-header {
+    height: 0;
+    padding-bottom: 56.2%;
+}
+.logo {
+    @extend %hide-text;
+    z-index: 100000;
+    margin: 0 auto $baseline;
+    width: 38%;
+    height: 0;
+    padding-bottom: 21.76%;
+    background: url(../img/partials/logo.svg);
+    background-size: cover;
+    // transform: scale(0) rotate(0deg);
+    transition: all ease .6s;
+}
+
+.splash {
+    position: relative; 
+    top: 12vw;
+    // @extend %absolute-centering;
+    text-align: center;
+    color: $white;
+    font-size: 1.5em;
+}
+
+
+.site-nav {
+    font-size: 1.125em;
+    width: 100%;
+    transition: all ease .2s .6s;
+    position: relative;
+    z-index: 9999;
+    background: none; 
+    a {
+        color: $white !important;
+        padding: 0 0.2em;
+        &:hover, &:active {
+            background-color: $red;
+            -webkit-transition: all ease .2s; 
+            -moz-transition: all ease .2s; 
+            -ms-transition: all ease .2s; 
+            -o-transition: all ease .2s; 
+            transition: all ease .2s; 
+        }
+    }
+    &--stuck {
+        position: fixed;
+        z-index: 9999;
+        opacity: 1;
+        pointer-events: auto;
+        top: 0;
+        left: 0;
+        background: rgba($red, .8);
+        -webkit-transition: .2s;
+        -moz-transition: .2s;
+        -ms-transition: .2s;
+        -o-transition: .2s;
+        transition: .2s;
+        &:hover {
+            background: rgba($red, 1); 
+        }
+        a:hover,
+        a:active {
+            background-color: $blue;
+        }
+    }
+    @include max-width($tablet) {
+        display: none;
+    }
+}
+
+.billboard {
+    width: 100%;
+    height: auto;
+    position: fixed;
+}

@@ -1,0 +1,56 @@
+.tabs {
+	>ul {
+		list-style: none;
+		text-align: center;
+		padding: 0;
+		li {
+			-webkit-transition: all ease .2s; 
+			-moz-transition: all ease .2s; 
+			-ms-transition: all ease .2s; 
+			-o-transition: all ease .2s; 
+			transition: all ease .2s; 
+			text-transform: uppercase;
+			display: block;
+			margin: 0 .5em;
+			margin-bottom: 0.2em; 
+			font-weight: bold; 
+			font-size: 2em;
+			padding: 0 .1em;
+			a {
+				&:hover {
+				border-bottom: 4px solid lighten($blue,15%);
+				-webkit-transition: all ease .2s; 
+				-moz-transition: all ease .2s; 
+				-ms-transition: all ease .2s; 
+				-o-transition: all ease .2s; 
+				transition: all ease .2s; 
+				}
+				&.active {
+					border-bottom: 5px solid lighten($blue,10%);
+					-webkit-transition: all ease .2s; 
+					-moz-transition: all ease .2s; 
+					-ms-transition: all ease .2s; 
+					-o-transition: all ease .2s; 
+					transition: all ease .2s; 
+				}
+			}
+		}
+	}
+}
+
+#lineup {
+        .tabs li {
+                @include min-width(440px) {
+                display: inline;
+                margin-bottom: 0;
+                }
+            }
+    }
+#getinvolved {
+    .tabs li {
+            @include min-width(700px) {
+            display: inline;
+            margin-bottom: 0;
+            }
+        }
+}

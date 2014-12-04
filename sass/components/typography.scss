@@ -1,0 +1,90 @@
+html,
+button,
+input,
+select,
+textarea {
+    color: $primary;
+    font-family: 'Karla'; 
+}
+
+h1, h2, h3, h4, .site-nav, .bold-link {
+    font-family: 'Karla', sans-serif;
+    text-align: center;
+    font-weight: 600; 
+    text-transform: uppercase;
+}
+
+h1, h2, h3, h4, h5, h6,
+ul, ol, dd,
+p, p:last-child,
+pre, table, fieldset, hr {
+    margin-top: 0;
+    margin-bottom: $baseline;
+}
+
+
+h1 {
+    font-size: 2em;
+    line-height: 1.2em;
+}
+
+h2 {
+    font-size: 11vw;
+    line-height: 1.2em;
+    text-align: center;
+    @include min-width($phablet) {
+        font-size: 4.2em;
+    }
+}
+
+h3 {
+    font-size: 1.17em;
+}
+
+h4 {
+    font-size: 3em;
+    line-height: $baseline * 2;
+    text-align: left !important;
+}
+
+h5 {
+    font-size: 0.83em;
+}
+
+h6 {
+    font-size: 0.75em;
+}
+
+p {
+    font-size: 1.03em;
+} 
+
+.big-txt {
+    font-size: 1.4em; 
+}
+
+.columns {
+    @include min-width($tablet) {
+        columns: 2;
+    }
+}
+
+.bold-link {
+    padding: $baseline / 2 $baseline / 2 $baseline / 2 $baseline * 2;
+    background: $blue url(../img/social/soundcloud.svg) $baseline / 2 center no-repeat;
+    background-size: $baseline;
+    transition: transform .2s ease;
+    display: inline-block;
+    &:hover {
+        transform: scale(1.05);
+    }
+}
+
+// blockquote {
+//  font-style: italic;
+//  &:before {
+//      content: "\201C";
+//      display: inline-block;
+//      padding-right: .4em;
+//  }
+// }

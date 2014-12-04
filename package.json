@@ -1,0 +1,38 @@
+{
+  "name": "brainchild",
+  "version": "0.1.0",
+  "devDependencies": {
+    "event-stream": "*",
+    "gulp": "*",
+    "gulp-autoprefixer": "*",
+    "gulp-base64": "*",
+    "gulp-cache": "*",
+    "gulp-concat": "*",
+    "gulp-csso": "*",
+    "gulp-imagemin": "*",
+    "gulp-jshint": "*",
+    "gulp-livereload": "*",
+    "gulp-load-plugins": "*",
+    "gulp-rename": "*",
+    "gulp-uglify": "*",
+    "gulp-sass": "*",
+    "map-stream": "*",
+    "tiny-lr": "*",
+    "jshint-stylish": "*",
+    "gulp-assemble": "^0.1.7"
+  },
+  "dependencies": {
+    "chalk": "*"
+  },
+  "description": "A simple boilerplate based on my own preferences involving SASS, Gulp, and a simple file structure. The idea is to leave as much of blank slate for maximum creativity as possible. Much of the CSS is commented out or takes advantage of SASS's placeholder selectors in order to reduce bloat if not used.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://jerome_toole@bitbucket.org/piersolenski/brainchild.git"
+  },
+  "author": "jerometoole",
+  "license": "ISC"
+}

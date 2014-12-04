@@ -1,0 +1,56 @@
+// Min Width Breakpoint
+@mixin min-width($breakpoint) {
+    @media only screen and (min-width: $breakpoint) {
+        @content;
+    }
+}
+
+// Max Width Breakpoint
+@mixin max-width($breakpoint) {
+    @media only screen and (max-width: ($breakpoint * 16 - 1) / 16) {
+        @content;
+    }
+}
+
+// Link Colours
+@mixin link-colors($normal, $hover: false, $active: false, $visited: false, $focus: false) {
+    color: $normal;
+    @if $visited {
+        &:visited {
+            color: $visited;
+        }
+    }
+    @if $focus {
+        &:focus {
+            color: $focus;
+        }
+    }
+    @if $hover {
+        &:hover {
+            color: $hover;
+        }
+    }
+    @if $active {
+        &:active {
+            color: $active;
+        }
+    }
+}
+
+// Retina Background Image
+@mixin retina($background, $width, $height) {
+    $newWidth: $width / 2 / 16 + rem;
+    $newHeight: $height / 2 / 16 + rem;
+    width: $newWidth;
+    height: $newHeight;
+    background: $background;
+    background-size: $newWidth $newHeight;
+}
+
+// Ratio Calculator
+@mixin ratio-calc($original-width, $original-height, $target-height) {
+    $target-width: $original-width / $original-height * $target-height;
+    width: $target-width;
+    height: $target-height;
+    background-size: $target-width $target-height;
+}

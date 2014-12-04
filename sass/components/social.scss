@@ -1,0 +1,27 @@
+.social {
+    @extend %unstyled-list;
+    font-size: 0;
+    margin-bottom: $baseline * 2;
+    li {
+        display: inline-block;
+        margin: 0 $baseline / 4;
+        a {
+            display: block;
+            width: $baseline * 1.5;
+            height: $baseline * 1.5;
+            display: block;
+            background-size: contain;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+    }
+    &__facebook {
+        background: url(../img/social/facebook.svg);
+    }
+    &__twitter {
+        background: url(../img/social/twitter.svg);
+    }
+    &__instagram {
+        background: url(../img/social/instagram.svg);
+    }
+}

@@ -1,0 +1,39 @@
+.bx-wrapper {
+    position: relative;
+    // border: 5px solid $red;
+}
+
+.bx-controls-direction {
+    position: absolute;
+    top: calc(50% - 1.5rem);
+    width: 100%;
+    a {
+        @extend %hide-text;
+        display: block;
+        width: $baseline * 2;
+        height: $baseline * 2;
+        background-color: $red;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+        transition: background .2s ease;
+    }
+}
+
+.bx-prev {
+    position: absolute;
+    left: 0;
+    background-image: url(../img/partials/icon-previous.svg);
+    transition: all ease .2s;
+}
+
+.bx-next {
+    position: absolute;
+    right: 0;
+    background-image: url(../img/partials/icon-next.svg);
+    transition: all ease .2s;
+}
+
+.bx-pager {
+    display: none;
+}

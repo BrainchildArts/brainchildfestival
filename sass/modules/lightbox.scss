@@ -1,0 +1,22 @@
+.lightbox {
+    @extend %unstyled-list;
+    @extend %clearfix;
+    li {
+        float: left;
+        @include min-width($phone) {
+            width: 50%;
+            // margin-left: 2%;
+            margin-bottom: 2%;
+        }
+
+        @include min-width($tablet) {
+            width: 23%;
+            // margin-left: 2%;
+            margin-bottom: 2%;
+        }
+
+        img {
+            margin-bottom: $baseline / 2;
+        }
+    }
+}

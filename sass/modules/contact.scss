@@ -1,0 +1,10 @@
+.getinvolved {
+    text-align: center;
+    &__email {
+        font-size: 1em;
+        color: $white;
+        text-align: center;
+        display: block;
+        margin-bottom: $baseline;
+    }
+}
