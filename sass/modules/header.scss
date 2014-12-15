@@ -3,6 +3,19 @@
     height: 0;
     padding-bottom: 56.2%;
 }
+
+@media only screen and (max-width: 760px) {
+    .headervideo {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 760px) {
+    .video-img {
+        display: none;
+    }
+}
+
 .logo {
     @extend %hide-text;
     z-index: 100000;
