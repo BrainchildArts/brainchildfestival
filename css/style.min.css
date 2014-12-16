@@ -510,7 +510,7 @@ html, button, input, select, textarea {
 h1, h2, h3, h4, .site-nav, .bold-link {
   font-family: 'Karla', sans-serif;
   text-align: center;
-  font-weight: 600;
+  font-weight: 400;
   text-transform: uppercase; }
 
 h1, h2, h3, h4, h5, h6, ul, ol, dd, p, p:last-child, pre, table, fieldset, hr {
@@ -554,18 +554,6 @@ p {
     -webkit-columns: 2;
        -moz-columns: 2;
             columns: 2; } }
-
-.bold-link {
-  padding: 0.75rem 0.75rem 0.75rem 3rem;
-  background: #2E5066 url(../img/social/soundcloud.svg) 0.75rem center no-repeat;
-  background-size: 1.5rem;
-  -webkit-transition: -webkit-transform 0.2s ease;
-          transition: transform 0.2s ease;
-  display: inline-block; }
-  .bold-link:hover {
-    -webkit-transform: scale(1.05);
-        -ms-transform: scale(1.05);
-            transform: scale(1.05); }
 
 input, textarea {
   margin-bottom: 1.5rem;
@@ -773,13 +761,15 @@ label {
   overflow-y: scroll;
   z-index: 99991; }
   .overlay a {
-    color: #d8e5ee; }
+    color: #c7dae6; }
     .overlay a:visited {
-      color: #d8e5ee; }
+      color: #b5cede; }
+    .overlay a:focus {
+      color: #a4c2d6; }
     .overlay a:hover {
-      color: #d8e5ee; }
+      color: #a4c2d6; }
     .overlay a:active {
-      color: #d8e5ee; }
+      color: #a4c2d6; }
   .overlay__close {
     position: absolute;
     top: 1.5rem;
@@ -788,11 +778,6 @@ label {
     height: 2.25rem;
     background: url(../img/partials/icon-close.svg);
     background-size: 2.25rem 2.25rem; }
-  .overlay__copy {
-    margin-top: 50%;
-    -webkit-transform: translateY(-50%);
-        -ms-transform: translateY(-50%);
-            transform: translateY(-50%); }
   .overlay__image {
     border: 0.75rem solid rgba(0, 0, 0, 0.1); }
 

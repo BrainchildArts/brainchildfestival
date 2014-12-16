@@ -10,7 +10,7 @@ textarea {
 h1, h2, h3, h4, .site-nav, .bold-link {
     font-family: 'Karla', sans-serif;
     text-align: center;
-    font-weight: 600; 
+    font-weight: 400; 
     text-transform: uppercase;
 }
 
@@ -69,16 +69,17 @@ p {
     }
 }
 
-.bold-link {
-    padding: $baseline / 2 $baseline / 2 $baseline / 2 $baseline * 2;
-    background: $blue url(../img/social/soundcloud.svg) $baseline / 2 center no-repeat;
-    background-size: $baseline;
-    transition: transform .2s ease;
-    display: inline-block;
-    &:hover {
-        transform: scale(1.05);
-    }
-}
+// .bold-link {
+//     padding: $baseline / 2 $baseline / 2 $baseline / 2 $baseline * 2;
+//     background: $blue url(../img/social/soundcloud.svg) $baseline / 2 center no-repeat;
+//     background-size: $baseline;
+//     font-weight: 600; 
+//     transition: transform .2s ease;
+//     display: inline-block;
+//     &:hover {
+//         transform: scale(1.05);
+//     }
+// }
 
 // blockquote {
 //  font-style: italic;
