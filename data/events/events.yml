@@ -3,6 +3,7 @@
     -
       name: "Brainchild Festival 2012 Launch"
       image: "data/events/bc2012launch.jpg"
+      past: true
       date: "13/06/2012"
       location: "Camden Proud Galleries (South Gallery)"
       bio: "Back when Sarah, Joey and Marina were still doing Frozen Thumb gigs at Proud Galleries, we decided to combine our June night with the launch for the festival. With lava lamps and some very special performances, and some slightly dodgy compering from us on the mic, it was a smashing start for what was still largely our festival experiment."
@@ -10,12 +11,14 @@
     -
       name: "The Huddle Up: Brainchild 2013 Launch"
       image: "data/events/huddleup1.jpg"
+      past: true
       date: "21/02/13"
       location: "The Bussey Building, SW15"
       bio: "These beautiful huddle ups were the first manifestations of our creative partnership with STEEZ. Together we transformed the second floor of the Bussey Building into a forest. Having procured some furniture from freecycle, and some spare bits of trees from local tree-surgeons, we were ready to launch the 2013 festival. Whilst the illustrators Josie Tucker, Gaurab Thakali and Lu’ay Sami drew the mural into life, and we all ate Jasper’s delicious toasties, the energy of the show was becoming more and more infectious in the hands of MVC + Sumochief (then “Yancey Boys”), Nomad Soul Collective, Off Key He-Man and all the performers who were part of the live jam at the end of the night."
     -
       name: "The Huddle Up No.2"
       image: "data/events/huddleup2.jpg"
+      past: true
       date: "20/04/13"
       location: "The Bussey Building, SW15"
       bio: "Number two in our collaborative nights with Steez. This one saw us conduct some astral explorations, taking on the stimulus of ‘SPACE’. It was our aim to create an environment that was drawn together by the community's creative minds and artwork from all disciplines. All were encouraged to participate in the jam, which was fantastic and night ended up running well into the small hours."
@@ -23,6 +26,7 @@
     -
       name: "Mindbaby"
       image: "data/events/mindbaby.jpg"
+      past: true
       date: "25/05/2013"
       location: "The Amersham Arms, New Cross"
       bio: "In an effort to raise last minute funds for the festival, we were very kindly given the Amersham Arms space pro bono. During the daytime, we let the music play and the incense burn whilst exhibiting prints and artwork by Brainchild affiliated artists. By midnight the place was buzzing and full of drunken people posing for photos with painted fruit (which had begun the day as part of an installation)."
@@ -30,12 +34,14 @@
     -
       name: "Brainchild Relaunch"
       image: "data/events/relaunch.jpg"
+      past: true
       date: "04/01/2014"
       location: "The Last Refuge Arts Centre, Copeland Park, SW15"
       bio: "After the whole team met up in the September after Brainchild #2, we realised that the festival alone was not enough - we wanted Brainchild to be more than just a three day event and to take on all kinds of projects. So, six months on, in a new and intimate space in Peckham, we held a big party to showcase new ideas and celebrate a new direction. We gave people the opportunity to contribute their own projects, mess about with our logo (the wall was littered with various designs) and discuss the future of Brainchild. We had our biggest turnout to date, of audience and volunteers and - with the help of the Full English Kitchen running the bar and food - we jammed with until nearly four in the morning. The space was then rapidly turned back into a makeshift church for a service the following morning - massive thanks to everyone who that happen!"
     -
       name: "Brainchild x Bristol"
       image: "data/events/bcxbristol.jpg"
+      past: true
       date: "09/06/2014"
       location: "Jam Jar, The Old Malthouse, Bristol"
       bio: "Thanks to the inspiration of Pete Wright and Francesco Lo Giudice, we brought Brainchild to Bristol. With Fran and Pete both having great ideas and connections for a line-up, we aimed for the night to bring musicians together from different parts of the UK, playing alongside each other, with the chance to play together after their sets into the early hours of the night. We have also asked along some brilliant wordsmiths and poets to bring their rhythms and flows to the music. Although venue difficulties the night before, it worked out for the best because we ended up hooking up with Jam Jar Collective ,and their amazing space and giant squid tentacled decorations. The night was filled with jamming, brass instruments, quiet moments of intense listening, a poem about the word falafel, and lots and lots of toastie eating (and cheese grating)."
@@ -43,6 +49,7 @@
     -
       name: "Brainchild x LeeFest"
       image: "data/events/brainchildxleefest.jpg"
+      past: true
       date: "11/07/2014"
       location: "LeeFest, South London Countryside"
       bio: "Having been so inspired by LeeFest’s similarly homegrown, grassroots story (and their amazing kickstarter campaign!), it was incredibly exciting to get an email from Lee asking for Brainchild to take part in their 2014 program. We commissioned two of our favourite artists and architects Louise Colgan and Roma Swords-McDonnell to design and build an interactive installation, and also worked with Jack Rooke from C.A.L.M.’s ‘Save the Male’, to curate a two hour spoken word and comedy set which raised awareness for their fantastic work. "
@@ -50,6 +57,7 @@
     -
       name: "Rich Mix: Story & Sound"
       image: "data/events/richmix.jpg"
+      past: true
       date: "16/08/2014"
       location: "Rich Mix, E1."
       bio: "We were very excited be part of Rich Mix’s fantastic Youth Takeover Festival, as it was our last chance before we all turn 22. For our day workshop, we brought in Sophie and Zoe who we’ve been helping to run storyslam workshops in Bristol under the name ‘Speak Easy’. For the whole afternoon we lovingly shared and developed stories made from our real life experience, with the theme of ‘new beginnings’, and ‘ten minutes that changed my life’. Then from 7pm, the main space became adorned with lights and played host to film, original composition, poetry, storytelling and live music. And it was all free entry. "
@@ -57,8 +65,17 @@
     -
       name: "Cityscapes"
       image: "data/events/cityscapes.jpg"
+      past: true
       date: "16/11/2014"
       location: "Passing Clouds, E8."
       bio: "This was a night of debuts, our first collaboration with Karma Klub, first time to Passing Clouds and first charity fundraiser. We focused on raising money for the Homeless Film Festival, a charity dedicated to empowering the homeless through filmmaking. The night was made up of work that explored our relationship with the city, challenging its glamour and its stereotypes. Thanks to the incredible standard of the submissions we received, the programme kept everyone transfixed and cosy in every nook and corner of the room."
       featuring: "films by Phoebe Boswell, Tuuli Manninen, Jez Pennington, Alex Horfshall, Denisha Anderson & Amy Rose, Alex Thompson, Chima Nsoedo & Belinda Zhawi,  Maxwell Owin & Sam, music by Jacob Allen, poems by Bridget Minamore, James Massiah, Hector Aponysus and Luke Newman, artwork by Amy Glover, Alice Bloomfield, Jerome Toole, Flora Hastings, Joe Richardson, Sean Rohr and Luke Wright."
+    -
+      name: "2015 Festival Launch"
+      image: "data/events/cityscapes.jpg"
+      past: false
+      date: "03/01/2015"
+      location: "Total Refreshment Centre"
+      bio: "massive **ting**"
+      featuring: "some stuff by some bands"
 ...

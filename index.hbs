@@ -114,14 +114,38 @@
 		</section>
 		<section id="events">
 			<h2>Events</h2>
-			<div class="tiles">
-			{{#each events.events}}
-				<div class="tile" style="background-image: url({{image}})" data-img="{{image}}" data-title="{{name}}" data-desc="{{bio}}">
-					<a href="#">
-						<h3 class="tile__heading">{{name}}</h3>
-					</a>
+			<div class="tabs" id="tabs">
+				<ul class="tabs-ul events-tabs">
+					<li class="tab default-tab"><a href="#past">Past</a></li>
+					<li class="tab"><a href="#upcoming">Upcoming</a></li>
+				</ul>
+				<div id="past">
+					<div class="tiles">
+						{{#each events.events}}
+							{{#is past true}}
+								<div class="tile" style="background-image: url({{image}})" data-img="{{image}}" data-title="{{name}}" data-desc="{{bio}}">
+									<a href="#">
+										<h3 class="tile__heading">{{name}}</h3>
+									</a>
+								</div>
+							{{/is}}
+						{{/each}}
+					</div>
 				</div>
-			{{/each}}
+				<div id="upcoming">
+					<p class="big-txt">Come to our event on the 3rd!</p>
+					<div class="tiles">
+						{{#each events.events}}
+							{{#is past false}}
+								<div class="tile" style="background-image: url({{image}})" data-img="{{image}}" data-title="{{name}}" data-desc="{{bio}}">
+									<a href="#">
+										<h3 class="tile__heading">{{name}}</h3>
+									</a>
+								</div>
+							{{/is}}
+						{{/each}}
+					</div>
+				</div>
 			</div>
 		</section>
 		<section id="friends">

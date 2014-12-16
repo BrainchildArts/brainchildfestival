@@ -809,27 +809,28 @@ label {
   list-style: none;
   text-align: center;
   padding: 0; }
-  .tabs > ul li {
+
+.tabs > ul li {
+  -webkit-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+  text-transform: uppercase;
+  display: block;
+  margin: 0 0.5em;
+  margin-bottom: 0.2em;
+  font-weight: bold;
+  font-size: 2em;
+  padding: 0 0.1em; }
+  .tabs > ul li a:hover {
+    border-bottom: 4px solid #46799b;
     -webkit-transition: all ease 0.2s;
-    transition: all ease 0.2s;
-    text-transform: uppercase;
-    display: block;
-    margin: 0 0.5em;
-    margin-bottom: 0.2em;
-    font-weight: bold;
-    font-size: 2em;
-    padding: 0 0.1em; }
-    .tabs > ul li a:hover {
-      border-bottom: 4px solid #46799b;
-      -webkit-transition: all ease 0.2s;
-      transition: all ease 0.2s; }
-    .tabs > ul li a.active {
-      border-bottom: 5px solid #3e6c89;
-      -webkit-transition: all ease 0.2s;
-      transition: all ease 0.2s; }
+    transition: all ease 0.2s; }
+  .tabs > ul li a.active {
+    border-bottom: 5px solid #3e6c89;
+    -webkit-transition: all ease 0.2s;
+    transition: all ease 0.2s; }
 
 @media only screen and (min-width: 440px) {
-  #lineup .tabs li {
+  #lineup .tabs li, #events .tabs li {
     display: inline;
     margin-bottom: 0; } }
 

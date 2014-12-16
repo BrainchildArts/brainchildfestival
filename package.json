@@ -2,6 +2,7 @@
   "name": "brainchild",
   "version": "0.1.0",
   "devDependencies": {
+    "assemble-markdown-data": "0.0.2",
     "event-stream": "*",
     "gulp": "*",
     "gulp-assemble": "git://github.com/assemble/gulp-assemble",
