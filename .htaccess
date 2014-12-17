@@ -1,1 +1,3 @@
-ErrorDocument code /error.html
+Redirect 301 /2015 http://brainchildarts.co.uk/
+
+ErrorDocument 404 /error.html
