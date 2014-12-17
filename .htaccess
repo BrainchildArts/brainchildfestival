@@ -1,0 +1,2 @@
+ErrorDocument code /error.html
+Redirect /2015 /
