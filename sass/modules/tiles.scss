@@ -1,17 +1,16 @@
-.tiles {
+.tiles-list {
     @extend %unstyled-list;
     @extend %clearfix;
     text-align: center;
 }
 
-.tile {
-    background-repeat: no-repeat;
-    background-position: center center; 
-    background-size: cover;
-    a {
+.tile-list {
+    img {
+        background-repeat: no-repeat;
+        background-position: center center; 
+        background-size: cover;
         width: 100%;
         height: 100%;
-        display: block;        
     }
     transition: all ease .2s;
     @include max-width($phone) {
@@ -57,7 +56,7 @@
     }
 }
 
-.tile:hover .tile__heading, .tile:active .tile__heading {
+.tile-list:hover .tile-list__heading, .tile-list:active .tile-list__heading {
         color: lighten($white,10%); 
         white-space: normal;  
         transition: all ease .3s;
