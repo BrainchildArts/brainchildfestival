@@ -123,10 +123,12 @@
 					<ul class="tiles-list">
 						{{#each events.events}}
 							{{#is past true}}
-								<a class="tile-list" href="#" data-largesrc="{{image}}" data-title="{{name}}" data-description="{{bio}}">
-									<img style="background-image: url({{image}})" />
-									<h3 class="tile-list__heading">{{name}}</h3>
-								</a>
+								<li>
+									<a class="tile-list" href="#" data-src="{{image}}" data-title="{{name}}" data-description="{{bio}}">
+										<img style="background-image: url({{image}})" />
+										<h3 class="tile-list__heading">{{name}}</h3>
+									</a>
+								</li>
 							{{/is}}
 						{{/each}}
 					</ul>
@@ -149,11 +151,10 @@
 			<h2>Friends</h2>
 			<div class="tiles">
 			{{#each friends.friends}}
-				<div class="tile" style="background-image: url({{image}})" data-img="{{image}}" data-title="{{name}}" data-desc="{{bio}}">
-					<a href="#">
-						<h3 class="tile__heading">{{name}}</h3>
-					</a>
-				</div>
+				<a class="tile-list" href="#" data-largesrc="{{image}}" data-title="{{name}}" data-description="{{bio}}">
+					<img style="background-image: url({{image}})" />
+					<h3 class="tile-list__heading">{{name}}</h3>
+				</a>
 			{{/each}}
 			</div>
 		</section>
