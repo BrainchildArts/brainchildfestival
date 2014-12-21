@@ -60,8 +60,16 @@ p {
 } 
 
 .big-txt {
-    font-size: 1.25em; 
+    font-size: 1.25em;
 }
+
+.welcome-txt {
+    font-size: 2em;
+    text-align: center;
+    margin-right: 2em;
+    margin-left: 2em; 
+}
+     
 
 .columns {
     @include min-width($tablet) {

@@ -336,7 +336,7 @@ table {
   box-sizing: border-box; }
 
 html {
-  background-color: #2E5066; }
+  background-color: #223C4D; }
 
 a {
   color: #B54414;
@@ -353,11 +353,11 @@ a {
     color: #B54414; }
 
 ::-moz-selection {
-  background: #2E5066;
+  background: #223C4D;
   text-shadow: none; }
 
 ::selection {
-  background: #2E5066;
+  background: #223C4D;
   text-shadow: none;
   color: white; }
 
@@ -366,10 +366,10 @@ a {
   height: 1rem; }
 
 ::-webkit-scrollbar-track {
-  background: #1e3443; }
+  background: #12202a; }
 
 ::-webkit-scrollbar-thumb {
-  background: #3e6c89; }
+  background: #325870; }
 
 img {
   vertical-align: middle;
@@ -385,33 +385,29 @@ img {
 section {
   position: relative;
   padding: 7vw 10% 16vw 10%;
-  color: #d8e5ee;
+  color: #bed4e3;
   background-image: url(../img/background/shape-1.svg);
   background-size: 85%;
-  background-color: #FFEFC5;
+  background-color: #FFF9E8;
   background-position: right;
   color: black; }
   @media only screen and (min-width: 60rem) {
     section {
       min-height: 97vh; } }
   section h2 {
-    color: #2E5066; }
+    color: #223C4D; }
   section#events, section#gallery, section#getinvolved {
     padding-top: 6vw; }
-  section:nth-of-type(1) {
-    padding-top: 10vw; }
-    section:nth-of-type(1) .tabs {
-      padding-top: 1.5em; }
-    @media only screen and (min-width: 750px) {
-      section:nth-of-type(1) .tab {
-        display: inline;
-        margin-bottom: 0; } }
+  @media only screen and (min-width: 750px) {
+    section:nth-of-type(1) .tab {
+      display: inline;
+      margin-bottom: 0; } }
   section:nth-child(odd) {
-    background-color: #2E5066;
-    color: #d8e5ee;
+    background-color: #223C4D;
+    color: #bed4e3;
     background-position: left; }
     section:nth-child(odd) h2 {
-      color: #FFEFC5; }
+      color: #FFF9E8; }
   section:after {
     background-image: url(../img/background/divider1.png);
     position: absolute;
@@ -549,6 +545,12 @@ p {
 .big-txt {
   font-size: 1.25em; }
 
+.welcome-txt {
+  font-size: 2em;
+  text-align: center;
+  margin-right: 2em;
+  margin-left: 2em; }
+
 @media only screen and (min-width: 60rem) {
   .columns {
     -webkit-columns: 2;
@@ -681,7 +683,7 @@ label {
       margin-bottom: 2%; } }
   .tile__heading {
     background: #B54414;
-    color: #d8e5ee;
+    color: #bed4e3;
     width: 100%;
     padding: 0.375rem 0.1em;
     margin-bottom: 0.375rem;
@@ -696,7 +698,7 @@ label {
         margin-bottom: -1px; } }
 
 .tile:hover .tile__heading, .tile:active .tile__heading {
-  color: #fcfdfd;
+  color: #e2ecf2;
   white-space: normal;
   -webkit-transition: all ease 0.3s;
           transition: all ease 0.3s; }
@@ -756,20 +758,20 @@ label {
   height: 100%;
   width: 100%;
   background: #B54414 url(../img/background/shape-1.svg);
-  color: #d8e5ee;
+  color: #bed4e3;
   padding: 6rem 8%;
   overflow-y: scroll;
   z-index: 99991; }
   .overlay a {
-    color: #c7dae6; }
+    color: #adc9db; }
     .overlay a:visited {
-      color: #b5cede; }
+      color: #9bbdd3; }
     .overlay a:focus {
-      color: #a4c2d6; }
+      color: #89b1cb; }
     .overlay a:hover {
-      color: #a4c2d6; }
+      color: #89b1cb; }
     .overlay a:active {
-      color: #a4c2d6; }
+      color: #89b1cb; }
   .overlay__close {
     position: absolute;
     top: 1.5rem;
@@ -785,7 +787,7 @@ label {
   text-align: center; }
   .getinvolved__email {
     font-size: 1em;
-    color: #d8e5ee;
+    color: #bed4e3;
     text-align: center;
     display: block;
     margin-bottom: 1.5rem; }
@@ -806,11 +808,11 @@ label {
   font-size: 2em;
   padding: 0 0.1em; }
   .tabs > ul li a:hover {
-    border-bottom: 4px solid #46799b;
+    border-bottom: 4px solid #396582;
     -webkit-transition: all ease 0.2s;
     transition: all ease 0.2s; }
   .tabs > ul li a.active {
-    border-bottom: 5px solid #3e6c89;
+    border-bottom: 5px solid #325870;
     -webkit-transition: all ease 0.2s;
     transition: all ease 0.2s; }
 
@@ -853,7 +855,7 @@ label {
   position: relative;
   top: 12vw;
   text-align: center;
-  color: #d8e5ee;
+  color: #bed4e3;
   font-size: 1.5em; }
 
 .site-nav {
@@ -865,7 +867,7 @@ label {
   z-index: 9999;
   background: none; }
   .site-nav a {
-    color: #d8e5ee !important;
+    color: #bed4e3 !important;
     padding: 0 0.2em; }
     .site-nav a:hover, .site-nav a:active {
       background-color: #B54414;
@@ -884,7 +886,7 @@ label {
     .site-nav--stuck:hover {
       background: #b54414; }
     .site-nav--stuck a:hover, .site-nav--stuck a:active {
-      background-color: #2E5066; }
+      background-color: #223C4D; }
   @media only screen and (max-width: 59.9375rem) {
     .site-nav {
       display: none; } }
