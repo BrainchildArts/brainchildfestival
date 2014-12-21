@@ -4,11 +4,11 @@
 
 html {
     // line-height: 1.25;
-    background-color: $blue; 
+    background-color: $color2; 
 }
 
 a {
-    @include link-colors($red, $red, $red, $red);
+    @include link-colors($color3, $color3, $color3, $color3);
     background: transparent;
     outline: none;
     text-decoration: none;
@@ -16,12 +16,12 @@ a {
 }
 
 ::-moz-selection {
-    background: $blue;
+    background: $color2;
     text-shadow: none;
 }
 
 ::selection {
-    background: $blue;
+    background: $color2;
     text-shadow: none;
     color: white; 
 }
@@ -32,11 +32,11 @@ a {
 }
 
 ::-webkit-scrollbar-track {
-    background: darken($blue, 10);
+    background: darken($color2, 10);
 }
 
 ::-webkit-scrollbar-thumb {
-    background: lighten($blue, 10);
+    background: lighten($color2, 10);
 }
 
 img {
@@ -61,7 +61,7 @@ section {
         min-height: 97vh; 
     }
     h2 {
-        color: $blue;
+        color: $black;
     }
     &#events, &#gallery, &#getinvolved {
         padding-top: 6vw;
@@ -73,14 +73,14 @@ section {
         }
     }
     &:nth-child(odd) {
-        background-color: $blue;
-        color: $white;
+        background-color: $color2;
+        color: $black;
         background-position: left;
         h2 {
-            color: $yellow; 
+            color: $black; 
         }
     }
-    background-color: $yellow;
+    background-color: $color1;
     background-position: right;
     color: $black;
     &:after {

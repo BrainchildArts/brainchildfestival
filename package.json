@@ -3,8 +3,9 @@
   "version": "0.1.0",
   "devDependencies": {
     "assemble-markdown-data": "0.0.2",
+    "browser-sync": "^1.8.1",
     "event-stream": "*",
-    "gulp": "*",
+    "gulp": "^3.8.10",
     "gulp-assemble": "git://github.com/assemble/gulp-assemble",
     "gulp-autoprefixer": "*",
     "gulp-base64": "*",
