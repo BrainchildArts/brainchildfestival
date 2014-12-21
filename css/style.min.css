@@ -437,20 +437,9 @@ section {
   section:last-of-type:before {
     display: none; }
   section:first-of-type:before {
-    background-image: url(../img/background/header.png);
-    position: absolute;
-    content: '';
-    pointer-events: none;
-    left: 0;
-    top: 0;
-    z-index: 999;
-    width: 100%;
-    height: 100%;
-    background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat; }
+    background-image: none; }
 
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-width: 60rem) {
   .inner-wrap {
     padding-right: 16%;
     padding-left: 16%; } }
