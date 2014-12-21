@@ -2,9 +2,14 @@ $baseline: 1.5rem;
 
 $primary: #232323;
 
-$yellow: #FFEFC5;
-$blue: #2E5066;
-$red: #B54414;
+$base-color1: #FFF9E8;
+$base-color2: #223C4D;
+$base-color3: #B54414;
+
+$yellow: $base-color1;
+$blue: $base-color2;
+$red: $base-color3;
+
 $white: lighten($blue, 60);
 $black: darken($blue, 35);
 
