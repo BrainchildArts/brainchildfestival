@@ -338,6 +338,10 @@ table {
 html {
   background-color: #D5DBE7; }
 
+html, body {
+  overflow-x: hidden;
+  max-width: 100%; }
+
 a {
   color: #335973;
   background: transparent;
@@ -360,16 +364,6 @@ a {
   background: #D5DBE7;
   text-shadow: none;
   color: white; }
-
-::-webkit-scrollbar {
-  width: 1rem;
-  height: 1rem; }
-
-::-webkit-scrollbar-track {
-  background: #b5bfd4; }
-
-::-webkit-scrollbar-thumb {
-  background: #f5f7fa; }
 
 img {
   vertical-align: middle;

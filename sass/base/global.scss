@@ -4,7 +4,12 @@
 
 html {
     // line-height: 1.25;
-    background-color: $color2; 
+    background-color: $color2;
+}
+
+html, body {
+    overflow-x: hidden;
+    max-width: 100%;
 }
 
 a {
@@ -26,18 +31,18 @@ a {
     color: white; 
 }
 
-::-webkit-scrollbar {
-    width: $baseline / 1.5;
-    height: $baseline / 1.5;
-}
+// ::-webkit-scrollbar {
+//     width: $baseline / 1.5;
+//     height: $baseline / 1.5;
+// }
 
-::-webkit-scrollbar-track {
-    background: darken($color2, 10);
-}
+// ::-webkit-scrollbar-track {
+//     background: darken($color2, 5);
+// }
 
-::-webkit-scrollbar-thumb {
-    background: lighten($color2, 10);
-}
+// ::-webkit-scrollbar-thumb {
+//     background: lighten($color2, 5);
+// }
 
 img {
     vertical-align: middle;
@@ -58,7 +63,7 @@ section {
     background-image: url(../img/background/shape-1.svg);
     background-size: 85%;
     @include min-width($tablet) {
-        min-height: 97vh; 
+        min-height: 97vh;
     }
     h2 {
         color: $black;
