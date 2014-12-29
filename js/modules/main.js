@@ -22,7 +22,7 @@ $(function() {
 
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top
-        }, 1200, 'easeInOutExpo');
+        }, 900, 'easeInOutExpo');
         event.preventDefault();
     });
 });
@@ -40,19 +40,14 @@ $( 'li .tab' ).click(function( e ) {
 });
 
 $(document).ready(function() {
-    var section1 = $('#about');
-        section1.waypoint(function() {
-            $(".site-nav").toggleClass("site-nav--stuck");
+    $('.site-nav').waypoint(function() {
+        $(".site-nav").toggleClass("site-nav--stuck");
+    });
 });
 
-/*$(document).ready(function() {
+$(document).ready(function() {
     $('#about').waypoint(function() {
-        $(".site-nav").toggleClass("site-nav--stuck");
-        notify('yup');
-    });*/
-
-$(window).load(function() {
-    $(".site-nav").addClass("site-nav--loaded");
+        $(".billboard").toggle();
     });
 });
 

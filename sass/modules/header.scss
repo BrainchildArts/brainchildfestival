@@ -1,18 +1,21 @@
-
 .site-header {
     height: 0;
     padding-bottom: 56.2%;
 }
 
-@media only screen and (max-width: 760px) {
-    .headervideo {
-        display: none;
-    }
+.headervideo, .video-img {
+    display: none;
 }
 
 @media only screen and (min-width: 760px) {
+    .headervideo {
+        display: inline-block;
+    }
+}
+
+@media only screen and (max-width: 760px) {
     .video-img {
-        display: none;
+        display: inline-block;
     }
 }
 
@@ -25,19 +28,16 @@
     padding-bottom: 21.76%;
     background: url(../img/partials/logo.svg);
     background-size: cover;
-    // transform: scale(0) rotate(0deg);
     transition: all ease .6s;
 }
 
 .splash {
     position: relative; 
     top: 12vw;
-    // @extend %absolute-centering;
     text-align: center;
     color: $white;
     font-size: 1.5em;
 }
-
 
 .site-nav {
     font-size: 1.125em;
@@ -87,5 +87,5 @@
 .billboard {
     width: 100%;
     height: auto;
-    position: fixed;
+    position: absolute
 }

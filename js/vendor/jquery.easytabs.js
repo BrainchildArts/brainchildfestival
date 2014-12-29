@@ -25,7 +25,7 @@
           defaultTab: "li:first-child",
           animationSpeed: "normal",
           tabs: "> ul > li",
-          updateHash: true,
+          updateHash: false,
           cycle: false,
           collapsible: false,
           collapsedClass: "collapsed",

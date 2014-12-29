@@ -336,7 +336,7 @@ table {
   box-sizing: border-box; }
 
 html {
-  background-color: #FAD5AF; }
+  background-color: #D5DBE7; }
 
 a {
   color: #335973;
@@ -353,11 +353,11 @@ a {
     color: #335973; }
 
 ::-moz-selection {
-  background: #FAD5AF;
+  background: #D5DBE7;
   text-shadow: none; }
 
 ::selection {
-  background: #FAD5AF;
+  background: #D5DBE7;
   text-shadow: none;
   color: white; }
 
@@ -366,10 +366,10 @@ a {
   height: 1rem; }
 
 ::-webkit-scrollbar-track {
-  background: #f7bc7f; }
+  background: #b5bfd4; }
 
 ::-webkit-scrollbar-thumb {
-  background: #fdeedf; }
+  background: #f5f7fa; }
 
 img {
   vertical-align: middle;
@@ -403,7 +403,7 @@ section {
       display: inline;
       margin-bottom: 0; } }
   section:nth-child(odd) {
-    background-color: #FAD5AF;
+    background-color: #D5DBE7;
     color: #272822;
     background-position: left; }
     section:nth-child(odd) h2 {
@@ -802,11 +802,11 @@ label {
   font-size: 2em;
   padding: 0 0.1em; }
   .tabs > ul li a:hover {
-    border-bottom: 4px solid #fffbf7;
+    border-bottom: 4px solid white;
     -webkit-transition: all ease 0.2s;
     transition: all ease 0.2s; }
   .tabs > ul li a.active {
-    border-bottom: 5px solid #fdeedf;
+    border-bottom: 5px solid #f5f7fa;
     -webkit-transition: all ease 0.2s;
     transition: all ease 0.2s; }
 
@@ -824,14 +824,17 @@ label {
   height: 0;
   padding-bottom: 56.2%; }
 
-@media only screen and (max-width: 760px) {
-  .headervideo {
-    display: none; }
- }
+.headervideo, .video-img {
+  display: none; }
 
 @media only screen and (min-width: 760px) {
+  .headervideo {
+    display: inline-block; }
+ }
+
+@media only screen and (max-width: 760px) {
   .video-img {
-    display: none; }
+    display: inline-block; }
  }
 
 .logo {
@@ -880,7 +883,7 @@ label {
     .site-nav--stuck:hover {
       background: #335973; }
     .site-nav--stuck a:hover, .site-nav--stuck a:active {
-      background-color: #FAD5AF; }
+      background-color: #D5DBE7; }
   @media only screen and (max-width: 59.9375rem) {
     .site-nav {
       display: none; } }
@@ -888,7 +891,7 @@ label {
 .billboard {
   width: 100%;
   height: auto;
-  position: fixed; }
+  position: absolute; }
 
 .posters {
   margin-left: auto;
