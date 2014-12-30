@@ -449,6 +449,9 @@ section {
     padding-right: 16%;
     padding-left: 16%; } }
 
+.gap {
+  margin-top: 1.5em; }
+
 @media print {
   * {
     background: transparent !important;
@@ -519,6 +522,14 @@ h2 {
     h2 {
       font-size: 4.2em; } }
 
+.innerheader {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: bold; }
+  @media only screen and (min-width: 40rem) {
+    .innerheader {
+      font-size: 2em; } }
+
 h3 {
   font-size: 1.17em; }
 
@@ -536,7 +547,7 @@ h6 {
 p {
   font-size: 1.03em; }
 
-.big-txt {
+.big-txt, .overlay__copy p {
   font-size: 1.25em; }
 
 @media only screen and (min-width: 60rem) {
@@ -550,11 +561,11 @@ input, textarea {
   padding: 0.75rem;
   width: 100%;
   outline: none;
-  border: 1px solid hotpink;
+  border: 1px solid #F7426B;
   -webkit-appearance: none;
   -webkit-border-radius: 0; }
   input:focus, textarea:focus {
-    border-color: hotpink; }
+    border-color: #F7426B; }
 
 [placeholder]:focus::-webkit-input-placeholder {
   -webkit-transition: opacity 0.5s 0.5s ease;
@@ -590,6 +601,10 @@ label {
   display: block;
   margin-bottom: 0.75rem; }
 
+.mc-field-group {
+  max-width: 30em;
+  margin: auto; }
+
 .social {
   font-size: 0;
   margin-bottom: 3rem; }
@@ -608,8 +623,6 @@ label {
     background: url(../img/social/facebook.svg); }
   .social__twitter {
     background: url(../img/social/twitter.svg); }
-  .social__instagram {
-    background: url(../img/social/instagram.svg); }
 
 @media only screen and (min-width: 60rem) {
 
@@ -796,11 +809,11 @@ label {
   font-size: 2em;
   padding: 0 0.1em; }
   .tabs > ul li a:hover {
-    border-bottom: 4px solid white;
+    border-bottom: 4px solid #f85a7e;
     -webkit-transition: all ease 0.2s;
     transition: all ease 0.2s; }
   .tabs > ul li a.active {
-    border-bottom: 5px solid #f5f7fa;
+    border-bottom: 5px solid #F7426B;
     -webkit-transition: all ease 0.2s;
     transition: all ease 0.2s; }
 
@@ -871,6 +884,7 @@ label {
     pointer-events: auto;
     top: 0;
     left: 0;
+    padding: 4px 0 4px 0;
     background: rgba(51, 89, 115, 0.8);
     -webkit-transition: 0.2s;
     transition: 0.2s; }
@@ -878,6 +892,8 @@ label {
       background: #335973; }
     .site-nav--stuck a:hover, .site-nav--stuck a:active {
       background-color: #D5DBE7; }
+  .site-nav--stuck a {
+    padding: 4px 0.2em 4px 0.2em; }
   @media only screen and (max-width: 59.9375rem) {
     .site-nav {
       display: none; } }

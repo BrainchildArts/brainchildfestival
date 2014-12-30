@@ -37,6 +37,15 @@ h2 {
     }
 }
 
+.innerheader {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    @include min-width($phablet) {
+        font-size: 2em;
+    }
+}
+
 h3 {
     font-size: 1.17em;
 }
@@ -68,24 +77,3 @@ p {
         columns: 2;
     }
 }
-
-// .bold-link {
-//     padding: $baseline / 2 $baseline / 2 $baseline / 2 $baseline * 2;
-//     background: $color2 url(../img/social/soundcloud.svg) $baseline / 2 center no-repeat;
-//     background-size: $baseline;
-//     font-weight: 600; 
-//     transition: transform .2s ease;
-//     display: inline-block;
-//     &:hover {
-//         transform: scale(1.05);
-//     }
-// }
-
-// blockquote {
-//  font-style: italic;
-//  &:before {
-//      content: "\201C";
-//      display: inline-block;
-//      padding-right: .4em;
-//  }
-// }

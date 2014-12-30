@@ -29,4 +29,7 @@
     &__image {
         border: $baseline / 2 solid rgba(0, 0, 0, 0.1);
     }
+    &__copy p {
+        @extend .big-txt;
+    }
 }

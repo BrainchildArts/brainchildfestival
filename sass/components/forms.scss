@@ -3,11 +3,11 @@ input, textarea {
     padding: $baseline / 2;
     width: 100%;
     outline: none;
-    border: 1px solid hotpink;
+    border: 1px solid $red;
     -webkit-appearance: none;
     -webkit-border-radius: 0;
     &:focus {
-        border-color: hotpink;
+        border-color: $red;
     }
 }
 
@@ -49,4 +49,9 @@ label {
     color: red;
     display: block;
     margin-bottom: $baseline / 2;
+}
+
+.mc-field-group {    
+    max-width: 30em;
+    margin: auto;
 }

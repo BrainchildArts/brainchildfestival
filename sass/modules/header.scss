@@ -65,6 +65,7 @@
         pointer-events: auto;
         top: 0;
         left: 0;
+        padding: 4px 0 4px 0;
         background: rgba($color3, .8);
         -webkit-transition: .2s;
         -moz-transition: .2s;
@@ -78,6 +79,9 @@
         a:active {
             background-color: $color2;
         }
+    }
+    &--stuck a {
+        padding: 4px 0.2em 4px 0.2em;
     }
     @include max-width($tablet) {
         display: none;
