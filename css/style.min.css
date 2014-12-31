@@ -444,7 +444,7 @@ section {
     background-size: contain;
     background-repeat: no-repeat; }
 
-@media only screen and (min-width: 40rem) {
+@media only screen and (min-width: 60rem) {
   .inner-wrap {
     padding-right: 16%;
     padding-left: 16%; } }
@@ -549,6 +549,12 @@ p {
 
 .big-txt, .overlay__copy p {
   font-size: 1.25em; }
+
+.welcome-txt {
+  font-size: 1.6em;
+  text-align: center;
+  margin-right: 2em;
+  margin-left: 2em; }
 
 @media only screen and (min-width: 60rem) {
   .columns {
