@@ -550,12 +550,6 @@ p {
 .big-txt, .overlay__copy p {
   font-size: 1.25em; }
 
-.welcome-txt {
-  font-size: 1.6em;
-  text-align: center;
-  margin-right: 2em;
-  margin-left: 2em; }
-
 @media only screen and (min-width: 60rem) {
   .columns {
     -webkit-columns: 2;
