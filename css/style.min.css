@@ -444,7 +444,7 @@ section {
     background-size: contain;
     background-repeat: no-repeat; }
 
-@media only screen and (min-width: 60rem) {
+@media only screen and (min-width: 40rem) {
   .inner-wrap {
     padding-right: 16%;
     padding-left: 16%; } }

@@ -139,7 +139,7 @@ section {
 }
 
 .inner-wrap {
-    @include min-width($tablet) {
+    @include min-width($phablet) {
     padding-right: 16%;
     padding-left: 16%; 
     }
