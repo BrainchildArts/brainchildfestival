@@ -30,12 +30,6 @@
   font-style: normal; }
 
 @font-face {
-  font-family: 'caprica';
-  src: url("../fonts/test4.ttf") format("truetype");
-  font-weight: normal;
-  font-style: normal; }
-
-@font-face {
   font-family: 'Karla', sans-serif; }
 
 article, aside, details, figcaption, figure, footer, header, hgroup, main, nav, section, summary {
@@ -357,11 +351,11 @@ a {
     color: #335973; }
 
 ::-moz-selection {
-  background: #D5DBE7;
+  background: #335973;
   text-shadow: none; }
 
 ::selection {
-  background: #D5DBE7;
+  background: #335973;
   text-shadow: none;
   color: white; }
 
@@ -498,10 +492,10 @@ section {
 
 html, button, input, select, textarea {
   color: #232323;
-  font-family: 'Facit', sans-serif; }
+  font-family: 'Karla', sans-serif; }
 
 h1, h2, h3, h4, .site-nav, .bold-link {
-  font-family: 'Facit', sans-serif;
+  font-family: 'Karla', sans-serif;
   text-align: center;
   font-weight: 400;
   text-transform: uppercase; }
@@ -780,7 +774,7 @@ label {
   overflow-y: scroll;
   z-index: 99991; }
   .overlay a {
-    color: #e5e5e1; }
+    color: #d9d9d4; }
     .overlay a:visited {
       color: #d9d9d4; }
     .overlay a:focus {
