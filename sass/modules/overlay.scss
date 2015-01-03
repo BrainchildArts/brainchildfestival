@@ -10,7 +10,7 @@
     overflow-y: scroll;
     z-index: 99991;
     a {
-        @include link-colors(darken($white,5%), darken($white,15%), darken($white,15%), darken($white,10%), darken($white,15%));
+        @include link-colors(darken($white,10%), darken($white,15%), darken($white,15%), darken($white,10%), darken($white,15%));
     }
     &__close {
         @extend %hide-text;

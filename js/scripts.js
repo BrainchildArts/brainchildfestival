@@ -17203,7 +17203,7 @@ var effectTransfer = $.effects.effect.transfer = function( o, done ) {
 		slideMargin: 1,
 		startSlide: 0,
 		randomStart: false,
-		captions: true,
+		captions: false,
 		ticker: false,
 		tickerHover: false,
 		adaptiveHeight: true,

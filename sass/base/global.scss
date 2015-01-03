@@ -21,12 +21,12 @@ a {
 }
 
 ::-moz-selection {
-    background: $color2;
+    background: $color3;
     text-shadow: none;
 }
 
 ::selection {
-    background: $color2;
+    background: $color3;
     text-shadow: none;
     color: white; 
 }
@@ -68,7 +68,7 @@ section {
     h2 {
         color: $black;
     }
-    &#events, &#gallery, &#getinvolved {
+    &#about, &#events, &#gallery, &#getinvolved {
         padding-top: 6vw;
     }
     &:nth-of-type(1) .tab {

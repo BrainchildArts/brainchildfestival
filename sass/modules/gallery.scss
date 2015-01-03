@@ -17,6 +17,9 @@
         background-position: center;
         background-size: 100%;
         transition: background .2s ease;
+        @media all and (max-width: $phone) {
+            background-color: rgba(0, 0, 0, 0); 
+        }
     }
 }
 
