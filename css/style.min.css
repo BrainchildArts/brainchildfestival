@@ -744,6 +744,9 @@ label {
     background-size: 100%;
     -webkit-transition: background 0.2s ease;
             transition: background 0.2s ease; }
+    @media all and (max-width: 27.5rem) {
+      .bx-controls-direction a {
+        background-color: rgba(0, 0, 0, 0); } }
 
 .bx-prev {
   position: absolute;
