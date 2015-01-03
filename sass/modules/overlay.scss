@@ -10,7 +10,7 @@
     overflow-y: scroll;
     z-index: 99991;
     a {
-        @include link-colors(darken($white,10%), darken($white,15%), darken($white,15%), darken($white,10%), darken($white,15%));
+        @include link-colors(darken($color1,5%), darken($color1,10%), darken($color1,10%), darken($color1,5%), darken($color1,10%));
     }
     &__close {
         @extend %hide-text;
@@ -28,6 +28,9 @@
     // }
     &__image {
         border: $baseline / 2 solid rgba(0, 0, 0, 0.1);
+    }
+    &__link {
+        margin-bottom: 1.5rem; 
     }
     &__copy p {
         @extend .big-txt;
