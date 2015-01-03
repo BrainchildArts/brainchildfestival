@@ -19949,8 +19949,6 @@ https://github.com/imakewebthings/jquery-waypoints/blob/master/licenses.txt
 
 }).call(this);
 
-console.log("Hello World!");
-
 $(document).ready(function() {
     $('.bxslider').bxSlider();
 });
