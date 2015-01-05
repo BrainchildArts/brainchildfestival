@@ -17206,7 +17206,7 @@ var effectTransfer = $.effects.effect.transfer = function( o, done ) {
 		captions: false,
 		ticker: false,
 		tickerHover: false,
-		adaptiveHeight: true,
+		adaptiveHeight: false,
 		adaptiveHeightSpeed: 500,
 		video: false,
 		useCSS: true,

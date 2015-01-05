@@ -1,11 +1,12 @@
 input, textarea {
-    margin-bottom: $baseline;
+    margin-bottom: 1rem;
     padding: $baseline / 2;
     width: 100%;
     outline: none;
     border: 1px solid $red;
     -webkit-appearance: none;
     -webkit-border-radius: 0;
+    background-color: rgba(241, 241, 241, 0.7);
     &:focus {
         border-color: $red;
     }

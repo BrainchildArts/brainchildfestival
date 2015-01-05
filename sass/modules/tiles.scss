@@ -43,9 +43,9 @@
         background: $color3;
         color: $white;
         width: 100%;
-        padding: $baseline / 4 0.1em;
-        margin-bottom: $baseline / 4;
-        font-size: 1.17em;
+        padding: 0.375rem 0.25em;
+        margin-bottom: 0.375rem;
+        font-size: 1em;
         white-space: nowrap; 
         overflow: hidden;
         text-overflow: ellipsis;
@@ -58,7 +58,7 @@
 }
 
 .tile:hover .tile__heading, .tile:active .tile__heading {
-        color: lighten($white,10%); 
-        white-space: normal;  
-        transition: all ease .3s;
-    }
+    color: lighten($white,10%);
+    white-space: normal;
+    transition: all ease .3s;
+}
