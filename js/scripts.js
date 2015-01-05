@@ -19989,7 +19989,7 @@ $( 'li .tab' ).click(function( e ) {
 });
 
 $(document).ready(function() {
-    $('.site-nav').waypoint(function() {
+    $('.site-nav-wrap').waypoint(function() {
         $(".site-nav").toggleClass("site-nav--stuck");
     });
 });
