@@ -685,14 +685,18 @@ label {
       height: 35vw;
       margin-right: 2%;
       margin-left: 2%;
-      margin-bottom: 4%; } }
+      margin-bottom: 4%;
+      max-width: 178px;
+      max-height: 178px; } }
   @media only screen and (min-width: 60rem) {
     .tile {
       width: 16vw;
       height: 16vw;
       margin-left: 1%;
       margin-left: 1%;
-      margin-bottom: 2%; } }
+      margin-bottom: 2%;
+      max-width: 192px;
+      max-height: 192px; } }
   .tile__heading {
     background: #2D4363;
     color: #F1F1EF;

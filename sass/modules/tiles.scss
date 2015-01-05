@@ -29,6 +29,8 @@
         margin-right: 2%;
         margin-left: 2%;
         margin-bottom: 4%;
+        max-width: 178px;
+        max-height: 178px;
     }
 
     @include min-width($tablet) {
@@ -37,6 +39,8 @@
         margin-left: 1%;
         margin-left: 1%;
         margin-bottom: 2%;
+        max-width: 192px; 
+        max-height: 192px; 
     }
 
     &__heading {
