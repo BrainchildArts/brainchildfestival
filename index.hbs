@@ -85,7 +85,7 @@
 
 						<p>The management and festival production is mainly undertaken by Marina Blake, Jerome Toole, Joey Valiunas, Rosie Skan, Isabel Adomakoh-Young, Zoe Hunter Gordon and Sarah Wilson. The bulk of the programming is led by Luke Newman (music), Bridget Minamore (poetry), Zoe + Rosie (theatre), Lily Bonesso (installations), Louise Colgan (dance music), Georgia Spencer-Davison (films) and Jerome + Marina (music, talks, workshops and other projects).</p>
 
-						<p>Great bundles of thanks and credit must also go out to a whole host of individuals who&rsquo;ve contributed in a big, unquantifiable way over time. Thank you Ellen Spence, Sanjay Poyzer, Ed Ive, Erica McKoy, Phoebe Douglas, Rachel Hannah, Rachel Tookey, Tom Benn, Joel Chima (Crack In The Road), Andrew Hulme (Werdna), Josie Tucker and Joe Melhuish for their support in marketing, programming, film production, artwork and more.
+						<p>Great bundles of thanks and credit must also go out to a whole host of individuals who&rsquo;ve contributed in a big, unquantifiable way over time. Thank you Ellen Spence, Sanjay Poyzer, Ed Ive, Erica McKoy, Phoebe Douglas, Rachel Hannah, Rachel Tookey, Robbie Wojciechowski, Tom Benn, Joel Chima (Crack In The Road), Andrew Hulme (Werdna), Josie Tucker and Joe Melhuish for their support in marketing, programming, film production, artwork and more.
 				</div>
 
 				<div id="story" class="columns">
@@ -127,38 +127,15 @@
 		</section>
 		<section id="events">
 			<h2>Events</h2>
-			<div class="tabs" id="tabs">
-				<ul class="tabs-ul events-tabs">
-					<li class="tab default-tab"><a href="#past">Past</a></li>
-					<li class="tab"><a href="#upcoming">Upcoming</a></li>
-				</ul>
-				<div id="past">
-					<div class="tiles">
-						{{#each events.events}}
-							{{#is past true}}
-								<div class="tile" style="background-image: url({{image}})" data-img="{{image}}" data-title="{{name}}" data-desc="{{bio}}">
-									<a href="#">
-										<h3 class="tile__heading">{{name}}</h3>
-									</a>
-								</div>
-							{{/is}}
-						{{/each}}
-					</div>
-				</div>
-				<div id="upcoming">
-					<div class="tiles">
-						{{#each events.events}}
-							{{#is past false}}
-								<div class="tile" style="background-image: url({{image}})" data-img="{{image}}" data-title="{{name}}" data-desc="{{bio}}">
-									<a href="#">
-										<h3 class="tile__heading">{{name}}</h3>
-									</a>
-								</div>
-							{{/is}}
-						{{/each}}
-					</div>
-				</div>
-			</div>
+				<div class="tiles">
+					{{#each events.events}}
+						<div class="tile" style="background-image: url({{image}})" data-img="{{image}}" data-title="{{name}}" data-desc="{{bio}}">
+							<a href="#">
+								<h3 class="tile__heading">{{name}}</h3>
+							</a>
+						</div>
+					{{/each}}
+				</div> 
 		</section>
 		<section id="friends">
 			<h2>Friends</h2>
@@ -175,14 +152,18 @@
 		<section id="gallery" class="gallery">
 			<h2>Gallery</h2>
 			<ul class="bxslider">
-			  <li><img src="img/gallery/1.jpg" alt="" title="Brainchild Festival, 2013"></li>
-			  <li><img src="img/gallery/2.jpg" alt="" title="Brainchild Festival, 2013"></li>
-			  <li><img src="img/gallery/3.jpg" alt="" title="Brainchildren at Lee Fest"></li>
-			  <li><img src="img/gallery/4.jpg" alt="" title="Brainchild Festival, 2013"></li>
+			  <li><img src="img/gallery/1.jpg" alt="" title="Brainchildren, 2013"></li>
+			  <li><img src="img/gallery/2.jpg" alt="" title="Singing Workshop, 2013"></li>
+			  <li><img src="img/gallery/3.jpg" alt="" title="The &apos;The Hive&apos; Installation, 2013"></li>
+			  <li><img src="img/gallery/4.jpg" alt="" title="Illustrating The Shack, 2013"></li>
+			  <li><img src="img/gallery/5.jpg" alt="" title="Dancing at The Shack"></li>
 			  <li><img src="img/gallery/6.jpg" alt="" title="My Panda Shall Fly, 2013"></li>
-			  <li><img src="img/gallery/8.jpg" alt="" title="Brainchild Festival, 2013"></li>
-			  <li><img src="img/gallery/9.jpg" alt="" title="&apos;The Hive&apos;, 2013"></li>
+			  <li><img src="img/gallery/7.jpg" alt="" title="Spoken Word at The Forum, 2013"></li>
+			  <li><img src="img/gallery/8.jpg" alt="" title="Main Stage, 2013"></li>
+			  <li><img src="img/gallery/9.jpg" alt="" title="Brainchildren"></li>
 			  <li><img src="img/gallery/10.jpg" alt="" title="The Cave, 2013"></li>
+			  <li><img src="img/gallery/11.jpg" alt="" title="Alice Coltrane Ensemble, Steeze Cafe"></li>
+			  <li><img src="img/gallery/12.jpg" alt="" title="Open Air Theatre, 2013"></li>
 			</ul>
 		</section>
 
@@ -242,6 +223,7 @@
 				<li><a class="social__twitter" title='@brainchildfest' target="_blank" href="https://twitter.com/BrainchildFest">Twitter</a></li>
 			</ul>
 
+			<p>Video by <a target="_blank" href='https://www.awtstudios.com'>Alex Thomson</a></p>
 			<p>Illustrations by <a target="_blank" href='https://www.facebook.com/werdnaa'>Werdna</a></p>
 			<p>&copy; 2014 Brainchild Festival</p>
 
