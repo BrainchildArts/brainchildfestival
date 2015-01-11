@@ -148,3 +148,14 @@ section {
 .gap {
     margin-top: 1.5em;
 }
+
+html.single-section, html.single-section>body {
+    height: 100%;
+}
+
+html.single-section {
+    section {
+        position: static;
+        padding-bottom: 0;
+    }
+}
