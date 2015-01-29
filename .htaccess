@@ -1,3 +1,8 @@
-Redirect 301 /2015 http://brainchildarts.co.uk/
+RewriteEngine on
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteRule ^(.*)$ $1.html
+
+Redirect 301 /2015 /
 
 ErrorDocument 404 /error.html

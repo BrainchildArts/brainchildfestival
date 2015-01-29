@@ -1,0 +1,24 @@
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0px;
+  -webkit-box-shadow: 1px 1px 0px darken($red,10%);
+  -moz-box-shadow: 1px 1px 0px darken($red,10%);
+  box-shadow: 1px 1px 0px darken($red,10%);
+  color: #ffffff;
+  font-size: 2em;
+  background: $red;
+  padding: 10px 18px 10px 18px;
+  text-decoration: none;
+}
+
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
+	&:hover {
+  background: lighten($red,10%);
+  text-decoration: none;
+	}
+}
+
+button {
+	font-size: 3em; 
+}

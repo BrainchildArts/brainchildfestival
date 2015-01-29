@@ -148,3 +148,22 @@ section {
 .gap {
     margin-top: 1.5em;
 }
+
+section.tickets {
+    text-align: center;
+}
+
+html.single-section, html.single-section>body {
+    height: 100%;
+}
+
+html.single-section {
+    section {
+        position: static;
+        // padding-bottom: 0;
+    }
+}
+
+a.tt-widget-tab-button {
+    background-color: $red; 
+}
