@@ -571,6 +571,10 @@ p {
        -moz-columns: 2;
             columns: 2; } }
 
+.contactslist {
+  list-style: none;
+  padding: 0; }
+
 input, textarea {
   margin-bottom: 1rem;
   padding: 0.75rem;

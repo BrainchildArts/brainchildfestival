@@ -6,6 +6,18 @@ var jshint = require('jshint-stylish');
 var lr = require('tiny-lr');
 var server = lr();
 var chalk = require('chalk');
+var browserSync = require('browser-sync');
+
+require('gulp-grunt')(gulp);
+
+// Static server
+gulp.task('browser-sync', function() {
+    browserSync({
+        server: {
+            baseDir: "./dist/"
+        }
+    });
+});
 
 // CSS
 gulp.task('styles', function() {
@@ -31,7 +43,7 @@ gulp.task('styles', function() {
     .pipe(plugins.rename({
         suffix: '.min'
     }))
-        .pipe(gulp.dest('css'));
+        .pipe(gulp.dest('./dist/'));
         // .pipe(plugins.livereload(server));
 });
 
@@ -46,44 +58,30 @@ gulp.task('jshint', function() {
 gulp.task('scripts', function() {
     gulp.src(['js/vendor/jquery.js', 'js/vendor/*.js', 'js/modules/*.js'])
         .pipe(plugins.concat('scripts.js'))
-        .pipe(gulp.dest('./js'))
+        .pipe(gulp.dest('./dist/'))
         .pipe(plugins.uglify())
         .pipe(plugins.rename({
             suffix: '.min'
         }))
-        .pipe(gulp.dest('./js'));
+        .pipe(gulp.dest('./dist/'));
         // .pipe(plugins.livereload(server));
 });
 
 // Optimize Images
 gulp.task('images', function() {
-    return gulp.src(['img/social/*.svg'])
+    return gulp.src(['./dist/img/social/*.svg'])
         .pipe(plugins.imagemin())
-        .pipe(gulp.dest('./img/social/'));
-});
-
-// Assemble templates
-
-var options = {
-    data: 'data/*/**.{json,yml}',
-    partials: ['data/partials/*.md', '*.hbs'],
-    layoutdir: '*.hbs',
-};
-
-gulp.task('assemble', function() {
-    gulp.src('*.hbs')
-        .pipe(plugins.assemble(options))
-        .pipe(gulp.dest('./'));
-        // .pipe(plugins.livereload(server));
+        .pipe(gulp.dest('./dist/img/social/'));
 });
 
 // Chained Tasks
 gulp.task('default', function() {
-    gulp.start('styles', 'jshint', 'scripts', 'images', 'assemble');
+    gulp.start('styles', 'jshint', 'scripts', 'images', 'grunt-assemble');
 });
 
 // Watch Task
 gulp.task('watch', function() {
+    gulp.start('default');
     function logger(event) {
         console.log('File ' + chalk.yellow(event.path) + ' was ' + chalk.yellow(event.type));
     }
@@ -97,12 +95,12 @@ gulp.task('watch', function() {
             gulp.start('jshint', 'scripts');
             logger(event);
         });
-        gulp.watch(['img/*/**'], function(event) {
+        gulp.watch(['/dist/img/*/**'], function(event) {
             gulp.start('images');
             logger(event);
         });
-        gulp.watch(['*.hbs', 'data/*/**.{json,yml}', 'data/*.hbs', 'data/partials/*/**.md'], function() {
-            gulp.start('assemble');
+        gulp.watch(['src/*.hbs', 'data/*/**.{json,yml}', 'data/*.hbs', 'data/partials/*/**.md'], function() {
+            gulp.start('grunt-assemble');
         });
         gulp.watch(['*.html', '*.php', '*.md'], function(evt) {
             server.changed({
