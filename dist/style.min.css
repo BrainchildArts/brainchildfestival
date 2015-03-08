@@ -459,7 +459,7 @@ html.single-section, html.single-section > body {
 html.single-section section {
   position: static; }
 
-a.tt-widget-tab-button {
+a.tt-widget-tab-button.gettickets-btn {
   background-color: #F7426B; }
 
 @media print {

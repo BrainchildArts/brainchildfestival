@@ -21,5 +21,3 @@ module.exports = function (grunt) {
 
   return grunt.registerTask('grunt-assemble', ['assemble']);
 };
-
-//, './src/data/**/**.yml']
