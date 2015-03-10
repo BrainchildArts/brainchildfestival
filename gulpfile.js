@@ -101,7 +101,7 @@ gulp.task('watch', function() {
         //     gulp.start('images');
         //     logger(event);
         // });
-        gulp.watch(['src/*.hbs', 'data/*/**.{json,yml}', 'data/*.hbs', 'data/partials/*/**.md'], function() {
+        gulp.watch(['src/*.hbs', 'src/data/*.{json,yml}', 'src/data/*.hbs', 'src/partials/*.md'], function() {
             gulp.start('grunt-assemble');
         });
         gulp.watch("dist/*.html").on("change", reload);

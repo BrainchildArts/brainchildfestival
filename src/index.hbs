@@ -108,9 +108,10 @@
 				</ul>
 				<div id="fest2015" class="lineup-image">
 					<p class="big-txt">Now is the time to get in touch with ideas for the 2015 festival. Whether you're interested in performing, decorating, leading workshops or conga lines - we'd love to hear from you. Check our Get Involved section to find out more, and stay tuned to our <a href="https://fb.com/BrainchildArts">Facebook page</a> and emails for details of opportunities and lineup releases.</p>
+					<button class="button" data-filter=".solo">solo</button>
 					<div class="tiles tiles-small">
 					{{#each artists}}
-						<a class="tile" href="#" style="background-image: url(http://lorempixel.com/200/200/animals/?ver={{@index}})" data-img="http://lorempixel.com/900/900/animals/?ver={{@index}}" data-title="{{name}}" data-desc="{{bio}}" data-link="{{soundcloud}}">
+						<a class="tile {{#tags}}{{this}} {{/tags}}" href="#" style="background-image: url(http://lorempixel.com/200/200/animals/?ver={{@index}})" data-img="http://lorempixel.com/300/300/animals/?ver={{@index}}" data-title="{{name}}" data-desc="{{bio}}" data-link="{{soundcloud}}">
 							<h3 class="tile__heading">{{name}}</h3>
 						</a>
 					{{/each}}

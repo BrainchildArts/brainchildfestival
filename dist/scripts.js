@@ -19967,6 +19967,18 @@ $(document).ready(function() {
     });
 });
 
+/*$(document).ready(function() {
+    var $container = $('#tiles-small');
+    // init
+    $container.isotope({
+      // options
+      itemSelector: '.tile',
+      layoutMode: 'masonry'
+    });
+});*/
+
+$container.isotope({ filter: '.solo' });
+
 $(function() {
     Grid.init();
 });
