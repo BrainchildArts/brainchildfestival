@@ -1,0 +1,5 @@
+Whether that’s people driving vans, making zines, assembling fencing, lending kit, spending endless hours on photoshop, flyering or spreading the word, or sharing their love for their art - this has been an entirely team effort.
+
+The festival production and company management are largely undertaken by Marina Blake, Jerome Toole, Joey Valiunas, Rosie Skan, Zoe Hunter-Gordon + Isabel Adomakoh Young. Whilst the programming for the festival and our events is collaborative and feeds from many of our different ideas and influences, the team is essentially Luke Newman (music), Bridget Minamore (poetry), Zoe + Rosie (theatre), Lily Bonesso (installations), Georgia Spencer-Davison (films) and Jerome and Marina (music, talks, workshops and other projects).
+
+Massive credit also to Ellen Spence, Ed Ive, Sanjay Poyzer, Erica McKoy, Phoebe Douglas, Rachel Hannah, Rachel Tookey, Tom Benn, Andrew Hulme (Werdna), Josie Tucker and Joe Melhuish for their support in marketing, film production, artwork and loads else.

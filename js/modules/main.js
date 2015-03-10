@@ -73,6 +73,27 @@ $("#friends .tile").click(function(e) {
     $("body").append("<div class='overlay'><a href='#' class='overlay__close'>Close</a><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p><p><a target='_blank' class='overlay__link' href='" + link + "'>" + name + "</a></p></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div>");
 });
 
+$("#lineup .tile").click(function(e) {
+    var tile = $(this),
+        name = tile.data("title"),
+        img = tile.data("img"),
+        desc = tile.data("desc"),
+        link = tile.data("link");
+    e.preventDefault();
+    $("html").addClass("hide-overflow");
+    $("body").append("<div class='overlay'><a href='#' class='overlay__close'>Close</a><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p><p><a target='_blank' class='overlay__link' href='" + link + "'>" + name + "</a></p></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div>");
+});
+
+$(".info-overlay").click(function(e) {
+    var tile = $(this),
+        name = tile.data("title"),
+        img = tile.data("img"),
+        desc = tile.data("desc");
+    e.preventDefault();
+    $("html").addClass("hide-overflow");
+    $("body").append("<div class='overlay'><a href='#' class='overlay__close'>Close</a><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div>");
+});
+
 $("body").on("click", ".overlay__close", function(e) {
     e.preventDefault();
     $("html").removeClass("hide-overflow");

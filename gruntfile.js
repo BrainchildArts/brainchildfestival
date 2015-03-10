@@ -4,7 +4,9 @@ module.exports = function (grunt) {
   grunt.initConfig({
     assemble: {
       options: {
-        data: './src/data/*.yml'
+        data: './src/data/*.yml',
+        helpers: 'src/helpers/helper-*.js',
+        partials: ['./src/partials/*.md', './*.md']
       },
       site: {
         files: [
