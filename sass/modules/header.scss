@@ -40,7 +40,7 @@
 }
 
 .site-nav {
-    font-size: 1.125em;
+    font-size: 1em;
     width: 100%;
     transition: all ease .2s .6s;
     position: relative;
@@ -85,6 +85,9 @@
     }
     @include max-width($tablet) {
         display: none;
+    }
+    @include min-width(1065px) {
+        font-size: 1.15em;
     }
 }
 

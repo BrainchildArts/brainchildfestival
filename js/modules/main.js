@@ -12,12 +12,14 @@ $(document).ready(function() {
   // init Isotope
   var $container = $('.tiles-small');
   // init
-  $container.isotope({
-    itemSelector: '.tile',
-    masonry: {
-      isFitWidth: true
-    }
-  });
+  if ($(window).innerWidth() > 440) {
+    $container.isotope({
+      itemSelector: '.tile',
+      masonry: {
+        isFitWidth: true
+      }
+    });
+  }
   $(window).resize(function () {
     if ($(window).innerWidth() < 440) {
         $container.isotope('destroy');
@@ -35,7 +37,7 @@ $(document).ready(function() {
     console.log('click');
   });
   // change is-checked class on buttons
-  $('.button-group').each( function( i, buttonGroup ) {
+  $('.filter-buttons').each( function( i, buttonGroup ) {
     var $buttonGroup = $( buttonGroup );
     $buttonGroup.on( 'click', 'button', function() {
       $buttonGroup.find('.is-checked').removeClass('is-checked');
