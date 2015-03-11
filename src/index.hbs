@@ -108,15 +108,21 @@
 					<li class="tab"><a href="#fest2012">2012</a></li>
 				</ul>
 				<div id="fest2015">					
-					<div class="filter-buttons">
-						<button class="button filter" data-filter="*">Everything</button>
-						<button class="button filter" data-filter=".solo">Solo</button>
-						<button class="button filter" data-filter=".group">Group</button>
-					</div>
+					<ul class="filter-tabs">
+						<li> 
+							<a class="button filter" onclick="return false;" href="#" data-filter="*">Everything</a>
+						</li>
+						<li> 
+							<a class="button filter" onclick="return false;" href="#" data-filter=".solo">Solo</a>
+						</li>
+						<li> 
+							<a class="button filter" onclick="return false;" href="#" data-filter=".group">Group</a>
+						</li>
+					</ul>
 
 					<div class="tiles tiles-small">
 					{{#each artists}}
-						<a class="tile isotile {{#tags}}{{this}} {{/tags}}" href="#" style="background-image: url(http://lorempixel.com/200/200/animals/?ver={{@index}})" data-img="http://lorempixel.com/300/300/animals/?ver={{@index}}" data-title="{{name}}" data-desc="{{bio}}" data-link="{{soundcloud}}">
+						<a class="tile isotile {{#tags}}{{this}} {{/tags}}" href="#" style="background-image: url(http://lorempixel.com/200/200/animals/?ver={{@index}})" data-img="http://lorempixel.com/300/300/animals/?ver={{@index}}" data-title="{{name}}" data-desc="{{bio}}" data-link="{{link}}" data-sc="{{soundcloud}}">
 							<h3 class="tile__heading">{{name}}</h3>
 						</a>
 					{{/each}}

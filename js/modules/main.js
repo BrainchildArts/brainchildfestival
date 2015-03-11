@@ -117,10 +117,11 @@ $("#lineup .tile").click(function(e) {
         name = tile.data("title"),
         img = tile.data("img"),
         desc = tile.data("desc"),
-        link = tile.data("link");
+        link = tile.data("link"),
+        soundcloud = tile.data("sc");
     e.preventDefault();
     $("html").addClass("hide-overflow");
-    $("body").append("<div class='overlay'><a href='#' class='overlay__close'>Close</a><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p><p><a target='_blank' class='overlay__link' href='" + link + "'>" + name + "</a></p></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div>");
+    $("body").append("<div class='overlay'><a href='#' class='overlay__close'>Close</a><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p><p><a target='_blank' class='overlay__link' href='" + link + "'>" + name + "</a></p><p><iframe id='sc-widget' src='https://w.soundcloud.com/player/?url=https://soundcloud.com/" + soundcloud + "' width='100%' height='150' scrolling='no' frameborder='no'></iframe></p></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div>");
 });
 
 $(".info-overlay").click(function(e) {

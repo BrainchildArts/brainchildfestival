@@ -844,43 +844,42 @@ label {
     display: block;
     margin-bottom: 1.5rem; }
 
-.tabs > ul {
+.tabs > ul, .filter-tabs > ul {
   list-style: none;
   text-align: center;
   padding: 0; }
-
-.tabs > ul li {
-  -webkit-transition: all ease .2s;
-  transition: all ease .2s;
-  text-transform: uppercase;
-  display: block;
-  margin: 0 .35em;
-  margin-bottom: 0.2em;
-  font-size: 1.6em;
-  padding: 0 .1em;
-  line-height: 1.3; }
-  @media all and (min-width: 27.5rem) {
-    .tabs > ul li {
-      font-size: 2em; } }
-  .tabs > ul li a:hover {
-    border-bottom: 4px solid #f85a7e;
-    -webkit-transition: none ease .2s;
-    transition: none ease .2s; }
-  .tabs > ul li a.active {
-    font-weight: 600;
-    border-bottom: 5px solid #F7426B;
-    -webkit-transition: none ease .2s;
-    transition: none ease .2s; }
-  .tabs > ul li a:focus {
-    outline: none; }
+  .tabs > ul > li, .filter-tabs > ul > li {
+    -webkit-transition: all ease .2s;
+    transition: all ease .2s;
+    text-transform: uppercase;
+    display: block;
+    margin: 0 .35em;
+    margin-bottom: 0.2em;
+    font-size: 1.6em;
+    padding: 0 .1em;
+    line-height: 1.3; }
+    @media all and (min-width: 27.5rem) {
+      .tabs > ul > li, .filter-tabs > ul > li {
+        font-size: 2em; } }
+    .tabs > ul > li a:hover, .filter-tabs > ul > li a:hover {
+      border-bottom: 4px solid #f85a7e;
+      -webkit-transition: none ease .2s;
+      transition: none ease .2s; }
+    .tabs > ul > li a.active, .filter-tabs > ul > li a.active {
+      font-weight: 600;
+      border-bottom: 5px solid #F7426B;
+      -webkit-transition: none ease .2s;
+      transition: none ease .2s; }
+    .tabs > ul > li a:focus, .filter-tabs > ul > li a:focus {
+      outline: none; }
 
 @media only screen and (min-width: 316px) {
-  #lineup .tabs li, #events .tabs li {
+  #lineup .tabs li, #lineup .filter-tabs li, #events .tabs li, #events .filter-tabs li {
     display: inline;
     margin-bottom: 0; } }
 
 @media only screen and (min-width: 700px) {
-  #getinvolved .tabs li {
+  #getinvolved .tabs li, #getinvolved .filter-tabs li {
     display: inline;
     margin-bottom: 0; } }
 

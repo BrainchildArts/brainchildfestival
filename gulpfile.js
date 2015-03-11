@@ -49,6 +49,7 @@ gulp.task('styles', function() {
     .pipe(plugins.rename({
         suffix: '.min'
     }))
+        .on("error", errorAlert)
         .pipe(gulp.dest('./dist/'))
         .pipe(reload({stream: true}));
 });
@@ -69,6 +70,7 @@ gulp.task('scripts', function() {
         .pipe(plugins.rename({
             suffix: '.min'
         }))
+        .on("error", errorAlert)
         .pipe(gulp.dest('./dist/'))
         .pipe(reload({stream: true}));
 });
@@ -107,3 +109,8 @@ gulp.task('watch', function() {
         gulp.watch("dist/*.html").on("change", reload);
     });
 });
+
+function errorAlert(err) {
+    console.log(err.toString());
+    this.emit("end");
+}
