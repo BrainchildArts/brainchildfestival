@@ -8,17 +8,42 @@ $(document).ready(function() {
     });
 });
 
-/*$(document).ready(function() {
-    var $container = $('#tiles-small');
-    // init
-    $container.isotope({
-      // options
-      itemSelector: '.tile',
-      layoutMode: 'masonry'
+$(document).ready(function() {
+  // init Isotope
+  var $container = $('.tiles-small');
+  // init
+  $container.isotope({
+    itemSelector: '.tile',
+    masonry: {
+      isFitWidth: true
+    }
+  });
+  $(window).resize(function () {
+    if ($(window).innerWidth() < 440) {
+        $container.isotope('destroy');
+    } else {
+        $container.isotope({
+            itemSelector: '.tile'
+        });
+    }
+  });
+  // bind filter button click
+  $('.filter').on( 'click', function() {
+    var filterValue = $( this ).attr('data-filter');
+    // use filterFn if matches value
+    $container.isotope({ filter: filterValue });
+    console.log('click');
+  });
+  // change is-checked class on buttons
+  $('.button-group').each( function( i, buttonGroup ) {
+    var $buttonGroup = $( buttonGroup );
+    $buttonGroup.on( 'click', 'button', function() {
+      $buttonGroup.find('.is-checked').removeClass('is-checked');
+      $( this ).addClass('is-checked');
     });
-});*/
+  });
+});
 
-$container.isotope({ filter: '.solo' });
 
 $(function() {
     Grid.init();

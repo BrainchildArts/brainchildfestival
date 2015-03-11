@@ -62,34 +62,25 @@
 }
 
 .tiles-small {
+  margin: 0 auto;
     .tile {
-        @include max-width($phone) {
+        @include max-width(440px) {
             background-image: none !important;
             &__heading {
                 font-size: 1.37em !important;
             }
         }
         
-        @include min-width($phone) {
+        @include min-width(440px) {
             display: inline-block;
             position: relative;
-            width: 24vw;
-            height: 24vw;
-            margin-right: 1%;
-            margin-left: 1%;
-            margin-bottom: 3%;
-            max-width: 128px;
-            max-height: 128px;
+            width: 128px;
+            height: 128px;
         }
 
         @include min-width($tablet) {
-            width: 24vw;
-            height: 24vw;
-            margin-right: 1%;
-            margin-left: 1%;
-            margin-bottom: 3%;
-            max-width: 150px;
-            max-height: 150px;
+            width: 150px;
+            height: 150px;
         }
 
         &__heading {
@@ -100,7 +91,7 @@
             overflow: hidden;
             text-overflow: ellipsis;
             white-space: normal;
-            @include min-width($phone) {
+            @include min-width(440px) {
                 font-size: 1.2em;
                 position: relative;
                 top: 50%;
