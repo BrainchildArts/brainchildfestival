@@ -1,10 +1,22 @@
 ---
   artists:
     -
+      name: "EG"
+      image: "example.jpg"
+      bio: "for exampling"
+      link: "https://brainchildfestival.co.uk"
+      soundcloud: "babeheaven/friday-sky"
+      utube-id: "uTeeYRV7VcM"
+      tags:
+      - music
+      - poetry
+      unpublished: true
+    -
       name: "BabeHeaven"
       image: "blank"
       bio: "BabeHeaven are an exciting new West London band formed by 3 friends in 2014. Echoing elements of Massive attack and early Cocteau Twins, they immediately grab your attention with their haunting vocals and glimmering production. Look out for gigs in May this year!"
       soundcloud: "babeheaven/friday-sky"
+      utube-id: "uTeeYRV7VcM"
       tags:
       - music
     -

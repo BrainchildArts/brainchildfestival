@@ -113,18 +113,20 @@
 							<a class="button filter is-checked" onclick="return false;" href="#" data-filter="*">Everything</a>
 						</li>
 						<li> 
-							<a class="button filter" onclick="return false;" href="#" data-filter=".solo">Solo</a>
+							<a class="button filter" onclick="return false;" href="#" data-filter=".music">Music</a>
 						</li>
 						<li> 
-							<a class="button filter" onclick="return false;" href="#" data-filter=".group">Group</a>
+							<a class="button filter" onclick="return false;" href="#" data-filter=".poetry">Poetry</a>
 						</li>
 					</ul>
 
 					<div class="tiles tiles-small">
 					{{#each artists}}
-						<a class="tile isotile {{#tags}}{{this}} {{/tags}}" href="#" style="background-image: url(http://lorempixel.com/200/200/animals/?ver={{@index}})" data-img="http://lorempixel.com/300/300/animals/?ver={{@index}}" data-title="{{name}}" data-desc="{{bio}}" {{#if link}}data-link="{{link}}"{{/if}}{{#if soundcloud}} data-sc="{{soundcloud}}"{{/if}}>
-							<h3 class="tile__heading">{{name}}</h3>
-						</a>
+						{{#unless unpublished}}
+							<a class="tile isotile {{#tags}}{{this}} {{/tags}}" href="#" style="background-image: url(http://lorempixel.com/200/200/animals/?ver={{@index}})" data-img="http://lorempixel.com/300/300/animals/?ver={{@index}}" data-title="{{name}}" data-desc="{{bio}}" {{#if link}}data-link="{{link}}"{{/if}}{{#if soundcloud}} data-sc="{{soundcloud}}"{{/if}}{{#if utube-id}} data-utube-id="{{utube-id}}"{{/if}}>
+								<h3 class="tile__heading">{{name}}</h3>
+							</a>
+						{{/unless}}
 					{{/each}}
 			</div>
 				</div>
