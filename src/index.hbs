@@ -122,7 +122,7 @@
 
 					<div class="tiles tiles-small">
 					{{#each artists}}
-						<a class="tile isotile {{#tags}}{{this}} {{/tags}}" href="#" style="background-image: url(http://lorempixel.com/200/200/animals/?ver={{@index}})" data-img="http://lorempixel.com/300/300/animals/?ver={{@index}}" data-title="{{name}}" data-desc="{{bio}}" data-link="{{link}}" data-sc="{{soundcloud}}">
+						<a class="tile isotile {{#tags}}{{this}} {{/tags}}" href="#" style="background-image: url(http://lorempixel.com/200/200/animals/?ver={{@index}})" data-img="http://lorempixel.com/300/300/animals/?ver={{@index}}" data-title="{{name}}" data-desc="{{bio}}" {{#if link}}data-link="{{link}}"{{/if}}{{#if soundcloud}} data-sc="{{soundcloud}}"{{/if}}>
 							<h3 class="tile__heading">{{name}}</h3>
 						</a>
 					{{/each}}
