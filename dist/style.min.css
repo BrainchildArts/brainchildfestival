@@ -722,12 +722,8 @@ label {
       float: left;
       margin: 5px;
       padding: 10px;
-      width: 128px;
-      height: 128px; } }
-  @media only screen and (min-width: 60rem) {
-    .tiles-small .tile {
       width: 150px;
-      height: 150px; } }
+      height: 170px; } }
   .tiles-small .tile__heading {
     color: #F1F1EF;
     width: 100%;
@@ -746,6 +742,9 @@ label {
                 transform: translateY(-50%);
         text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.24);
         background: none; } }
+
+.tile.bigger {
+  height: 200px; }
 
 .tile:hover .tile__heading, .tile:active .tile__heading {
   color: white;
@@ -812,7 +811,7 @@ label {
   width: 100%;
   background: #2D4363 url(../img/background/shape-1.svg);
   color: #F1F1EF;
-  padding: 6rem 8%;
+  padding: 4rem 8%;
   overflow-y: scroll;
   z-index: 99991; }
   .overlay a {
@@ -826,9 +825,21 @@ label {
     .overlay a:active {
       color: #fddaa8; }
   .overlay__image {
-    border: 0.75rem solid rgba(0, 0, 0, 0.1); }
+    border: 0.75rem solid rgba(0, 0, 0, 0.1);
+    margin: auto;
+    display: block; }
   .overlay__link {
     margin-bottom: 1.5rem; }
+  .overlay__embeds {
+    max-width: 500px;
+    margin: auto; }
+  @media only screen and (min-width: 60rem) {
+    .overlay__copy {
+      padding-right: 1em; }
+    .overlay .col-1-2 {
+      width: 50%;
+      padding-right: 0;
+      float: left; } }
 
 .overlay__close {
   overflow: visible;
@@ -840,6 +851,20 @@ label {
   background: url(../img/partials/icon-close.svg);
   background-size: 2.25rem 2.25rem;
   z-index: 99992; }
+
+.embed-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  max-width: 100%; }
+
+.embed-container iframe, .embed-container object, .embed-container embed {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 .getinvolved {
   text-align: center; }

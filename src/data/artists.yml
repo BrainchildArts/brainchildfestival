@@ -1,10 +1,22 @@
 ---
   artists:
     -
+      name: "EG"
+      image: "example.jpg"
+      bio: "for exampling"
+      link: "https://brainchildfestival.co.uk"
+      soundcloud: "babeheaven/friday-sky"
+      utube-id: "uTeeYRV7VcM"
+      tags:
+      - music
+      - poetry
+      unpublished: true
+    -
       name: "BabeHeaven"
       image: "blank"
       bio: "BabeHeaven are an exciting new West London band formed by 3 friends in 2014. Echoing elements of Massive attack and early Cocteau Twins, they immediately grab your attention with their haunting vocals and glimmering production. Look out for gigs in May this year!"
       soundcloud: "babeheaven/friday-sky"
+      utube-id: "uTeeYRV7VcM"
       tags:
       - music
     -
@@ -33,7 +45,6 @@
       name: "Hector Plimmer"
       image: "blank"
       bio: "Hector has astounding talent as a DJ and producer, playing shows both under his own name and together with Wu-Lu to make up their formidable duo Monster Playground. He is a winner of the Steve Reid x PRS InNOVation Award and has recently been featured in Gilles Peterson's Brownswood Bubblers. It will be an absolute pleasure to have him with us on the decks at the festival, and in the meantime, you can catch his monthly show '92 Points' on NTS Radio."
-      soundcloud: "port-isla"
       tags:
       - music
     -
@@ -67,36 +78,33 @@
     -
       name: "Nerija"
       image: "blank"
-      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape.
+      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape."
       soundcloud: "nerijamusic/redamancy"
       tags:
       - music
     -
       name: "Pix"
       image: "blank"
-      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape.
+      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape."
       soundcloud: "p-i-x/a-way-to-say-goodbye"
       tags:
       - music
     -
       name: "Rags Rudi"
       image: "blank"
-      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape.
-      soundcloud: ""
+      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape."
       tags:
       - music
     -
       name: "Sumochief"
       image: "blank"
-      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape.
-      soundcloud: ""
+      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape."
       tags:
       - music
     -
       name: "The Busy Twist"
       image: "blank"
-      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape.
-      soundcloud: ""
+      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape."
       tags:
       - music
     -
