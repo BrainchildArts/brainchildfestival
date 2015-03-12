@@ -28,35 +28,75 @@
       soundcloud: "chelouofficial/the-quiet-preview"
       tags:
       - music
-    -
-      name: "Mokadem"
-      image: "blank"
-      bio: "Mokadem (aka London-born Louisa Mokadem) is an electronic musician, producer and DJ. Hailing from Hounslow and with Algerian descent, her music draws on influences from Africa and the Middle East built on a foundation of UK House and Future Garage beats."
-      link: "https://soundcloud.com/port-isla"
-      soundcloud: "port-isla"
-      tags:
-      - music
+
     -
       name: "Hector Plimmer"
       image: "blank"
-      bio: ""
-      link: "https://soundcloud.com/port-isla"
+      bio: "Hector has astounding talent as a DJ and producer, playing shows both under his own name and together with Wu-Lu to make up their formidable duo Monster Playground. He is a winner of the Steve Reid x PRS InNOVation Award and has recently been featured in Gilles Peterson's Brownswood Bubblers. It will be an absolute pleasure to have him with us on the decks at the festival, and in the meantime, you can catch his monthly show '92 Points' on NTS Radio."
       soundcloud: "port-isla"
       tags:
       - music
     -
-      name: "Tuesday Born"
+      name: "Hester"
       image: "blank"
-      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape."
-      link: "https://soundcloud.com/tuesdayborn"
-      soundcloud: "tuesdayborn"
+      bio: ""
+      soundcloud: "hesterdemos"
       tags:
       - music
     -
-      name: "United Vibrations"
+      name: "Loyle Carner"
       image: "blank"
-      bio: "United Vibrations have arrived. Born from Inner Space, we are on a journey of cosmic proportions. Music is our vessel. A sound forged from diversity. We are united in voice and rhythm. Our sound is Cyclic. Any linear perceptions of 'genre' or 'style' do it no justice. For pragmatic reasons, we call it 12Tone. Our current location is London, England. It is here that we have been inspired by the beats and harmonies of the world. We are the product of a cultural fusion, which knows no boundaries - only possibilities. Echoes of our ancestors can be heard if you listen closely. We are the continuation of an aural tradition, which goes way back beyond recorded history. "
-      link: "https://soundcloud.com/united-vibrations"
-      soundcloud: "united-vibrations"
+      bio: "South London emcee Loyle Carner, alongside producer and live partner Rebel Kleff, are Britain’s most recent new hope in hip hop. These two create reminiscent old school hip hop with their own UK and modern influences, with debut EP ‘A Little Late’ causing quite a stir on the airwaves. Touring with the likes of Joey Bada$$ and Atmosphere, Loyle is an exciting young rapper making serious moves on the UK circuit."
+      soundcloud: "loyle-carner"
       tags:
       - music
+    -
+      name: "Mokadem"
+      image: "blank"
+      bio: "Mokadem (aka London-born Louisa Mokadem) is an electronic musician, producer and DJ. Hailing from Hounslow and with Algerian descent, her music draws on influences from Africa and the Middle East built on a foundation of UK House and Future Garage beats. She had the whole festival dancing at her set closing the Main Stage at Braichild 2013, it was a terrific moment that we can't wait to manifest again."
+      soundcloud: "mokadem/pretend-ur-mine-1"
+      tags:
+      - music
+    -
+      name: "Myriad Forest"
+      image: "blank"
+      bio: "In our eyes, Myriad Forest is a bit of a super-group, with roots in both Psylus and  "
+      soundcloud: "myriadforest"
+      tags:
+      - music
+    -
+      name: "Nerija"
+      image: "blank"
+      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape.
+      soundcloud: "nerijamusic/redamancy"
+      tags:
+      - music
+    -
+      name: "Pix"
+      image: "blank"
+      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape.
+      soundcloud: "p-i-x/a-way-to-say-goodbye"
+      tags:
+      - music
+    -
+      name: "Rags Rudi"
+      image: "blank"
+      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape.
+      soundcloud: ""
+      tags:
+      - music
+    -
+      name: "Sumochief"
+      image: "blank"
+      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape.
+      soundcloud: ""
+      tags:
+      - music
+    -
+      name: "The Busy Twist"
+      image: "blank"
+      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape.
+      soundcloud: ""
+      tags:
+      - music
+    -
