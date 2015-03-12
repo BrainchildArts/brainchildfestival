@@ -19984,7 +19984,10 @@ $(document).ready(function() {
         $container.isotope('destroy');
     } else {
         $container.isotope({
-            itemSelector: '.tile'
+            itemSelector: '.tile',
+            masonry: {
+            isFitWidth: true
+          }
         });
     }
   });
@@ -19996,10 +19999,10 @@ $(document).ready(function() {
     console.log('click');
   });
   // change is-checked class on buttons
-  $('.filter-buttons').each( function( i, buttonGroup ) {
+  $('.filter').each( function( i, buttonGroup ) {
     var $buttonGroup = $( buttonGroup );
-    $buttonGroup.on( 'click', 'button', function() {
-      $buttonGroup.find('.is-checked').removeClass('is-checked');
+    $buttonGroup.on( 'click', function() {
+      $('.filter').removeClass('is-checked');
       $( this ).addClass('is-checked');
     });
   });
@@ -20057,7 +20060,7 @@ $("#events .tile").click(function(e) {
         link = tile.data("link");
     e.preventDefault();
     $("html").addClass("hide-overflow");
-    $("body").append("<div class='overlay'><a href='#' class='overlay__close'>Close</a><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div>");
+    $("body").append("<div class='overlay-wrap'><a href='#' class='overlay__close'>Close</a><div class='overlay'><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div></div>");
 });
 
 $("#friends .tile").click(function(e) {
@@ -20068,7 +20071,7 @@ $("#friends .tile").click(function(e) {
         link = tile.data("link");
     e.preventDefault();
     $("html").addClass("hide-overflow");
-    $("body").append("<div class='overlay'><a href='#' class='overlay__close'>Close</a><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p><p><a target='_blank' class='overlay__link' href='" + link + "'>" + name + "</a></p></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div>");
+    $("body").append("<div class='overlay-wrap'><a href='#' class='overlay__close'>Close</a><div class='overlay'><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p><p><a target='_blank' class='overlay__link' href='" + link + "'>" + name + "</a></p></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div></div>");
 });
 
 $("#lineup .tile").click(function(e) {
@@ -20080,7 +20083,7 @@ $("#lineup .tile").click(function(e) {
         soundcloud = tile.data("sc");
     e.preventDefault();
     $("html").addClass("hide-overflow");
-    $("body").append("<div class='overlay'><a href='#' class='overlay__close'>Close</a><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p><p><a target='_blank' class='overlay__link' href='" + link + "'>" + name + "</a></p><p><iframe id='sc-widget' src='https://w.soundcloud.com/player/?url=https://soundcloud.com/" + soundcloud + "' width='100%' height='150' scrolling='no' frameborder='no'></iframe></p></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div>");
+    $("body").append("<div class='overlay-wrap'><a href='#' class='overlay__close'>Close</a><div class='overlay'><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p><p><a target='_blank' class='overlay__link' href='" + link + "'>" + name + "</a></p><p><iframe id='sc-widget' src='https://w.soundcloud.com/player/?url=https://soundcloud.com/" + soundcloud + "' width='100%' height='150' scrolling='no' frameborder='no'></iframe></p></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div></div>");
 });
 
 $(".info-overlay").click(function(e) {
@@ -20090,7 +20093,7 @@ $(".info-overlay").click(function(e) {
         desc = tile.data("desc");
     e.preventDefault();
     $("html").addClass("hide-overflow");
-    $("body").append("<div class='overlay'><a href='#' class='overlay__close'>Close</a><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div>");
+    $("body").append("<div class='overlay-wrap'><a href='#' class='overlay__close'>Close</a><div class='overlay'><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div></div>");
 });
 
 $("body").on("click", ".overlay__close", function(e) {
