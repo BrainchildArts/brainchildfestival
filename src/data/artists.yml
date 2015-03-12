@@ -1,82 +1,62 @@
 ---
-  artists: 
-    - 
-      name: "Benin City"
+  artists:
+    -
+      name: "BabeHeaven"
       image: "blank"
-      bio: "Named after a Nigerian state capital, Benin City is Theo Buckingham on drums,  Tom Leaper on tenor sax, and Joshua Idehen on rhymes. As a band, they’ve been played and championed by Jon Kennedy, Jon Hillcock, Scroobius Pip and Eddy Temple Morris (XFM) Edith Bowman and Tom Robinson (BBC6). They have gained accolades and fans for their energetic live performances, having supported Soweto Kinch, VV Brown, Moko and Youngblood Brass band. Benin City first graced the Brainchild stage at the 2013 festival."
-      link: "https://soundcloud.com/benin-city"
-      soundcloud: "benin-city/benin-city-bus"
-      tags: 
+      bio: "BabeHeaven are an exciting new West London band formed by 3 friends in 2014. Echoing elements of Massive attack and early Cocteau Twins, they immediately grab your attention with their haunting vocals and glimmering production. Look out for gigs in May this year!"
+      soundcloud: "babeheaven/friday-sky"
+      tags:
       - music
-      - artist
-      - group
-    - 
-      name: "Cholombian"
+    -
+      name: "Bade Records Showcase"
       image: "blank"
-      bio: "Soundscapes rooted in HipHop but evoking a very a different kind of reflection. To listen to Cholombian feels like time itself is slowing down, it’s easy to get lost in the world that’s created in between each reverberant drum hit. We love Cholombian so much, he played for us at both of our Festivals so far."
-      link: "https://soundcloud.com/cholombian"
-      soundcloud: "cholombian"
-      tags: 
+      bio: "Independent record label based in London, bringing deep, melodic house and techno to the dancefloor."
+      soundcloud: "bade-records"
+      tags:
       - music
-      - artist
-      - solo
-    - 
-      name: "Jamie Isaac"
+    -
+      name: "Ben Hauke"
       image: "blank"
-      bio: "Jamie Isaac’s music immerses you into a world of depth and tranquility, evoking a sense of seclusion that could only really come from living in the metropolis of London. The band played for us at our Brainchild 2012 warm-up gig at Proud Galleries, and then returned to our stage at Brainchild 2013, blowing away all who were there to witness them.  We’re really excited to see them go from strength to strength in 2014."
-      link: "https://soundcloud.com/jamieisaac"
-      soundcloud: "jamieisaac"
-      tags: 
+      bio: "Ben is a beatmaker with a skill and an ear that is totally compelling. Whether he's mixing live or jamming with someone's poem, or other instruments, it is fascinating to watch and listen for the soundscape he carves out as he transforms the airwaves around him. We are overjoyed he'll be with us for the festival, bringing his wizard mastery of the MPC and unique composing style to the mix for the weekend."
+      soundcloud: "bjamin/ben-hauke-mini-mix-wari-ep"
+      tags:
       - music
-      - artist
-      - solo
-    - 
-      name: "King Krule"
+    -
+      name: "Chelou"
       image: "blank"
-      bio: "Archie Marshall, better known to the world as King Krule is a phenomenal musician, artist and song-writer who we discovered through Steeze in South London. 2013 was an amazing year for Archie, starting with a nomination for the BBC Sound of 2013 and including the release of a debut album which had him performing on David Letterman’s show in the USA. We were thrilled to have King Krule headline Brainchild 2013."
-      link: "https://soundcloud.com/king-krule"
-      soundcloud: "king-krule"
-      tags: 
+      bio: "From the first few seconds of hearing Chelou's EP 'The Quiet', you know that something special is happening. His music is atmospheric, skilful and full of soul. The infusion of electronics and acoustics reflect his unique pool of influences, ranging from PJ Harvey to Nirvana and Brian Jonestown and a host of electronic music. We can't wait for him to be part of the festival."
+      soundcloud: "chelouofficial/the-quiet-preview"
+      tags:
       - music
-      - artist
-      - solo
-    - 
+    -
       name: "Mokadem"
       image: "blank"
       bio: "Mokadem (aka London-born Louisa Mokadem) is an electronic musician, producer and DJ. Hailing from Hounslow and with Algerian descent, her music draws on influences from Africa and the Middle East built on a foundation of UK House and Future Garage beats."
       link: "https://soundcloud.com/port-isla"
       soundcloud: "port-isla"
-      tags: 
+      tags:
       - music
-      - artist
-      - solo
-    - 
-      name: "My Panda Shall Fly"
+    -
+      name: "Hector Plimmer"
       image: "blank"
-      bio: "My Panda Shall Fly aka Suren Seneviratne creates Dub/Electronic beats, glitchy, internetty artworks and also photographs. He has performed his own set and DJ’d extensive garage and grime sets for us at various Brainchild events."
+      bio: ""
       link: "https://soundcloud.com/port-isla"
       soundcloud: "port-isla"
-      tags: 
+      tags:
       - music
-      - artist
-      - solo
-    - 
+    -
       name: "Tuesday Born"
       image: "blank"
       bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape."
       link: "https://soundcloud.com/tuesdayborn"
       soundcloud: "tuesdayborn"
-      tags: 
+      tags:
       - music
-      - artist
-      - solo
-    - 
+    -
       name: "United Vibrations"
       image: "blank"
       bio: "United Vibrations have arrived. Born from Inner Space, we are on a journey of cosmic proportions. Music is our vessel. A sound forged from diversity. We are united in voice and rhythm. Our sound is Cyclic. Any linear perceptions of 'genre' or 'style' do it no justice. For pragmatic reasons, we call it 12Tone. Our current location is London, England. It is here that we have been inspired by the beats and harmonies of the world. We are the product of a cultural fusion, which knows no boundaries - only possibilities. Echoes of our ancestors can be heard if you listen closely. We are the continuation of an aural tradition, which goes way back beyond recorded history. "
       link: "https://soundcloud.com/united-vibrations"
       soundcloud: "united-vibrations"
-      tags: 
+      tags:
       - music
-      - artist
-      - group
