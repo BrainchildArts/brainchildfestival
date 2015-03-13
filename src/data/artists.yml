@@ -16,7 +16,6 @@
       image: "babeheaven.jpg"
       bio: "BabeHeaven are an exciting new West London band formed by 3 friends in 2014. Echoing elements of Massive attack and early Cocteau Twins, they immediately grab your attention with their haunting vocals and glimmering production. Look out for gigs in May this year!"
       soundcloud: "babeheaven/friday-sky"
-      utube-id: "uTeeYRV7VcM"
       tags:
       - music
     -
@@ -40,17 +39,16 @@
       soundcloud: "chelouofficial/the-quiet-preview"
       tags:
       - music
-
     -
       name: "Hector Plimmer"
       image: "hectorplimmer.jpg"
       bio: "Hector has astounding talent as a DJ and producer, playing shows both under his own name and together with Wu-Lu to make up their formidable duo Monster Playground. He is a winner of the Steve Reid x PRS InNOVation Award and has recently been featured in Gilles Peterson's Brownswood Bubblers. It will be an absolute pleasure to have him with us on the decks at the festival, and in the meantime, you can catch his monthly show '92 Points' on NTS Radio."
-      soundcloud:'hectorplimmer'
+      soundcloud: 'hectorplimmer'
       tags:
       - music
     -
       name: "Hester"
-      image: "blank"
+      image: ""
       bio: "Hester are London based six piece band full of spirit and soul. Although they are very much part of the Brainchild family, this will be their first time playing the festival, and we cannot wait to have them. We know they will get everybody dancing."
       soundcloud: "hesterdemos"
       tags:
@@ -93,13 +91,13 @@
     -
       name: "Rags Rudi"
       image: "ragsrudi.jpg"
-      bio: "Rags Rudi – a 7 piece East London ensemble playing a head-nodding cocktail of ska, hip-hop, dub and punk. East London’s Rags Rudi is a six piece ensemble playing a head-nodding, feet-sparking cocktail of ska, hip-hop, dub and punk. "
+      bio: "Rags Rudi – a 7 piece East London ensemble playing a head-nodding cocktail of ska, hip-hop, dub and punk. East London’s Rags Rudi is a six piece ensemble playing a head-nodding, feet-sparking cocktail of ska, hip-hop, dub and punk."
       tags:
       - music
     -
       name: "SumoChief"
       image: "sumochief.jpg"
-      bio: "SumoChief are a Jazz/ Hip Hop collective heavily inspired by the music of artists such as J Dilla, D'Angelo, The Roots and The Robert Glasper Experiment."
+      bio: "SumoChief are a Jazz/Hip Hop collective heavily inspired by the music of artists such as J Dilla, D'Angelo, The Roots and The Robert Glasper Experiment."
       tags:
       - music
     -
@@ -125,24 +123,4 @@
       image: "joshuaidehen.jpg"
       bio: "Poet, workshop person, songwriter, novelist, show producer, spoken word promoter, writer, frontman, side chick."
       tags:
-      - music
-      name: "Tommy Sissons"
-      image: "thebusytwist.jpg"
-      bio: "The Busy Twist are a London based production duo creating African Inspired Bass Music. The two childhood friends Gabriel Benn (Tuesday Born) and Ollie Williams (Ollie Twist) are on a musical quest to transcend borders with their feel good and energetic vibes bridging the gap between cultures from across the world.</p><p>Having spent the last 3 years travelling between London and Ghana working with local musicians from around the country they have developed and crafted their unique sound embodying elements of South African house, Kuduro, 2 step and UK funky."
-      tags:
-      - music
-      name: "New Funk Poets"
-      image: "thebusytwist.jpg"
-      bio: "The Busy Twist are a London based production duo creating African Inspired Bass Music. The two childhood friends Gabriel Benn (Tuesday Born) and Ollie Williams (Ollie Twist) are on a musical quest to transcend borders with their feel good and energetic vibes bridging the gap between cultures from across the world.</p><p>Having spent the last 3 years travelling between London and Ghana working with local musicians from around the country they have developed and crafted their unique sound embodying elements of South African house, Kuduro, 2 step and UK funky."
-      tags:
-      - music
-      name: "Body Forest"
-      image: "thebusytwist.jpg"
-      bio: "The Busy Twist are a London based production duo creating African Inspired Bass Music. The two childhood friends Gabriel Benn (Tuesday Born) and Ollie Williams (Ollie Twist) are on a musical quest to transcend borders with their feel good and energetic vibes bridging the gap between cultures from across the world.</p><p>Having spent the last 3 years travelling between London and Ghana working with local musicians from around the country they have developed and crafted their unique sound embodying elements of South African house, Kuduro, 2 step and UK funky."
-      tags:
-      - music
-      name: "The Busy Twist"
-      image: "thebusytwist.jpg"
-      bio: "The Busy Twist are a London based production duo creating African Inspired Bass Music. The two childhood friends Gabriel Benn (Tuesday Born) and Ollie Williams (Ollie Twist) are on a musical quest to transcend borders with their feel good and energetic vibes bridging the gap between cultures from across the world.</p><p>Having spent the last 3 years travelling between London and Ghana working with local musicians from around the country they have developed and crafted their unique sound embodying elements of South African house, Kuduro, 2 step and UK funky."
-      tags:
-      - music
+      - poetry
