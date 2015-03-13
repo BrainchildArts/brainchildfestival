@@ -10,19 +10,32 @@ $(document).ready(function() {
 
 $(document).ready(function() {
   // init Isotope
-  var $container = $('.tiles-small');
+  var $container = $('.lineup-tiles');
   function isolineup() {
     $container.isotope({
       itemSelector: '.tile',
+      getSortData: {
+      name: '.tile__heading'
+      },
+      sortBy: 'name',
       masonry: {
-        isFitWidth: true,
-        sortBy: 'tile__heading'
+        isFitWidth: true
       }
     });
   }
   // init
   if ($(window).innerWidth() > 440) {
     isolineup();
+  }
+  else {
+    $container.isotope({
+      itemSelector: '.tile',
+      layoutMode: 'vertical',
+      sortBy: 'tile__heading',
+      vertical: {
+        horizontalAlignment: 1,
+      }
+    });
   }
   $(window).resize(function () {
     if ($(window).innerWidth() < 440) {

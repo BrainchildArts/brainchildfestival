@@ -101,49 +101,38 @@
 		</section>
 		<section id="lineup">
 			<h2>Lineup</h2>
-			<div class="tabs" id="tabs">
-				<ul class="tabs-ul">
-					<li class="tab default-tab"><a href="#fest2015">2015</a></li>
-					<li class="tab"><a href="#fest2013">2013</a></li>
-					<li class="tab"><a href="#fest2012">2012</a></li>
-				</ul>
 				<div id="fest2015">					
 					<ul class="filter-tabs">
 						<li> 
-							<a class="button filter is-checked" onclick="return false;" href="#" data-filter="*">Everything</a>
+							<a class="button filter is-checked" onclick="return false;" href="#" data-filter="*">All</a>
 						</li>
 						<li> 
 							<a class="button filter" onclick="return false;" href="#" data-filter=".music">Music</a>
 						</li>
 						<li> 
-							<a class="button filter" onclick="return false;" href="#" data-filter=".poetry">Poetry</a>
+							<a class="button filter" onclick="return false;" href="#" data-filter=".poetry, .theatre">Theatre &amp; Spoken Word</a>
+						</li>
+						<li> 
+							<a class="button filter" onclick="return false;" href="#" data-filter=".film">Film</a>
+						</li>
+						<li> 
+							<a class="button filter" onclick="return false;" href="#" data-filter=".talk, .workshop">Talks &amp; Workshops</a>
+						</li>
+						<li> 
+							<a class="button filter" onclick="return false;" href="#" data-filter=".art">Art</a>
 						</li>
 					</ul>
 
-					<div class="tiles tiles-small">
-					{{#each artists}}
-						{{#unless unpublished}}
-							<a class="tile isotile {{#tags}}{{this}} {{/tags}}" href="#" style="background-image: url(http://lorempixel.com/200/200/animals/?ver={{@index}})" data-img="http://lorempixel.com/300/300/animals/?ver={{@index}}" data-title="{{name}}" data-desc="{{bio}}" {{#if link}}data-link="{{link}}"{{/if}}{{#if soundcloud}} data-sc="{{soundcloud}}"{{/if}}{{#if utube-id}} data-utube-id="{{utube-id}}"{{/if}}>
-								<h3 class="tile__heading">{{name}}</h3>
-							</a>
-						{{/unless}}
-					{{/each}}
-			</div>
-				</div>
-
-				<div id="fest2013" class="lineup-image">
-					<div class="posters">
-						<img src="img/contents/bc13front.jpg" alt="Brainchild 2013 Poster">
-						<img src="img/contents/bc13back.jpg" alt="Brainchild 2013 Poster">
+					<div class="tiles lineup-tiles">
+						{{#each artists}}
+							{{#unless unpublished}}
+								<a class="tile isotile {{#tags}}{{this}} {{/tags}}" href="#" style="background-image: url(http://lorempixel.com/200/200/animals/?ver={{@index}})" data-img="http://lorempixel.com/300/300/animals/?ver={{@index}}" data-title="{{name}}" data-desc="{{bio}}" {{#if link}}data-link="{{link}}"{{/if}}{{#if soundcloud}} data-sc="{{soundcloud}}"{{/if}}{{#if utube-id}} data-utube-id="{{utube-id}}"{{/if}}>
+									<h3 class="tile__heading">{{name}}</h3>
+								</a>
+							{{/unless}}
+						{{/each}}
 					</div>
 				</div>
-
-				<div id="fest2012" class="lineup-image">
-					<div class="posters">
-						<img src="img/contents/bc12poster.jpg" alt="Brainchild 2012 Poster">
-					</div>
-				</div>
-			</div>
 
 		</section>
 		<section id="events">

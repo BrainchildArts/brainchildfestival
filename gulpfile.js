@@ -49,7 +49,6 @@ gulp.task('styles', function() {
     .pipe(plugins.rename({
         suffix: '.min'
     }))
-        .on("error", errorAlert)
         .pipe(gulp.dest('./dist/'))
         .pipe(reload({stream: true}));
 });
