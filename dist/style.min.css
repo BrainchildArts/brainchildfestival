@@ -497,10 +497,9 @@ a.tt-widget-tab-button.gettickets-btn {
 
 html, button, input, select, textarea {
   color: #232323;
-  font-family: 'Karla', sans-serif; }
+  font-family: Lucida Grande, Helvetica Neue, Helvetica, Arial, sans-serif; }
 
 h1, h2, h3, h4, .site-nav, .bold-link {
-  font-family: 'Karla', sans-serif;
   text-align: center;
   font-weight: 400;
   text-transform: uppercase; }
@@ -726,20 +725,20 @@ label {
       margin: 5px;
       padding: 10px;
       width: 150px;
-      height: 170px; } }
-  .lineup-tiles .tile:before {
-    content: " ";
-    background-color: rgba(144, 87, 39, 0.61);
-    opacity: .4;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    -webkit-transition: .3s;
-            transition: .3s; }
-  .lineup-tiles .tile:hover:before {
-    opacity: .2; }
+      height: 170px; }
+      .lineup-tiles .tile:before {
+        content: " ";
+        background-color: rgba(144, 87, 39, 0.61);
+        opacity: .4;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        -webkit-transition: .3s;
+                transition: .3s; }
+      .lineup-tiles .tile:hover:before {
+        opacity: .2; } }
   .lineup-tiles .tile__heading {
     color: #F1F1EF;
     width: 100%;
@@ -993,9 +992,22 @@ label {
   text-align: center;
   color: #F1F1EF;
   font-size: 1.5em; }
+  .splash p {
+    font-size: .6em;
+    letter-spacing: 3px; }
+    @media (min-width: 520px) {
+      .splash p {
+        font-size: .8em; } }
+    @media (min-width: 690px) {
+      .splash p {
+        font-size: 1em; } }
+
+@media (min-width: 470px) {
+  .splash .location:before {
+    content: "Bentley Country Park, "; } }
 
 .site-nav {
-  font-size: 1em;
+  font-size: 0.9em;
   width: 100%;
   -webkit-transition: all ease .2s .6s;
           transition: all ease .2s .6s;
@@ -1031,7 +1043,7 @@ label {
       display: none; } }
   @media only screen and (min-width: 1065px) {
     .site-nav {
-      font-size: 1.15em; } }
+      font-size: 1em; } }
 
 .billboard {
   width: 100%;

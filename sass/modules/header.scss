@@ -32,15 +32,33 @@
 }
 
 .splash {
-    position: relative; 
-    top: 12vw;
-    text-align: center;
-    color: $white;
-    font-size: 1.5em;
+  position: relative; 
+  top: 12vw;
+  text-align: center;
+  color: $white;
+  font-size: 1.5em;
+  p {
+    font-size: .6em;
+    letter-spacing: 3px;
+    @media (min-width: 520px) {
+      font-size: .8em;
+    }
+    @media (min-width: 690px) {
+      font-size: 1em;
+    }
+  }
+}
+
+.splash .location {
+  @media (min-width: 470px) {
+    &:before {
+      content:"Bentley Country Park, ";
+    }  
+  }
 }
 
 .site-nav {
-    font-size: 1em;
+    font-size: 0.9em;
     width: 100%;
     transition: all ease .2s .6s;
     position: relative;
@@ -87,7 +105,7 @@
         display: none;
     }
     @include min-width(1065px) {
-        font-size: 1.15em;
+        font-size: 1em;
     }
 }
 

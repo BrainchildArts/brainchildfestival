@@ -1,17 +1,6 @@
 ---
   artists:
     -
-      name: "EG"
-      image: "example.jpg"
-      bio: "for exampling"
-      link: "https://brainchildfestival.co.uk"
-      soundcloud: "babeheaven/friday-sky"
-      utube-id: "uTeeYRV7VcM"
-      tags:
-      - music
-      - poetry
-      unpublished: true
-    -
       name: "BabeHeaven"
       image: "babeheaven.jpg"
       bio: "BabeHeaven are an exciting new West London band formed by 3 friends in 2014. Echoing elements of Massive attack and early Cocteau Twins, they immediately grab your attention with their haunting vocals and glimmering production. Look out for gigs in May this year!"
@@ -48,7 +37,7 @@
       - music
     -
       name: "Hester"
-      image: ""
+      image: "hester.jpg"
       bio: "Hester are London based six piece band full of spirit and soul. Although they are very much part of the Brainchild family, this will be their first time playing the festival, and we cannot wait to have them. We know they will get everybody dancing."
       soundcloud: "hesterdemos"
       tags:
@@ -83,7 +72,7 @@
       - music
     -
       name: "Pix"
-      image: "pix.jpg"
+      image: "pix.png"
       bio: "A musical magpie, Hannah lists everything from Aphex Twin to Joni Mitchell as influences, her off-kilter electronic folk compositions and sharp lyricism inspired by muses as wide and diverse as Dylan and Donovan, American poet e e cummings and the magic realism of Watership Down, via Stephen King novels and Art of Noise... it’s a heady concoction."
       soundcloud: "p-i-x/a-way-to-say-goodbye"
       tags:
@@ -117,10 +106,115 @@
       image: "jemimafoxtrot.jpg"
       bio: "Jemima Foxtrot is a live poet who blends snippets of her favourite vocalists and original songs with semi-confessional words about sex, concrete, politics, hedonism and so much more. She is especially fascinated by rhythm and sound.</p><p>Originally from Hebden Bridge, West Yorkshire, she performs extensively across the country. Now London-based she cites walking as a key part of her creative process where on her journeys she has been known to trade poems for lighters, chewing gum, books of poetry, chips and even a full Indian takeaway.</p><p>A tiny Yorkshire lady with a singing voice that will knock you for six, Jemima was shortlisted for the Arts Foundation Spoken Word Fellowship 2015."
       tags:
-      - poet
+      - poetry
     -
       name: "Joshua Idehen"
       image: "joshuaidehen.jpg"
       bio: "Poet, workshop person, songwriter, novelist, show producer, spoken word promoter, writer, frontman, side chick."
       tags:
       - poetry
+    -
+      name: "Tommy Sissons"
+      image: "tommysissons.jpg"
+      bio: ""
+      tags:
+      - poetry
+    - 
+      name: "'Finding Home' by Cecilia Knapp"
+      image: "ceciliaknapp.jpg"
+      bio: ""
+      tags:
+      - poetry
+      - theatre
+    - 
+      name: "Body Forest"
+      image: "bodyforest.jpg"
+      bio: ""
+      tags:
+      - dance
+    - 
+      name: "New Funk Poets"
+      image: "newfunkpoets.jpg"
+      bio: ""
+      tags:
+      - poetry
+      - music
+    - 
+      name: "SWOU"
+      image: "swou.jpg"
+      bio: "The Sex Workers Open University"
+      tags:
+      - talks
+      - workshops
+    - 
+      name: "Bristol Skipchen: The Real Junk Food Project"
+      image: "bristolskipchen.jpg"
+      bio: ""
+      tags:
+      - talks
+      - workshops
+    - 
+      name: "Rethinking Economics"
+      image: "rethinkingeconomics.jpg"
+      bio: ""
+      tags:
+      - talks
+      - workshops
+    - 
+      name: "Filming the Unfilmable"
+      image: ""
+      bio: ""
+      tags:
+      - talks
+      - film
+    - 
+      name: "Skin Deep"
+      image: "skindeep.jpg"
+      bio: ""
+      tags:
+      - talks
+      - workshops
+    - 
+      name: "Life Drawing with Bella"
+      image: "drawwithbella.jpg"
+      bio: ""
+      tags:
+      - workshops
+    - 
+      name: "Singing with Lilli Unwin"
+      image: "singing.jpg"
+      bio: ""
+      tags:
+      - workshops
+    - 
+      name: "Falling With Style"
+      image: "fallingwithstyle.jpg"
+      bio: ""
+      tags:
+      - dance
+      - workshops
+    - 
+      name: "Yoga Sessions"
+      image: "yogasessions.jpg"
+      bio: ""
+      tags:
+      - workshops
+    - 
+      name: "Stop-Motion Animation Workshop"
+      image: "stopmotion.jpg"
+      bio: ""
+      tags:
+      - workshops
+      - film
+    - 
+      name: "Emily Motto's Coccoons"
+      image: "emilymotto.jpg"
+      bio: ""
+      tags:
+      - art
+    - 
+      name: "Joe Melhuish's Paintings"
+      image: "joemelhuish.jpg"
+      bio: ""
+      tags:
+      - art

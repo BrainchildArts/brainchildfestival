@@ -73,21 +73,20 @@ margin: 0 auto;
       padding: 10px;
       width: 150px;
       height: 170px;
-    }
-
-    &:before {
-      content: " ";
-      background-color: rgba(144, 87, 39, 0.61);
-      opacity: .4;
-      position: absolute;
-      top: 0;
-      left: 0;
-      right: 0;
-      bottom: 0;
-      transition: .3s;
-    }
-    &:hover:before {
-      opacity: .2;
+      &:before {
+        content: " ";
+        background-color: rgba(144, 87, 39, 0.61);
+        opacity: .4;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: .3s;
+      }
+      &:hover:before {
+        opacity: .2;
+      }
     }
 
     &__heading {
