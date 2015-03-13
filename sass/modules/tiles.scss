@@ -76,13 +76,13 @@ margin: 0 auto;
       &:before {
         content: " ";
         background-color: rgba(144, 87, 39, 0.61);
-        opacity: .4;
+        opacity: 0.6;
         position: absolute;
         top: 0;
         left: 0;
         right: 0;
         bottom: 0;
-        transition: .3s;
+        transition: .8s;
       }
       &:hover:before {
         opacity: .2;
