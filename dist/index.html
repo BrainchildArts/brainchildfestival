@@ -14,6 +14,7 @@
 		<meta name="twitter:creator" value="@BrainchildFest" />
 		<meta property="og:description" content="Brainchild Festival is a 3-day, multi-arts festival. 10-12 July 2015" />
 		<script src="./modernizr.custom.js"></script>
+		<script src="https://w.soundcloud.com/player/api.js" type="text/javascript" async></script>
 		<link rel="stylesheet" href="./style.min.css">
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -35,7 +36,7 @@
  			<div class="splash">
 				<h1 class="logo">Brainchild</h1>
 				<p style="margin-bottom: 0;">10-12 July 2015</p>
-				<p>Bentley Country Park, East Sussex</p>
+				<p class="location">East Sussex</p>
 				<div class="site-nav-wrap">
 					<nav class="site-nav">
 						<a href="#about">About</a>//
@@ -100,29 +101,168 @@
 		</section>
 		<section id="lineup">
 			<h2>Lineup</h2>
-			<div class="tabs" id="tabs">
-				<ul class="tabs-ul">
-					<li class="tab default-tab"><a href="#fest2015">2015</a></li>
-					<li class="tab"><a href="#fest2013">2013</a></li>
-					<li class="tab"><a href="#fest2012">2012</a></li>
-				</ul>
-				<div id="fest2015" class="lineup-image">
-					<p class="big-txt">Now is the time to get in touch with ideas for the 2015 festival. Whether you're interested in performing, decorating, leading workshops or conga lines - we'd love to hear from you. Check our Get Involved section to find out more, and stay tuned to our <a href="https://fb.com/BrainchildArts">Facebook page</a> and emails for details of opportunities and lineup releases.</p>
-				</div>
+				<div id="fest2015">					
+					<ul class="filter-tabs">
+						<li> 
+							<a class="button filter is-checked" onclick="return false;" href="#" data-filter="*">All</a>
+						</li>
+						<li> 
+							<a class="button filter" onclick="return false;" href="#" data-filter=".music">Music</a>
+						</li>
+						<li> 
+							<a class="button filter" onclick="return false;" href="#" data-filter=".poetry, .theatre">Theatre &amp; Spoken Word</a>
+						</li>
+						<li> 
+							<a class="button filter" onclick="return false;" href="#" data-filter=".film">Film</a>
+						</li>
+						<li> 
+							<a class="button filter" onclick="return false;" href="#" data-filter=".talks, .workshop">Talks &amp; Workshops</a>
+						</li>
+						<li> 
+							<a class="button filter" onclick="return false;" href="#" data-filter=".art">Art</a>
+						</li>
+					</ul>
 
-				<div id="fest2013" class="lineup-image">
-					<div class="posters">
-						<img src="img/contents/bc13front.jpg" alt="Brainchild 2013 Poster">
-						<img src="img/contents/bc13back.jpg" alt="Brainchild 2013 Poster">
+					<div class="tiles lineup-tiles">
+						
+							<a class="tile isotile music " href="#" data-img="img/contents/babeheaven.jpg" style="background-image: url(img/contents/babeheaven.jpg)"  data-title="BabeHeaven" data-desc="BabeHeaven are an exciting new West London band formed by 3 friends in 2014. Echoing elements of Massive attack and early Cocteau Twins, they immediately grab your attention with their haunting vocals and glimmering production. Look out for gigs in May this year!"  data-sc="babeheaven/friday-sky">
+								<h3 class="tile__heading">BabeHeaven</h3>
+							</a>
+						
+							<a class="tile isotile music " href="#" data-img="img/contents/baderecords.jpg" style="background-image: url(img/contents/baderecords.jpg)"  data-title="Bade Records Showcase" data-desc="Bade Records are an independent record label based in London. Founded in 2014 by James Sison, Edward Antonio, Charlie Coombes and Henry Stroud (aka Talk&amp;Smoke), Bade Records has built a loyal following in their debut year. Showcasing a deep and melodic sound that has its roots firmly on the continent, they have developed a distinct brand of house and techno that is unique to the UK underground scene."  data-sc="bade-records">
+								<h3 class="tile__heading">Bade Records Showcase</h3>
+							</a>
+						
+							<a class="tile isotile music " href="#" data-img="img/contents/benhauke.jpg" style="background-image: url(img/contents/benhauke.jpg)"  data-title="Ben Hauke" data-desc="Ben is a beatmaker with a skill and an ear that is totally compelling. Whether he&#x27;s mixing live or jamming with someone&#x27;s poem, or other instruments, it is fascinating to watch and listen for the soundscape he carves out as he transforms the airwaves around him. We are overjoyed he&#x27;ll be with us for the festival, bringing his wizard mastery of the MPC and unique composing style to the mix for the weekend."  data-sc="bjamin/ben-hauke-mini-mix-wari-ep">
+								<h3 class="tile__heading">Ben Hauke</h3>
+							</a>
+						
+							<a class="tile isotile music " href="#" data-img="img/contents/chelou.jpg" style="background-image: url(img/contents/chelou.jpg)"  data-title="Chelou" data-desc="From the first few seconds of hearing Chelou&#x27;s EP &#x27;The Quiet&#x27;, you know that something special is happening. His music is atmospheric, skilful and full of soul. The infusion of electronics and acoustics reflect his unique pool of influences, ranging from PJ Harvey to Nirvana and Brian Jonestown and a host of electronic music. We can&#x27;t wait for him to be part of the festival."  data-sc="chelouofficial/the-quiet-preview">
+								<h3 class="tile__heading">Chelou</h3>
+							</a>
+						
+							<a class="tile isotile music " href="#" data-img="img/contents/hectorplimmer.jpg" style="background-image: url(img/contents/hectorplimmer.jpg)"  data-title="Hector Plimmer" data-desc="Hector has astounding talent as a DJ and producer, playing shows both under his own name and together with Wu-Lu to make up their formidable duo Monster Playground. He is a winner of the Steve Reid x PRS InNOVation Award and has recently been featured in Gilles Peterson&#x27;s Brownswood Bubblers. It will be an absolute pleasure to have him with us on the decks at the festival, and in the meantime, you can catch his monthly show &#x27;92 Points&#x27; on NTS Radio."  data-sc="hectorplimmer">
+								<h3 class="tile__heading">Hector Plimmer</h3>
+							</a>
+						
+							<a class="tile isotile music " href="#" data-img="img/contents/hester.jpg" style="background-image: url(img/contents/hester.jpg)"  data-title="Hester" data-desc="Hester are a 6 piece band hailing from London. Forming in the Autumn of 2013, they are fresh out of the studio where they’ve been recording their debut EP. Their sound has been described as ‘space jazz’, ‘nu-soul’ and ‘funk punk’, and their span of influences is just as vast and peculiar; amongst many others, they list Fela Kuti, Eels, Gil Scott Heron, Tom Waits and Erykah Badu. They are a band that has developed largely through playing live, and are capable of bringing a huge amount of energy both on stage and to their audience.&lt;/p&gt;&lt;p&gt;Although they are very much part of the Brainchild family, this will be their first time playing the festival, and we cannot wait for them to have everybody dancing."  data-sc="hesterdemos">
+								<h3 class="tile__heading">Hester</h3>
+							</a>
+						
+							<a class="tile isotile music " href="#" data-img="img/contents/loylecarner.jpg" style="background-image: url(img/contents/loylecarner.jpg)"  data-title="Loyle Carner" data-desc="South London emcee Loyle Carner, alongside producer and live partner Rebel Kleff, are Britain’s most recent new hope in hip hop. These two create reminiscent old school hip hop with their own UK and modern influences, with debut EP ‘A Little Late’ causing quite a stir on the airwaves. Touring with the likes of Joey Bada$$ and Atmosphere, Loyle is an exciting young rapper making serious moves on the UK circuit."  data-sc="loyle-carner">
+								<h3 class="tile__heading">Loyle Carner</h3>
+							</a>
+						
+							<a class="tile isotile music " href="#" data-img="img/contents/mokadem.jpg" style="background-image: url(img/contents/mokadem.jpg)"  data-title="Mokadem" data-desc="Mokadem (aka London-born Louisa Mokadem) is an electronic musician, producer and DJ. Hailing from Hounslow and with Algerian descent, her music draws on influences from Africa and the Middle East built on a foundation of UK House and Future Garage beats. She had the whole festival dancing at her set closing the Main Stage at Braichild 2013, it was a terrific moment that we can&#x27;t wait to manifest again."  data-sc="mokadem/pretend-ur-mine-1">
+								<h3 class="tile__heading">Mokadem</h3>
+							</a>
+						
+							<a class="tile isotile music " href="#" data-img="img/contents/myriadforest.jpg" style="background-image: url(img/contents/myriadforest.jpg)"  data-title="Myriad Forest" data-desc="In our eyes, Myriad Forest is a bit of a super-group, with roots in both Psylus and United Vibrations. They have a musical force that will transport you into another world, with drums, bass, sax and electronics reaching untold strengths together."  data-sc="myriadforest">
+								<h3 class="tile__heading">Myriad Forest</h3>
+							</a>
+						
+							<a class="tile isotile music " href="#" data-img="img/contents/nerija.jpg" style="background-image: url(img/contents/nerija.jpg)"  data-title="Nerija" data-desc="Nérija (pronounced ‘Ne-ree-ya’) began from a Tomorrow’s Warriors initiative which premised that many girls often start playing jazz at the same time as their male counterparts, but often do not develop at the same rate. The Warriors have therefore begun separate development sessions for young women with the aim of creating a space for them in which they do not feel intimidated by counterproductive competitiveness, or feel discouraged by perceiving jazz as a uniquely masculine art form. Nérija embodies this initiative.&lt;/p&gt;&lt;p&gt;However, Nérija has also begun to embody something more, represented by the choosing of their name, taken from the Hebrew name ‘Nerijah’, which means ‘lamp (or light) of God’. The focus on the concept of a light with divine power may be the common desire that binds the group beyond the confines of the warriors:&lt;/p&gt;&lt;p&gt;&amp;quot;It is the search for individual strength in the face of external expectations, a strength which shows itself not in competitiveness, desire for approval, or to prove that women can play well, but in the ability to discover and remain who we are, being honest with ourselves and others when to do so is incredibly hard.&lt;/p&gt;&lt;p&gt;Our music is a reflection of this, our friendship, and the continual search for ‘Nérija’&amp;quot;."  data-sc="nerijamusic/redamancy">
+								<h3 class="tile__heading">Nerija</h3>
+							</a>
+						
+							<a class="tile isotile music " href="#" data-img="img/contents/pix.png" style="background-image: url(img/contents/pix.png)"  data-title="Pix" data-desc="A musical magpie, Hannah lists everything from Aphex Twin to Joni Mitchell as influences, her off-kilter electronic folk compositions and sharp lyricism inspired by muses as wide and diverse as Dylan and Donovan, American poet e e cummings and the magic realism of Watership Down, via Stephen King novels and Art of Noise... it’s a heady concoction."  data-sc="p-i-x/a-way-to-say-goodbye">
+								<h3 class="tile__heading">Pix</h3>
+							</a>
+						
+							<a class="tile isotile music " href="#" data-img="img/contents/ragsrudi.jpg" style="background-image: url(img/contents/ragsrudi.jpg)"  data-title="Rags Rudi" data-desc="Rags Rudi – a 7 piece East London ensemble playing a head-nodding cocktail of ska, hip-hop, dub and punk. East London’s Rags Rudi is a six piece ensemble playing a head-nodding, feet-sparking cocktail of ska, hip-hop, dub and punk."  data-sc="rags-rudi/as-serious-as-your-life">
+								<h3 class="tile__heading">Rags Rudi</h3>
+							</a>
+						
+							<a class="tile isotile music " href="#" data-img="img/contents/sumochief.jpg" style="background-image: url(img/contents/sumochief.jpg)"  data-title="SumoChief" data-desc="SumoChief are a Jazz/Hip Hop collective heavily inspired by the music of artists such as J Dilla, D&#x27;Angelo, The Roots and The Robert Glasper Experiment."  data-sc="sumo_chief/01-1-of-1">
+								<h3 class="tile__heading">SumoChief</h3>
+							</a>
+						
+							<a class="tile isotile music " href="#" data-img="img/contents/thebusytwist.jpg" style="background-image: url(img/contents/thebusytwist.jpg)"  data-title="The Busy Twist" data-desc="The Busy Twist are a London based production duo creating African Inspired Bass Music. The two childhood friends Gabriel Benn (Tuesday Born) and Ollie Williams (Ollie Twist) are on a musical quest to transcend borders with their feel good and energetic vibes bridging the gap between cultures from across the world.&lt;/p&gt;&lt;p&gt;Having spent the last 3 years travelling between London and Ghana working with local musicians from around the country they have developed and crafted their unique sound embodying elements of South African house, Kuduro, 2 step and UK funky."  data-sc="thebusytwist/ldn-luanda-free-download">
+								<h3 class="tile__heading">The Busy Twist</h3>
+							</a>
+						
+							<a class="tile isotile theatre " href="#" data-img="img/contents/pecs.jpg" style="background-image: url(img/contents/pecs.jpg)"  data-title="PECS" data-desc="Ladies, Gentlemen and all those above beyond and in between- get ready for Pecs, the all-singing, all-dancing, all-female drag collective.&lt;/p&gt;&lt;p&gt;Over the past two years, these kinky Kings have charmed their way around London, delighting audiences with their binary-bending burlesque. Now they&#x27;re ready to pitch up their tents at Brainchild. With satirical sketches, drawer dropping talent and a rather debonair comperé - expect balls, brawn and a whole lot of pecs." data-link="https://fb.com/Pecs.allfemaledrag">
+								<h3 class="tile__heading">PECS</h3>
+							</a>
+						
+							<a class="tile isotile poetry " href="#" data-img="img/contents/jemimafoxtrot.jpg" style="background-image: url(img/contents/jemimafoxtrot.jpg)"  data-title="Jemima Foxtrot" data-desc="Jemima Foxtrot is a live poet who blends snippets of her favourite vocalists and original songs with semi-confessional words about sex, concrete, politics, hedonism and so much more. She is especially fascinated by rhythm and sound.&lt;/p&gt;&lt;p&gt;Originally from Hebden Bridge, West Yorkshire, she performs extensively across the country. Now London-based she cites walking as a key part of her creative process where on her journeys she has been known to trade poems for lighters, chewing gum, books of poetry, chips and even a full Indian takeaway.&lt;/p&gt;&lt;p&gt;A tiny Yorkshire lady with a singing voice that will knock you for six, Jemima was shortlisted for the Arts Foundation Spoken Word Fellowship 2015." >
+								<h3 class="tile__heading">Jemima Foxtrot</h3>
+							</a>
+						
+							<a class="tile isotile poetry " href="#" data-img="img/contents/joshuaidehen.jpg" style="background-image: url(img/contents/joshuaidehen.jpg)"  data-title="Joshua Idehen" data-desc="Joshua is a longstanding part of the Brainchild family, both making poems that have greatly inspired the team in this project&#x27;s early stages, and also as frontman to brilliant band Benin City, who headlined our 2013 festival. Something people always remark on is Josh&#x27;s energy - he is unforgettable, and his poems will stick with you - we cannot wait to have him back." >
+								<h3 class="tile__heading">Joshua Idehen</h3>
+							</a>
+						
+							<a class="tile isotile poetry " href="#" data-img="img/contents/tommysissons.jpg" style="background-image: url(img/contents/tommysissons.jpg)"  data-title="Tommy Sissons" data-desc="Tommy is a 19 year old poet from Brighton currently studying in at Goldsmiths in London. His work focuses on numerous themes that touch on the impact of politics on youth culture, urban lifestyles &amp; working class values. He is the 2014 Slambassadors Champion and 2012 and 2013 Brighton Hammer and Tongue Champion, coming 5th nationally. As well as coming to Brainchild, he has performed at venues nationwide including the Royal Albert Hall, the Roundhouse Theatre, the Southbank Centre &amp; the Birmingham Rep."  data-utube-id="AJzdW7oAEj0">
+								<h3 class="tile__heading">Tommy Sissons</h3>
+							</a>
+						
+							<a class="tile isotile poetry theatre " href="#" data-img="img/contents/ceciliaknapp.jpg" style="background-image: url(img/contents/ceciliaknapp.jpg)"  data-title="&#x27;Finding Home&#x27; by Cecilia Knapp" data-desc="Along the cycle paths, alleyways and canals of London comes a spoken word theatre coming-of-age story that maps the journey of a young girl from Brighton to the tenements of East London as a 20-something. Directed by Stef O’Driscoll (A Tale From A Bedsit, Hopelessly Devoted) Finding Home is brought to the stage through an evocative collaboration of words,visuals, vocals and instrumentals, both classical and contemporary.&lt;/p&gt;&lt;p&gt;Cecilia Knapp is a Brighton born, London based spoken word artist who has performed extensively around the UK, taken 3 shows to the Edinburgh Fringe and played at Festivals from Secret Garden Party to Bestival. She has been published in several anthologies and made work for the BBC, been played on numerous radio stations including XFM and frequently teaches creative writing in schools and with young people." >
+								<h3 class="tile__heading">&#x27;Finding Home&#x27; by Cecilia Knapp</h3>
+							</a>
+						
+							<a class="tile isotile dance " href="#" data-img="img/contents/bodyforest.jpg" style="background-image: url(img/contents/bodyforest.jpg)"  data-title="Body Forest" data-desc="How does it feel to be one of 7 billion people floating in space?&lt;/p&gt;&lt;p&gt;Six people dancing together. With the body as instrument, investigating contrasts, order, motion, restriction and unification. A contemporary dance piece created in collaboration with dancers and musician.&lt;/p&gt;&lt;p&gt;Choreographer: Clara Sjölin, Musician: Olivir Haylett, Dancers: Blanche Jandin, Sean Alexander Murray, Camilla Isola, Kitty Voget, Theo Arran and Clara Sjölin." >
+								<h3 class="tile__heading">Body Forest</h3>
+							</a>
+						
+							<a class="tile isotile poetry music " href="#" data-img="img/contents/newfunkpoets.jpg" style="background-image: url(img/contents/newfunkpoets.jpg)"  data-title="New Funk Poets" data-desc="Stunning poems, beats and stories from a powerful four piece close to our hearts: James Massiah, Andrea Phillips, Brother Portrait and Belinda Zhawi."  data-sc="theaandthee/naew-funk-poets-live-at-shoreditch-house-15th-december-2014">
+								<h3 class="tile__heading">New Funk Poets</h3>
+							</a>
+						
+							<a class="tile isotile talks workshops " href="#" data-img="img/contents/swou.jpg" style="background-image: url(img/contents/swou.jpg)"  data-title="SWOU" data-desc="Sex Worker Open University is a project created by and for sex workers with the aim to empower their community through workshops, debates, actions and art project, as well as fighting against criminalisation.​ We are really excited to have some representatives with us for the weekend to contribute to and lead discussions, particularly relating to our themes of ‘body’, ‘space’, ‘power’ and ‘change’." >
+								<h3 class="tile__heading">SWOU</h3>
+							</a>
+						
+							<a class="tile isotile talks workshops " href="#" data-img="img/contents/bristolskipchen.jpg" style="background-image: url(img/contents/bristolskipchen.jpg)"  data-title="Bristol Skipchen: The Real Junk Food Project" data-desc="Team from the Bristol Skipchen will be with us for the weekend, giving a talk about their project and addressing food waste, and hopefully bringing some food along…&lt;/p&gt;&lt;p&gt;They are a collaborative effort to create radical change in our food system. Currently we waste 15 million tons of food a year in the U.K, as malnutrition continues to rise.&lt;/p&gt;&lt;p&gt;Intercepting food that would otherwise go to waste, they serve it in the café or share it through our food boutique. As well as the clear environmental benefits of reducing edible food waste, the project aims to be as inclusive and democratic as possible. This is achieved by operating a strictly Pay-as-you-feel (PAYF) policy, providing an alternative to only financial exchanges. PAYF liberates us to use our skills and attributes, as well as money to pay for our meals, and revalue our relationships with food as well as each other." data-link="https://www.fb.com/bristolskipchen">
+								<h3 class="tile__heading">Bristol Skipchen: The Real Junk Food Project</h3>
+							</a>
+						
+							<a class="tile isotile talks workshops " href="#" data-img="img/contents/rethinkingeconomics.jpg" style="background-image: url(img/contents/rethinkingeconomics.jpg)"  data-title="Rethinking Economics" data-desc="This revolutionary network of students are leading the way in the re-telling of economics. A group of thinkers and writers engaged in demystifying, diversifying and reinvigorating economics for all. They will be bringing some brilliant discussions to Brainchild." data-link="http://www.rethinkeconomics.org/">
+								<h3 class="tile__heading">Rethinking Economics</h3>
+							</a>
+						
+							<a class="tile isotile talks film " href="#" data-img="img/contents/filmingunfilmable.jpg" style="background-image: url(img/contents/filmingunfilmable.jpg)"  data-title="Filming the Unfilmable" data-desc="In response to one of our themes for this year, &#x27;Power&#x27;, we wanted to explore what the real power of documentary film is. Our panel will consider issues surrounding access, sensitive topics, representation and how you can use documentary to &#x27;film the unfilmable&#x27;. Panelists are currently being confirmed!" >
+								<h3 class="tile__heading">Filming the Unfilmable</h3>
+							</a>
+						
+							<a class="tile isotile talks workshops " href="#" data-img="img/contents/skindeep.png" style="background-image: url(img/contents/skindeep.png)"  data-title="Skin Deep: Sound System Unplugged" data-desc="A live demonstration of how a reggae sound system actually works. Julian Henriques (sound artist and author of Sonic Bodies) in association with Skin Deep, explores how and why sound matters for art and for politics, and its significance within the black liberation movements." >
+								<h3 class="tile__heading">Skin Deep: Sound System Unplugged</h3>
+							</a>
+						
+							<a class="tile isotile workshops " href="#" data-img="img/contents/drawwithbella.jpg" style="background-image: url(img/contents/drawwithbella.jpg)"  data-title="Life Drawing with Bella" data-desc="Bella Franks is an artist who runs life drawing classes in quirky locations in London. Life drawing teaches the art of observational drawing from a live nude model &amp; Bella enjoys this practise so much she has a tendency to exclaim &amp;quot;I just love naked people!&amp;quot; &lt;/p&gt;&lt;p&gt;At Brainchild, Bella will be sharing her life drawing love in relaxed classes which are open to people of all artistic abilities, as well as to the complete beginner. The classes will be structured with the capacity for your own personal development &amp; exploration into drawing." >
+								<h3 class="tile__heading">Life Drawing with Bella</h3>
+							</a>
+						
+							<a class="tile isotile workshops " href="#" data-img="img/contents/singing.jpg" style="background-image: url(img/contents/singing.jpg)"  data-title="Singing with Lilli Unwin" data-desc="A singing workshop for everyone. The aim of this is to get everyone singing and enjoying the natural high of using their voice, whether they have never sung before or sing all the time – open to everyone, the more the merrier! Everything taught by ear, focusing on singing as a group, with possibilities to improvise or just stick to your group part! Learning some songs from across the globe – eg South African Township, Traditional American Gospel and other exciting things. Led by Hyla’s singer and Trinity Laban student Lilli Unwin." >
+								<h3 class="tile__heading">Singing with Lilli Unwin</h3>
+							</a>
+						
+							<a class="tile isotile dance workshops " href="#" data-img="img/contents/fallingwithstyle.jpg" style="background-image: url(img/contents/fallingwithstyle.jpg)"  data-title="Falling With Style" data-desc="Trained at Trinity Laban and London Contemporary Dance School, Lorea Burge, Zinah Mangera-Lakew and Hannah Parsons are contemporary dance artists who work on a variety of projects with various artists. Together, they aim to open contemporary dance up to people of all backgrounds and abilities with fun and experiential bodily tasks." >
+								<h3 class="tile__heading">Falling With Style</h3>
+							</a>
+						
+							<a class="tile isotile workshops film " href="#" data-img="img/contents/stopmotion.png" style="background-image: url(img/contents/stopmotion.png)"  data-title="Stop-Motion Animation Workshop" data-desc="Over the weekend, we will be running two stop-motion animation workshop sessions, with the endgoal of a short animated sequence made to music from Brainchild musicians, animated by people at the festival! Sessions will take place both indoor and outdoor, led by emerging filmmaker Guy Verge Wallace. We will explore puppet building, storyboarding and the technicals of animation itself. Open to all experienced animators and absolute beginners - the more varied the participants, the more exciting the film." data-link="https://vimeo.com/15313906">
+								<h3 class="tile__heading">Stop-Motion Animation Workshop</h3>
+							</a>
+						
+							<a class="tile isotile workshops " href="#" data-img="img/contents/yogasessions.jpg" style="background-image: url(img/contents/yogasessions.jpg)"  data-title="Yoga Sessions" data-desc="After so many people came to our session at the 2013 festival, we thought we’d do even more yoga this year. Taking place in the Forum on both Saturday and Sunday mornings, sessions will be led by teachers from different schools across London coming down specially to do yoga at the festival. The sessions are being devised with all people in mind, so come and join in as an absolute beginner or a regular yogi, and there will be something for you." >
+								<h3 class="tile__heading">Yoga Sessions</h3>
+							</a>
+						
+							<a class="tile isotile art " href="#" data-img="img/contents/emilymotto.jpg" style="background-image: url(img/contents/emilymotto.jpg)"  data-title="Emily Motto&#x27;s Cocoons" data-desc="Bright and innovative sculptor Emily Motto uses found materials and grid shaped objects including an entire supermarket trolley to create this fluid egg shaped cocoon. For Brainchild 2015 she will be recreating this and is planning two more to provide beautiful nest-like sculptures for us to sit and play in." data-link="http://www.independent.co.uk/arts-entertainment/art/young-brits-the-shape-of-things-to-come-9708483.html">
+								<h3 class="tile__heading">Emily Motto&#x27;s Cocoons</h3>
+							</a>
+						
+							<a class="tile isotile art " href="#" data-img="img/contents/joemelhuish.jpg" style="background-image: url(img/contents/joemelhuish.jpg)"  data-title="Joe Melhuish&#x27;s Paintings" data-desc="The designer of our logo, Joe is a fantastically driven young artist with a breadth of work from technical and intricate animation to simple and vibrant paintings. He’s on board this year during build to do some large scale paintings and bring the sides of our structures to life!" data-link="http://www.josephmelhuish.com/">
+								<h3 class="tile__heading">Joe Melhuish&#x27;s Paintings</h3>
+							</a>
+						
+							<a class="tile isotile film workshops " href="#" data-img="img/contents/eyewantchange.jpg" style="background-image: url(img/contents/eyewantchange.jpg)"  data-title="Eye Want Change" data-desc="Eye Want Change is a smartphone film competition that aims to engage a wider range of individuals in film, democratise the mainstream media and provide a platform for a range of stories and experiences. They will be hosting a workshop and screening of their films, described by Richard E. Grant as ‘utterly engaging’. The workshop will discuss social media, activism and guerrilla mobile movie making." data-link="http://www.thesmartfilmcompetition.com/">
+								<h3 class="tile__heading">Eye Want Change</h3>
+							</a>
+						
 					</div>
 				</div>
-
-				<div id="fest2012" class="lineup-image">
-					<div class="posters">
-						<img src="img/contents/bc12poster.jpg" alt="Brainchild 2012 Poster">
-					</div>
-				</div>
-			</div>
 
 		</section>
 		<section id="events">
@@ -132,6 +272,12 @@
 						<div class="tile" style="background-image: url(img/contents/bc2012launch.jpg)" data-img="img/contents/bc2012launch.jpg" data-title="Brainchild Festival 2012 Launch" data-desc="Back when Sarah, Joey and Marina were still doing Frozen Thumb gigs at Proud Galleries, we decided to combine our June night with the launch for the festival. With lava lamps and some very special performances, and some slightly dodgy compering from us on the mic, it was a smashing start for what was still largely our festival experiment.&lt;/p&gt;&lt;p&gt;Featuring music from Jamie Isaac, PALMISTRY, Cholombian, comedy and poetry by Sean Mahoney and Bridget Minamore, finished with dancing courtesy of Frozen Thumb DJs. ">
 							<a href="#">
 								<h3 class="tile__heading">Brainchild Festival 2012 Launch</h3>
+							</a>
+						</div>
+					
+						<div class="tile" style="background-image: url(img/contents/bc12poster.jpg)" data-img="img/contents/bc12poster.jpg" data-title="Brainchild Festival 2012" data-desc="&lt;img src=&#x27;img/contents/bc12.jpg&#x27; alt=&#x27;Brainchild 2012&#x27;&gt;">
+							<a href="#">
+								<h3 class="tile__heading">Brainchild Festival 2012</h3>
 							</a>
 						</div>
 					
@@ -150,6 +296,12 @@
 						<div class="tile" style="background-image: url(img/contents/mindbaby.jpg)" data-img="img/contents/mindbaby.jpg" data-title="Mindbaby" data-desc="In an effort to raise last minute funds for the festival, we were very kindly given the Amersham Arms space pro bono. During the daytime, we let the music play and the incense burn whilst exhibiting prints and artwork by Brainchild affiliated artists. By midnight the place was buzzing and full of drunken people posing for photos with painted fruit (which had begun the day as part of an installation).&lt;/p&gt;&lt;p&gt;Featuring live music from Haraket, Ben Hauke, Maxwell Owin + Jerkcurb, plus films by Whirlygig Cinema, poetry from Slam the Poet, James Massiah and Jack Rooke, plus Sophie Gordon’s will-blow-your-mind-amazing cakes and a jumble sale.">
 							<a href="#">
 								<h3 class="tile__heading">Mindbaby</h3>
+							</a>
+						</div>
+					
+						<div class="tile" style="background-image: url(img/contents/bc13front.jpg)" data-img="img/contents/bc13front.jpg" data-title="Brainchild Festival 2013" data-desc="&lt;img src=&#x27;img/contents/bc13back.jpg&#x27; alt=&#x27;Brainchild 2013 poster - back&#x27;&gt;">
+							<a href="#">
+								<h3 class="tile__heading">Brainchild Festival 2013</h3>
 							</a>
 						</div>
 					

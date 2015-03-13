@@ -14,6 +14,7 @@
 		<meta name="twitter:creator" value="@BrainchildFest" />
 		<meta property="og:description" content="Brainchild Festival is a 3-day, multi-arts festival. 10-12 July 2015" />
 		<script src="./modernizr.custom.js"></script>
+		<script src="https://w.soundcloud.com/player/api.js" type="text/javascript" async></script>
 		<link rel="stylesheet" href="./style.min.css">
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -35,7 +36,7 @@
  			<div class="splash">
 				<h1 class="logo">Brainchild</h1>
 				<p style="margin-bottom: 0;">10-12 July 2015</p>
-				<p>Bentley Country Park, East Sussex</p>
+				<p class="location">East Sussex</p>
 				<div class="site-nav-wrap">
 					<nav class="site-nav">
 						<a href="#about">About</a>//
@@ -100,29 +101,36 @@
 		</section>
 		<section id="lineup">
 			<h2>Lineup</h2>
-			<div class="tabs" id="tabs">
-				<ul class="tabs-ul">
-					<li class="tab default-tab"><a href="#fest2015">2015</a></li>
-					<li class="tab"><a href="#fest2013">2013</a></li>
-					<li class="tab"><a href="#fest2012">2012</a></li>
-				</ul>
-				<div id="fest2015" class="lineup-image">
-					<p class="big-txt">Now is the time to get in touch with ideas for the 2015 festival. Whether you're interested in performing, decorating, leading workshops or conga lines - we'd love to hear from you. Check our Get Involved section to find out more, and stay tuned to our <a href="https://fb.com/BrainchildArts">Facebook page</a> and emails for details of opportunities and lineup releases.</p>
-				</div>
+				<div id="fest2015">					
+					<ul class="filter-tabs">
+						<li> 
+							<a class="button filter is-checked" onclick="return false;" href="#" data-filter="*">All</a>
+						</li>
+						<li> 
+							<a class="button filter" onclick="return false;" href="#" data-filter=".music">Music</a>
+						</li>
+						<li> 
+							<a class="button filter" onclick="return false;" href="#" data-filter=".poetry, .theatre">Theatre &amp; Spoken Word</a>
+						</li>
+						<li> 
+							<a class="button filter" onclick="return false;" href="#" data-filter=".film">Film</a>
+						</li>
+						<li> 
+							<a class="button filter" onclick="return false;" href="#" data-filter=".talks, .workshop">Talks &amp; Workshops</a>
+						</li>
+						<li> 
+							<a class="button filter" onclick="return false;" href="#" data-filter=".art">Art</a>
+						</li>
+					</ul>
 
-				<div id="fest2013" class="lineup-image">
-					<div class="posters">
-						<img src="img/contents/bc13front.jpg" alt="Brainchild 2013 Poster">
-						<img src="img/contents/bc13back.jpg" alt="Brainchild 2013 Poster">
+					<div class="tiles lineup-tiles">
+						{{#each artists}}
+							<a class="tile isotile {{#tags}}{{this}} {{/tags}}" href="#" {{#if image}}data-img="img/contents/{{image}}" style="background-image: url(img/contents/{{image}})" {{else}} style="background-image: url(http://lorempixel.com/200/200/animals/?ver={{@index}})"{{/if}} data-title="{{name}}" data-desc="{{bio}}" {{#if link}}data-link="{{link}}"{{/if}}{{#if soundcloud}} data-sc="{{soundcloud}}"{{/if}}{{#if utube-id}} data-utube-id="{{utube-id}}"{{/if}}>
+								<h3 class="tile__heading">{{name}}</h3>
+							</a>
+						{{/each}}
 					</div>
 				</div>
-
-				<div id="fest2012" class="lineup-image">
-					<div class="posters">
-						<img src="img/contents/bc12poster.jpg" alt="Brainchild 2012 Poster">
-					</div>
-				</div>
-			</div>
 
 		</section>
 		<section id="events">

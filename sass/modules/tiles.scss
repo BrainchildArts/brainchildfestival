@@ -1,68 +1,116 @@
 .tiles {
-    @extend %unstyled-list;
-    @extend %clearfix;
-    text-align: center;
+  @extend %unstyled-list;
+  @extend %clearfix;
+  text-align: center;
 }
 
 .tile {
-    background-repeat: no-repeat;
-    background-position: center center; 
-    background-size: cover;
-    a {
-        width: 100%;
-        height: 100%;
-        display: block;        
+  -webkit-transform: translateZ(0);
+  background-repeat: no-repeat;
+  background-position: center center; 
+  background-size: cover;
+  transition: color ease .3s;
+  a {
+    width: 100%;
+    height: 100%;
+    display: block;        
+  }
+  @include max-width($phone) {
+    background-image: none !important;
+    &__heading {
+        font-size: 1.37em !important;
     }
-    transition: all ease .2s;
-    @include max-width($phone) {
-        background-image: none !important;
-        &__heading {
-            font-size: 1.37em !important;
-        }
+  }
+
+  @include min-width($phone) {
+    position: relative;
+    display: inline-block;
+    width: 167px;
+    height: 167px;
+    margin: 0 0.4em 0.4em 0;
+  }
+
+  @include min-width($tablet) {
+    width: 192px; 
+    height: 192px; 
+  }
+
+  &__heading {
+    background: $color3;
+    color: $white;
+    width: 100%;
+    padding: 0.375rem 0.25em;
+    margin-bottom: 0.375rem;
+    font-size: 1em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    @include min-width($phone) {
+        background: rgba($color3, 0.85);
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.44);
+        position: absolute;
+        bottom: 0;
+        margin-bottom: -1px;
+        white-space: nowrap; 
+    }
+  }
+}
+
+.lineup-tiles {
+margin: 0 auto;
+  .tile {
+    @include max-width(440px) {
+      background-image: none !important;
+      width: 100%;
+      &__heading {
+          font-size: 1.37em !important;
+      }
     }
     
-    @include min-width($phone) {
-        display: inline-block;
-        position: relative;
-        width: 35vw;
-        height: 35vw;
-        margin-right: 2%;
-        margin-left: 2%;
-        margin-bottom: 4%;
-        max-width: 178px;
-        max-height: 178px;
-    }
-
-    @include min-width($tablet) {
-        width: 16vw;
-        height: 16vw;
-        margin-left: 1%;
-        margin-left: 1%;
-        margin-bottom: 2%;
-        max-width: 192px; 
-        max-height: 192px; 
+    @include min-width(440px) {
+      position: relative;
+      float: left;
+      margin: 5px;
+      padding: 10px;
+      width: 150px;
+      height: 170px;
+      &:before {
+        content: " ";
+        background-color: rgba(144, 87, 39, 0.61);
+        opacity: 0.6;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        transition: .8s;
+      }
+      &:hover:before {
+        opacity: .2;
+      }
     }
 
     &__heading {
-        background: $color3;
-        color: $white;
-        width: 100%;
-        padding: 0.375rem 0.25em;
-        margin-bottom: 0.375rem;
-        font-size: 1em;
-        white-space: nowrap; 
-        overflow: hidden;
-        text-overflow: ellipsis;
-        @include min-width($phone) {
-            position: absolute;
-            bottom: 0;
-            margin-bottom: -1px;
-        }
+      color: $white;
+      width: 100%;
+      padding: 0.375rem 0.25em;
+      font-size: 1em;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: normal;
+      @include min-width(440px) {
+        font-size: 1.2em;
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+        text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.24);
+        background: none;
+      }
     }
+  }
 }
 
 .tile:hover .tile__heading, .tile:active .tile__heading {
-    color: lighten($white,10%);
-    white-space: normal;
-    transition: all ease .3s;
+  color: lighten($white,10%);
+  white-space: normal;
+  transition: all ease .3s;
 }

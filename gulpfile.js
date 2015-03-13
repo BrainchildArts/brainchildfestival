@@ -69,6 +69,7 @@ gulp.task('scripts', function() {
         .pipe(plugins.rename({
             suffix: '.min'
         }))
+        .on("error", errorAlert)
         .pipe(gulp.dest('./dist/'))
         .pipe(reload({stream: true}));
 });
@@ -101,9 +102,14 @@ gulp.task('watch', function() {
         //     gulp.start('images');
         //     logger(event);
         // });
-        gulp.watch(['src/*.hbs', 'data/*/**.{json,yml}', 'data/*.hbs', 'data/partials/*/**.md'], function() {
+        gulp.watch(['src/*.hbs', 'src/data/*.{json,yml}', 'src/data/*.hbs', 'src/partials/*.md'], function() {
             gulp.start('grunt-assemble');
         });
         gulp.watch("dist/*.html").on("change", reload);
     });
 });
+
+function errorAlert(err) {
+    console.log(err.toString());
+    this.emit("end");
+}

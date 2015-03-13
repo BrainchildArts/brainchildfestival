@@ -1,42 +1,239 @@
 ---
-  artists: 
-    - 
-      name: "Benin City"
-      image: "blank"
-      bio: "Named after a Nigerian state capital, Benin City is Theo Buckingham on drums,  Tom Leaper on tenor sax, and Joshua Idehen on rhymes. As a band, they’ve been played and championed by Jon Kennedy, Jon Hillcock, Scroobius Pip and Eddy Temple Morris (XFM) Edith Bowman and Tom Robinson (BBC6). They have gained accolades and fans for their energetic live performances, having supported Soweto Kinch, VV Brown, Moko and Youngblood Brass band. Benin City first graced the Brainchild stage at the 2013 festival."
-      soundcloud: "https://soundcloud.com/benin-city"
-    - 
-      name: "Cholombian"
-      image: "blank"
-      bio: "Soundscapes rooted in HipHop but evoking a very a different kind of reflection. To listen to Cholombian feels like time itself is slowing down, it’s easy to get lost in the world that’s created in between each reverberant drum hit. We love Cholombian so much, he played for us at both of our Festivals so far."
-      soundcloud: "https://soundcloud.com/cholombian"
-    - 
-      name: "Jamie Isaac"
-      image: "blank"
-      bio: "Jamie Isaac’s music immerses you into a world of depth and tranquility, evoking a sense of seclusion that could only really come from living in the metropolis of London. The band played for us at our Brainchild 2012 warm-up gig at Proud Galleries, and then returned to our stage at Brainchild 2013, blowing away all who were there to witness them.  We’re really excited to see them go from strength to strength in 2014."
-      soundcloud: "https://soundcloud.com/jamieisaac"
-    - 
-      name: "King Krule"
-      image: "blank"
-      bio: "Archie Marshall, better known to the world as King Krule is a phenomenal musician, artist and song-writer who we discovered through Steeze in South London. 2013 was an amazing year for Archie, starting with a nomination for the BBC Sound of 2013 and including the release of a debut album which had him performing on David Letterman’s show in the USA. We were thrilled to have King Krule headline Brainchild 2013."
-      soundcloud: "https://soundcloud.com/king-krule"
-    - 
+  artists:
+    -
+      name: "BabeHeaven"
+      image: "babeheaven.jpg"
+      bio: "BabeHeaven are an exciting new West London band formed by 3 friends in 2014. Echoing elements of Massive attack and early Cocteau Twins, they immediately grab your attention with their haunting vocals and glimmering production. Look out for gigs in May this year!"
+      soundcloud: "babeheaven/friday-sky"
+      tags:
+      - music
+    -
+      name: "Bade Records Showcase"
+      image: "baderecords.jpg"
+      bio: "Bade Records are an independent record label based in London. Founded in 2014 by James Sison, Edward Antonio, Charlie Coombes and Henry Stroud (aka Talk&Smoke), Bade Records has built a loyal following in their debut year. Showcasing a deep and melodic sound that has its roots firmly on the continent, they have developed a distinct brand of house and techno that is unique to the UK underground scene."
+      soundcloud: "bade-records"
+      tags:
+      - music
+    -
+      name: "Ben Hauke"
+      image: "benhauke.jpg"
+      bio: "Ben is a beatmaker with a skill and an ear that is totally compelling. Whether he's mixing live or jamming with someone's poem, or other instruments, it is fascinating to watch and listen for the soundscape he carves out as he transforms the airwaves around him. We are overjoyed he'll be with us for the festival, bringing his wizard mastery of the MPC and unique composing style to the mix for the weekend."
+      soundcloud: "bjamin/ben-hauke-mini-mix-wari-ep"
+      tags:
+      - music
+    -
+      name: "Chelou"
+      image: "chelou.jpg"
+      bio: "From the first few seconds of hearing Chelou's EP 'The Quiet', you know that something special is happening. His music is atmospheric, skilful and full of soul. The infusion of electronics and acoustics reflect his unique pool of influences, ranging from PJ Harvey to Nirvana and Brian Jonestown and a host of electronic music. We can't wait for him to be part of the festival."
+      soundcloud: "chelouofficial/the-quiet-preview"
+      tags:
+      - music
+    -
+      name: "Hector Plimmer"
+      image: "hectorplimmer.jpg"
+      bio: "Hector has astounding talent as a DJ and producer, playing shows both under his own name and together with Wu-Lu to make up their formidable duo Monster Playground. He is a winner of the Steve Reid x PRS InNOVation Award and has recently been featured in Gilles Peterson's Brownswood Bubblers. It will be an absolute pleasure to have him with us on the decks at the festival, and in the meantime, you can catch his monthly show '92 Points' on NTS Radio."
+      soundcloud: 'hectorplimmer'
+      tags:
+      - music
+    -
+      name: "Hester"
+      image: "hester.jpg"
+      bio: "Hester are a 6 piece band hailing from London. Forming in the Autumn of 2013, they are fresh out of the studio where they’ve been recording their debut EP. Their sound has been described as ‘space jazz’, ‘nu-soul’ and ‘funk punk’, and their span of influences is just as vast and peculiar; amongst many others, they list Fela Kuti, Eels, Gil Scott Heron, Tom Waits and Erykah Badu. They are a band that has developed largely through playing live, and are capable of bringing a huge amount of energy both on stage and to their audience.</p><p>Although they are very much part of the Brainchild family, this will be their first time playing the festival, and we cannot wait for them to have everybody dancing."
+      soundcloud: "hesterdemos"
+      tags:
+      - music
+    -
+      name: "Loyle Carner"
+      image: "loylecarner.jpg"
+      bio: "South London emcee Loyle Carner, alongside producer and live partner Rebel Kleff, are Britain’s most recent new hope in hip hop. These two create reminiscent old school hip hop with their own UK and modern influences, with debut EP ‘A Little Late’ causing quite a stir on the airwaves. Touring with the likes of Joey Bada$$ and Atmosphere, Loyle is an exciting young rapper making serious moves on the UK circuit."
+      soundcloud: "loyle-carner"
+      tags:
+      - music
+    -
       name: "Mokadem"
-      image: "blank"
-      bio: "Mokadem (aka London-born Louisa Mokadem) is an electronic musician, producer and DJ. Hailing from Hounslow and with Algerian descent, her music draws on influences from Africa and the Middle East built on a foundation of UK House and Future Garage beats."
-      soundcloud: "https://soundcloud.com/port-isla"
+      image: "mokadem.jpg"
+      bio: "Mokadem (aka London-born Louisa Mokadem) is an electronic musician, producer and DJ. Hailing from Hounslow and with Algerian descent, her music draws on influences from Africa and the Middle East built on a foundation of UK House and Future Garage beats. She had the whole festival dancing at her set closing the Main Stage at Braichild 2013, it was a terrific moment that we can't wait to manifest again."
+      soundcloud: "mokadem/pretend-ur-mine-1"
+      tags:
+      - music
+    -
+      name: "Myriad Forest"
+      image: "myriadforest.jpg"
+      bio: "In our eyes, Myriad Forest is a bit of a super-group, with roots in both Psylus and United Vibrations. They have a musical force that will transport you into another world, with drums, bass, sax and electronics reaching untold strengths together."
+      soundcloud: "myriadforest"
+      tags:
+      - music
+    -
+      name: "Nerija"
+      image: "nerija.jpg"
+      bio: "Nérija (pronounced ‘Ne-ree-ya’) began from a Tomorrow’s Warriors initiative which premised that many girls often start playing jazz at the same time as their male counterparts, but often do not develop at the same rate. The Warriors have therefore begun separate development sessions for young women with the aim of creating a space for them in which they do not feel intimidated by counterproductive competitiveness, or feel discouraged by perceiving jazz as a uniquely masculine art form. Nérija embodies this initiative.</p><p>However, Nérija has also begun to embody something more, represented by the choosing of their name, taken from the Hebrew name ‘Nerijah’, which means ‘lamp (or light) of God’. The focus on the concept of a light with divine power may be the common desire that binds the group beyond the confines of the warriors:</p><p>&quot;It is the search for individual strength in the face of external expectations, a strength which shows itself not in competitiveness, desire for approval, or to prove that women can play well, but in the ability to discover and remain who we are, being honest with ourselves and others when to do so is incredibly hard.</p><p>Our music is a reflection of this, our friendship, and the continual search for ‘Nérija’&quot;."
+      soundcloud: "nerijamusic/redamancy"
+      tags:
+      - music
+    -
+      name: "Pix"
+      image: "pix.png"
+      bio: "A musical magpie, Hannah lists everything from Aphex Twin to Joni Mitchell as influences, her off-kilter electronic folk compositions and sharp lyricism inspired by muses as wide and diverse as Dylan and Donovan, American poet e e cummings and the magic realism of Watership Down, via Stephen King novels and Art of Noise... it’s a heady concoction."
+      soundcloud: "p-i-x/a-way-to-say-goodbye"
+      tags:
+      - music
+    -
+      name: "Rags Rudi"
+      image: "ragsrudi.jpg"
+      bio: "Rags Rudi – a 7 piece East London ensemble playing a head-nodding cocktail of ska, hip-hop, dub and punk. East London’s Rags Rudi is a six piece ensemble playing a head-nodding, feet-sparking cocktail of ska, hip-hop, dub and punk."
+      soundcloud: "rags-rudi/as-serious-as-your-life"
+      tags:
+      - music
+    -
+      name: "SumoChief"
+      image: "sumochief.jpg"
+      bio: "SumoChief are a Jazz/Hip Hop collective heavily inspired by the music of artists such as J Dilla, D'Angelo, The Roots and The Robert Glasper Experiment."
+      soundcloud: "sumo_chief/01-1-of-1"
+      tags:
+      - music
+    -
+      name: "The Busy Twist"
+      image: "thebusytwist.jpg"
+      bio: "The Busy Twist are a London based production duo creating African Inspired Bass Music. The two childhood friends Gabriel Benn (Tuesday Born) and Ollie Williams (Ollie Twist) are on a musical quest to transcend borders with their feel good and energetic vibes bridging the gap between cultures from across the world.</p><p>Having spent the last 3 years travelling between London and Ghana working with local musicians from around the country they have developed and crafted their unique sound embodying elements of South African house, Kuduro, 2 step and UK funky."
+      soundcloud: "thebusytwist/ldn-luanda-free-download"
+      tags:
+      - music
+    -
+      name: "PECS"
+      image: "pecs.jpg"
+      bio: "Ladies, Gentlemen and all those above beyond and in between- get ready for Pecs, the all-singing, all-dancing, all-female drag collective.</p><p>Over the past two years, these kinky Kings have charmed their way around London, delighting audiences with their binary-bending burlesque. Now they're ready to pitch up their tents at Brainchild. With satirical sketches, drawer dropping talent and a rather debonair comperé - expect balls, brawn and a whole lot of pecs."
+      link: "https://fb.com/Pecs.allfemaledrag"
+      tags:
+      - theatre
+    -
+      name: "Jemima Foxtrot"
+      image: "jemimafoxtrot.jpg"
+      bio: "Jemima Foxtrot is a live poet who blends snippets of her favourite vocalists and original songs with semi-confessional words about sex, concrete, politics, hedonism and so much more. She is especially fascinated by rhythm and sound.</p><p>Originally from Hebden Bridge, West Yorkshire, she performs extensively across the country. Now London-based she cites walking as a key part of her creative process where on her journeys she has been known to trade poems for lighters, chewing gum, books of poetry, chips and even a full Indian takeaway.</p><p>A tiny Yorkshire lady with a singing voice that will knock you for six, Jemima was shortlisted for the Arts Foundation Spoken Word Fellowship 2015."
+      tags:
+      - poetry
+    -
+      name: "Joshua Idehen"
+      image: "joshuaidehen.jpg"
+      bio: "Joshua is a longstanding part of the Brainchild family, both making poems that have greatly inspired the team in this project's early stages, and also as frontman to brilliant band Benin City, who headlined our 2013 festival. Something people always remark on is Josh's energy - he is unforgettable, and his poems will stick with you - we cannot wait to have him back."
+      tags:
+      - poetry
+    -
+      name: "Tommy Sissons"
+      image: "tommysissons.jpg"
+      bio: "Tommy is a 19 year old poet from Brighton currently studying in at Goldsmiths in London. His work focuses on numerous themes that touch on the impact of politics on youth culture, urban lifestyles & working class values. He is the 2014 Slambassadors Champion and 2012 and 2013 Brighton Hammer and Tongue Champion, coming 5th nationally. As well as coming to Brainchild, he has performed at venues nationwide including the Royal Albert Hall, the Roundhouse Theatre, the Southbank Centre & the Birmingham Rep."
+      utube-id: "AJzdW7oAEj0"
+      tags:
+      - poetry
     - 
-      name: "My Panda Shall Fly"
-      image: "blank"
-      bio: "My Panda Shall Fly aka Suren Seneviratne creates Dub/Electronic beats, glitchy, internetty artworks and also photographs. He has performed his own set and DJ’d extensive garage and grime sets for us at various Brainchild events."
-      soundcloud: "https://soundcloud.com/port-isla"
+      name: "'Finding Home' by Cecilia Knapp"
+      image: "ceciliaknapp.jpg"
+      bio: "Along the cycle paths, alleyways and canals of London comes a spoken word theatre coming-of-age story that maps the journey of a young girl from Brighton to the tenements of East London as a 20-something. Directed by Stef O’Driscoll (A Tale From A Bedsit, Hopelessly Devoted) Finding Home is brought to the stage through an evocative collaboration of words,visuals, vocals and instrumentals, both classical and contemporary.</p><p>Cecilia Knapp is a Brighton born, London based spoken word artist who has performed extensively around the UK, taken 3 shows to the Edinburgh Fringe and played at Festivals from Secret Garden Party to Bestival. She has been published in several anthologies and made work for the BBC, been played on numerous radio stations including XFM and frequently teaches creative writing in schools and with young people."
+      tags:
+      - poetry
+      - theatre
     - 
-      name: "Tuesday Born"
-      image: "blank"
-      bio: "Having adopted his name from Ghanaian tradition of naming after spending 6 months in Ghana, West Africa, 21 year-old Gabriel Benn aka Tuesday Born (also one half of the production duo The Busy Twist) draws as much influence from African music as he does from modern production. Tuesday Born is also the latest addition to the AD stable. As a jazz-based pianist, a producer and a vocalist; Tuesday Born creates a cocktail of african influenced soulful electronica taking a diverse and unique approach to the ever growing London electronic landscape."
-      soundcloud: "https://soundcloud.com/tuesdayborn"
+      name: "Body Forest"
+      image: "bodyforest.jpg"
+      bio: "How does it feel to be one of 7 billion people floating in space?</p><p>Six people dancing together. With the body as instrument, investigating contrasts, order, motion, restriction and unification. A contemporary dance piece created in collaboration with dancers and musician.</p><p>Choreographer: Clara Sjölin, Musician: Olivir Haylett, Dancers: Blanche Jandin, Sean Alexander Murray, Camilla Isola, Kitty Voget, Theo Arran and Clara Sjölin."
+      tags:
+      - dance
     - 
-      name: "United Vibrations"
-      image: "blank"
-      bio: "United Vibrations have arrived. Born from Inner Space, we are on a journey of cosmic proportions. Music is our vessel. A sound forged from diversity. We are united in voice and rhythm. Our sound is Cyclic. Any linear perceptions of 'genre' or 'style' do it no justice. For pragmatic reasons, we call it 12Tone. Our current location is London, England. It is here that we have been inspired by the beats and harmonies of the world. We are the product of a cultural fusion, which knows no boundaries - only possibilities. Echoes of our ancestors can be heard if you listen closely. We are the continuation of an aural tradition, which goes way back beyond recorded history. "
-      soundcloud: "https://soundcloud.com/united-vibrations"
+      name: "New Funk Poets"
+      image: "newfunkpoets.jpg"
+      bio: "Stunning poems, beats and stories from a powerful four piece close to our hearts: James Massiah, Andrea Phillips, Brother Portrait and Belinda Zhawi."
+      soundcloud: "theaandthee/naew-funk-poets-live-at-shoreditch-house-15th-december-2014"
+      tags:
+      - poetry
+      - music
+    - 
+      name: "SWOU"
+      image: "swou.jpg"
+      bio: "Sex Worker Open University is a project created by and for sex workers with the aim to empower their community through workshops, debates, actions and art project, as well as fighting against criminalisation.​ We are really excited to have some representatives with us for the weekend to contribute to and lead discussions, particularly relating to our themes of ‘body’, ‘space’, ‘power’ and ‘change’."
+      tags:
+      - talks
+      - workshops
+    - 
+      name: "Bristol Skipchen: The Real Junk Food Project"
+      image: "bristolskipchen.jpg"
+      bio: "Team from the Bristol Skipchen will be with us for the weekend, giving a talk about their project and addressing food waste, and hopefully bringing some food along…</p><p>They are a collaborative effort to create radical change in our food system. Currently we waste 15 million tons of food a year in the U.K, as malnutrition continues to rise.</p><p>Intercepting food that would otherwise go to waste, they serve it in the café or share it through our food boutique. As well as the clear environmental benefits of reducing edible food waste, the project aims to be as inclusive and democratic as possible. This is achieved by operating a strictly Pay-as-you-feel (PAYF) policy, providing an alternative to only financial exchanges. PAYF liberates us to use our skills and attributes, as well as money to pay for our meals, and revalue our relationships with food as well as each other."
+      link: "https://www.fb.com/bristolskipchen"
+      tags:
+      - talks
+      - workshops
+    - 
+      name: "Rethinking Economics"
+      image: "rethinkingeconomics.jpg"
+      bio: "This revolutionary network of students are leading the way in the re-telling of economics. A group of thinkers and writers engaged in demystifying, diversifying and reinvigorating economics for all. They will be bringing some brilliant discussions to Brainchild."
+      link: "http://www.rethinkeconomics.org/"
+      tags:
+      - talks
+      - workshops
+    - 
+      name: "Filming the Unfilmable"
+      image: "filmingunfilmable.jpg"
+      bio: "In response to one of our themes for this year, 'Power', we wanted to explore what the real power of documentary film is. Our panel will consider issues surrounding access, sensitive topics, representation and how you can use documentary to 'film the unfilmable'. Panelists are currently being confirmed!"
+      tags:
+      - talks
+      - film
+    - 
+      name: "Skin Deep: Sound System Unplugged"
+      image: "skindeep.png"
+      bio: "A live demonstration of how a reggae sound system actually works. Julian Henriques (sound artist and author of Sonic Bodies) in association with Skin Deep, explores how and why sound matters for art and for politics, and its significance within the black liberation movements."
+      tags:
+      - talks
+      - workshops
+    - 
+      name: "Life Drawing with Bella"
+      image: "drawwithbella.jpg"
+      bio: "Bella Franks is an artist who runs life drawing classes in quirky locations in London. Life drawing teaches the art of observational drawing from a live nude model & Bella enjoys this practise so much she has a tendency to exclaim &quot;I just love naked people!&quot; </p><p>At Brainchild, Bella will be sharing her life drawing love in relaxed classes which are open to people of all artistic abilities, as well as to the complete beginner. The classes will be structured with the capacity for your own personal development & exploration into drawing."
+      tags:
+      - workshops
+    - 
+      name: "Singing with Lilli Unwin"
+      image: "singing.jpg"
+      bio: "A singing workshop for everyone. The aim of this is to get everyone singing and enjoying the natural high of using their voice, whether they have never sung before or sing all the time – open to everyone, the more the merrier! Everything taught by ear, focusing on singing as a group, with possibilities to improvise or just stick to your group part! Learning some songs from across the globe – eg South African Township, Traditional American Gospel and other exciting things. Led by Hyla’s singer and Trinity Laban student Lilli Unwin."
+      tags:
+      - workshops
+    - 
+      name: "Falling With Style"
+      image: "fallingwithstyle.jpg"
+      bio: "Trained at Trinity Laban and London Contemporary Dance School, Lorea Burge, Zinah Mangera-Lakew and Hannah Parsons are contemporary dance artists who work on a variety of projects with various artists. Together, they aim to open contemporary dance up to people of all backgrounds and abilities with fun and experiential bodily tasks."
+      tags:
+      - dance
+      - workshops
+    - 
+      name: "Stop-Motion Animation Workshop"
+      image: "stopmotion.png"
+      bio: "Over the weekend, we will be running two stop-motion animation workshop sessions, with the endgoal of a short animated sequence made to music from Brainchild musicians, animated by people at the festival! Sessions will take place both indoor and outdoor, led by emerging filmmaker Guy Verge Wallace. We will explore puppet building, storyboarding and the technicals of animation itself. Open to all experienced animators and absolute beginners - the more varied the participants, the more exciting the film."
+      link: "https://vimeo.com/15313906"
+      tags:
+      - workshops
+      - film
+    - 
+      name: "Yoga Sessions"
+      image: "yogasessions.jpg"
+      bio: "After so many people came to our session at the 2013 festival, we thought we’d do even more yoga this year. Taking place in the Forum on both Saturday and Sunday mornings, sessions will be led by teachers from different schools across London coming down specially to do yoga at the festival. The sessions are being devised with all people in mind, so come and join in as an absolute beginner or a regular yogi, and there will be something for you."
+      tags:
+      - workshops
+    - 
+      name: "Emily Motto's Cocoons"
+      image: "emilymotto.jpg"
+      bio: "Bright and innovative sculptor Emily Motto uses found materials and grid shaped objects including an entire supermarket trolley to create this fluid egg shaped cocoon. For Brainchild 2015 she will be recreating this and is planning two more to provide beautiful nest-like sculptures for us to sit and play in."
+      link: "http://www.independent.co.uk/arts-entertainment/art/young-brits-the-shape-of-things-to-come-9708483.html"
+      tags:
+      - art
+    - 
+      name: "Joe Melhuish's Paintings"
+      image: "joemelhuish.jpg"
+      bio: "The designer of our logo, Joe is a fantastically driven young artist with a breadth of work from technical and intricate animation to simple and vibrant paintings. He’s on board this year during build to do some large scale paintings and bring the sides of our structures to life!"
+      link: "http://www.josephmelhuish.com/"
+      tags:
+      - art
+    - 
+      name: "Eye Want Change"
+      image: "eyewantchange.jpg"
+      bio: "Eye Want Change is a smartphone film competition that aims to engage a wider range of individuals in film, democratise the mainstream media and provide a platform for a range of stories and experiences. They will be hosting a workshop and screening of their films, described by Richard E. Grant as ‘utterly engaging’. The workshop will discuss social media, activism and guerrilla mobile movie making."
+      link: "http://www.thesmartfilmcompetition.com/"
+      tags:
+      - film
+      - workshops
