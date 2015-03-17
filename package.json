@@ -8,7 +8,6 @@
     "event-stream": "*",
     "grunt": "^0.4.5",
     "gulp": "^3.8.10",
-    "gulp-assemble": "git://github.com/assemble/gulp-assemble",
     "gulp-autoprefixer": "*",
     "gulp-base64": "*",
     "gulp-cache": "*",
