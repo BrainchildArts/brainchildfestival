@@ -364,7 +364,7 @@ img {
   max-width: 100%;
   border: 0; }
   img::-moz-selection {
-  background: transparent; }
+    background: transparent; }
   img::selection {
     background: transparent; }
   img::-moz-selection {
@@ -451,6 +451,9 @@ section {
   margin-top: 1.5em; }
 
 section.tickets {
+  text-align: center; }
+
+#lineup p {
   text-align: center; }
 
 html.single-section, html.single-section > body {
