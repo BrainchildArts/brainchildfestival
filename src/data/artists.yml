@@ -66,8 +66,7 @@
     -
       name: "Nerija"
       image: "nerija.jpg"
-      bio: "Nérija (pronounced ‘Ne-ree-ya’) began from a Tomorrow’s Warriors initiative which premised that many girls often start playing jazz at the same time as their male counterparts, but often do not develop at the same rate. The Warriors have therefore begun separate development sessions for young women with the aim of creating a space for them in which they do not feel intimidated by counterproductive competitiveness, or feel discouraged by perceiving jazz as a uniquely masculine art form. Nérija embodies this initiative.</p><p>However, Nérija has also begun to embody something more, represented by the choosing of their name, taken from the Hebrew name ‘Nerijah’, which means ‘lamp (or light) of God’. The focus on the concept of a light with divine power may be the common desire that binds the group beyond the confines of the warriors:</p><p>&quot;It is the search for individual strength in the face of external expectations, a strength which shows itself not in competitiveness, desire for approval, or to prove that women can play well, but in the ability to discover and remain who we are, being honest with ourselves and others when to do so is incredibly hard.</p><p>Our music is a reflection of this, our friendship, and the continual search for ‘Nérija’&quot;."
-      soundcloud: "nerijamusic/redamancy"
+      bio: "Nérija (pronounced ‘Ne-ree-ya’) began from a Tomorrow’s Warriors initiative which premised that many girls often start playing jazz at the same time as their male counterparts, but often do not develop at the same rate. The Warriors have therefore begun separate development sessions for young women with the aim of creating a space for them in which they do not feel intimidated by counterproductive competitiveness, or feel discouraged by perceiving jazz as a uniquely masculine art form. Nérija embodies this initiative.</p><p>However, Nérija has also begun to embody something more, represented by the choosing of their name, taken from the Hebrew name ‘Nerijah’, which means ‘lamp (or light) of God’. The focus on the concept of a light with divine power may be the common desire that binds the group beyond the confines of the warriors:</p><p>&quot;It is the search for individual strength in the face of external expectations, a strength which shows itself not in competitiveness, desire for approval, or to prove that women can play well, but in the ability to discover and remain who we are, being honest with ourselves and others when to do so is incredibly hard.</p><p>Our music is a reflection of this, our friendship, and the continual search for ‘Nérija’&quot;."      soundcloud: "nerijamusic/redamancy"
       tags:
       - music
     -
@@ -237,3 +236,60 @@
       tags:
       - film
       - workshops
+    - 
+      name: "Alex Burey"
+      image: "alexburey.jpg"
+      bio: "Alex Burey is a 19-year-old producer, songwriter, singer and multi-instrumentalist from South London. His unique musical background has led to an expressive, enthralling and extraordinary style that reshapes the music of countless leftfield influences - from Aphex Twin to Shuggie Otis and Pink Floyd to Outkast - and shades it with stories from the fringes of London life."
+      soundcloud: "alexburey"
+      tags:
+      - music
+    - 
+      name: "Catching Flies"
+      image: "catchingflies.jpg"
+      bio: "When he's not collecting glowworms and growing rare fruits, Catching Flies somehow finds the time to make music. Music that pleasures your ears a bass heavy yet melodic mesh of broody electronics and intricate rhythms, containing shades of everything from hip-hop to house, from soul to jazz.</p><p>In late 2012, the 22 year-old decided to self-release his first EP, 'The Stars', and it was a decision that paid off, with full support coming in widespread across the blogosphere. Since then, he has supported Bonobo on his European Tour, hit the number one spot on the Hype Machine Chart and gained continuing support from the likes of Gilles Peterson and Annie Mac as well as becoming a firm favourite of YouTube channels Majestic Casual and SuicideSheep.</p><p>We are so excited for his sundown set at the festival!"
+      soundcloud: "catchingfliesmusic"
+      tags:
+      - music
+    - 
+      name: "Pedaler"
+      image: "pedaler.jpg"
+      bio: "When Alec is not winning national championships as a cyclist, he takes his time to spinning decks. He always has the floor going with his mixes, spanning Bass/House/Garage/Techno/Grime/Disco/Funk/Soul."
+      soundcloud: "alecbriggs"
+      tags:
+      - music
+    - 
+      name: "James Massiah"
+      image: "jamesmassiah.jpg"
+      bio: "The indefatigable James Massiah will be with us telling poems, DJing, discussing and dancing all weekend. He's a true inspiration and we are so happy to have him as part of the family."
+      soundcloud: "jamesmassiah"
+      tags:
+      - music
+      - poetry
+    - 
+      name: "Wayward"
+      image: "wayward.jpg"
+      bio: "Wayward are duo Lawrence Gale Hayes and Louis Greenwood, Their EP ‘Ugetsu’ is out now on Black Butter Records, a collection of 6 tracks showcasing their intoxicating Balearic and soulful rhythms – sounds that inform Waywards’ already distinctive approach to dance music, producing arresting house tracks."
+      soundcloud: "waywarduk"
+      tags:
+      - music
+    - 
+      name: "Wisdom Teeth Records"
+      image: "wisdomteeth.jpg"
+      bio: "Young, Leeds based record label Wisdom Teeth will be giving us a showcase at the festival, headed up by co-founders Josiah Gladwell (K-Lone) and Oscar Henson (Facta)."
+      soundcloud: "wisdomteeth-uk"
+      tags:
+      - music
+    - 
+      name: "HYLA"
+      image: "hyla.jpg"
+      bio: "HYLA was born out of the thriving south east London scene. Since 2014 HYLA have been creating waves across London and further afield with their intergalactic soul sound. Their debut release ‘You and I’ has been described as “one of this years most impressively ambitious debut tracks”. (Crack in the road, 2014.) Recent gigs include headlining Hoxton bar and kitchen and Rotterdam’s ‘A Festival Downtown’. HYLA are currently in the studio working on their debut EP."
+      soundcloud: "hylaband"
+      tags:
+      - music
+    - 
+      name: "Jacob Allen"
+      image: "jacoballen.jpg"
+      bio: "Jacob Allen, age 20, is a singer/songwriter from South London with his debut EP dropping Autumn 2015. He cites Jeff Buckley, D'Angelo, Radiohead, Billie Holiday, Erykah Badu, Mac Demarco, Bon Iver, Rachmaninov & The Jimi Hendrix Experience as major influences."
+      soundcloud: "jacoballenmusic"
+      tags:
+      - music
