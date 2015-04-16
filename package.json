@@ -16,7 +16,6 @@
     "gulp-grunt": "^0.5.2",
     "gulp-imagemin": "*",
     "gulp-jshint": "*",
-    "gulp-livereload": "*",
     "gulp-load-plugins": "*",
     "gulp-rename": "*",
     "gulp-sass": "*",
