@@ -15,9 +15,13 @@ html, body {
 a {
     @include link-colors($color3, $color3, $color3, $color3);
     background: transparent;
-    outline: none;
+    outline: 0;
     text-decoration: none;
     transition: color .2s ease;
+}
+
+a:focus {
+    outline: 0;
 }
 
 ::-moz-selection {
@@ -86,13 +90,13 @@ section {
     &:nth-child(odd) {
         background-color: $color2;
         color: $black;
-        background-position: left;
+        background-position: top;
         h2 {
             color: $black; 
         }
     }
     background-color: $color1;
-    background-position: right;
+    background-position: top;
     color: $black;
     &:after {
         background-image: url(../img/background/divider1.png);

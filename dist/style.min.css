@@ -339,7 +339,7 @@ html, body {
 a {
   color: #2D4363;
   background: transparent;
-  outline: none;
+  outline: 0;
   text-decoration: none;
   -webkit-transition: color .2s ease;
           transition: color .2s ease; }
@@ -349,6 +349,9 @@ a {
     color: #2D4363; }
   a:active {
     color: #2D4363; }
+
+a:focus {
+  outline: 0; }
 
 ::-moz-selection {
   background: #2D4363;
@@ -377,7 +380,7 @@ section {
   background-image: url(../img/background/shape-1.svg);
   background-size: 85%;
   background-color: #FEEFDA;
-  background-position: right;
+  background-position: top;
   color: #272822; }
   @media only screen and (min-width: 60rem) {
     section {
@@ -397,7 +400,7 @@ section {
   section:nth-child(odd) {
     background-color: #D5DBE7;
     color: #272822;
-    background-position: left; }
+    background-position: top; }
     section:nth-child(odd) h2 {
       color: #272822; }
   section:after {

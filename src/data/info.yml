@@ -1,8 +1,7 @@
 ---
 - 
-  title: "volunteering"
-  image: "volunteering.jpg"
-  desc: 
+  question: "Can I volunteer?"
+  answer: 
     Want to get involved and join the team of beautiful Volunteers that make Brainchild possible?
     Volunteering at Brainchild festival will mainly be a stewarding role. For example helping to set up the festival site, attending the car park, litter picking or bar work. They may also be other opportunities during set up to help construct in a more creative manner.
     The volunteer system works with a ticket bond, you help out with two 3 hour shifts and one 4 hour shift and then get half of your ticket cost back at the end of the festival.Some shift patterns will start on the Thursday to help set up, if you choose to do this you get an extra day on site and then more time to enjoy your weekend. Likewise, some will end on the Monday, meaning you work less over the course of the weekend.
@@ -13,11 +12,10 @@
     So don't hesitate to buy your volunteer ticket and jump on board. We would love for you to join the crew and make Brainchild 2015 truly spectacular.
     If you have any questions please email **tomo@brainchildfestival.co.uk**
 -
-  title: "location"
-  image: "location"
-  desc: 
+  question: "Where is the festival going to be?"
+  answer: 
     We have a lovely country park near Lewes called Bentley Wildfowl and Motor museum.
 
-    There is a model railway to take you on a tour.
+    There *is* a model railway to take you on a tour round the site!
 
 

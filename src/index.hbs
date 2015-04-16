@@ -160,12 +160,15 @@
 		</section>
 		<section id="info">
 			<h2>Info</h2>
-			<div class="tiles">
+			<div class="expandable">
 			{{#each info}}
-				<div class="tile" style="background-image: url(img/contents/alexburey.jpg)" data-img="img/contents/alexburey.jpg" data-title="{{title}}" data-desc="{{desc}}">
-					<a href="#">
-						<h3 class="tile__heading">{{title}}</h3>
+				<div class="faq__item">
+					<a href="#" class="question">
+						<h3>{{question}}</h3>
 					</a>
+					<div class="reveal" style="display:none;">
+						{{#markdown}}{{answer}}{{/markdown}}
+					</div>
 				</div>
 			{{/each}}
 			</div>

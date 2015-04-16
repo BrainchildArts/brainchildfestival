@@ -152,14 +152,9 @@ $("#lineup .tile").click(function(e) {
 });
 
 
-$("#info .tile").click(function(e) {
-    var tile = $(this),
-        name = tile.data("title"),
-        img = tile.data("img"),
-        desc = tile.data("desc");
+$(".faq__item .question").click(function(e) {
     e.preventDefault();
-    $("html").addClass("hide-overflow");
-    $("body").append("<div class='overlay-wrap'><a href='#' class='overlay__close'>Close</a><div class='overlay'><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div></div>");
+    $(this).next('.reveal').slideToggle(400);
 });
 
 $("body").on("click", ".overlay__close", function(e) {
