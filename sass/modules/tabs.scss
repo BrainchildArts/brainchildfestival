@@ -62,9 +62,12 @@
   }
 }
 
-.about-tabs {
+ul.about-tabs {
 	margin-bottom: 2.5em;
-	font-size: 1.3em;
+	font-size: 0.9em;
+  li {
+    display: inline-block;
+  }
 }
 
 .filter-tabs {

@@ -19967,6 +19967,10 @@ $(document).ready(function() {
     });
 });
 
+$( 'li .tab' ).click(function( e ) {
+  e.preventDefault();
+});
+
 $(document).ready(function() {
   // init Isotope
   var $container = $('.lineup-tiles');
@@ -20046,17 +20050,6 @@ $(function() {
     });
 });
 
-$( 'li .tab' ).click(function( e ) {
-  e.preventDefault();
-});
-
-/* sticky nav
-$(document).ready(function() {
-    $('.site-nav-wrap').waypoint(function() {
-        $(".site-nav").toggleClass("site-nav--stuck");
-    });
-});*/
-
 $(document).ready(function() {
     $('#about').waypoint(function() {
         $(".billboard").toggle();
@@ -20111,9 +20104,10 @@ $("#lineup .tile").click(function(e) {
 });
 
 
-$(".faq__item .question").click(function(e) {
+$(".reveal-button").click(function(e) {
     e.preventDefault();
-    $(this).next('.reveal').slideToggle(400);
+    $(this).next('.reveal').slideToggle(330);
+    $(this).toggleClass('active');
 });
 
 $("body").on("click", ".overlay__close", function(e) {

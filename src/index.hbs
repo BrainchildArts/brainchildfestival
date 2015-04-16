@@ -40,9 +40,10 @@
 					<nav class="site-nav--stuck site-nav">
 						<a href="#about">About</a>//
 						<a href="#lineup">Lineup</a>//
+						<a href="#info">Info</a>//
+						<a href="#gallery">Gallery</a>//
 						<a href="#events">Events</a>//
 						<a href="#friends">Friends</a>//
-						<a href="#gallery">Gallery</a>//
             <a href="#tickets">Tickets</a>//
 						<a href="#getinvolved">Get Involved</a>
 					</nav>
@@ -50,18 +51,17 @@
 			</div>
 		</header>
 		<section id="about" class="inner-wrap">
-			{{#markdown}}{{info.volunteering.desc}}{{/markdown}}
-			<div class="tabs" id="tabs">
+			<div class="tabs" id="tabs tab-collapsible-container">
 				<ul class="tabs-ul about-tabs">
-					<li class="tab" id="default-tab"><a href="#story">Story</a></li>
+					<li class="tab"><a href="#story">Story</a></li>
 					<li class="tab default-tab"><a href="#manifesto">Manifesto</a></li>
 					<li class="tab"><a href="#team">Team</a></li>
 				</ul>
-
 				<div id="manifesto">
-						<p class="big-txt">Welcome to Brainchild, our weekend festival with collaboration and experimentation at its heart. We are dedicated to sharing ideas and developing creativity, with a love of art and thinking from all disciplines. We want to bring your ideas and stories to life within the boundless and imaginative space of our festival.</p>
-
-					<div class="columns">
+					<p class="big-txt">Welcome to Brainchild, our weekend festival with collaboration and experimentation at its heart. We are dedicated to sharing ideas and developing creativity, with a love of art and thinking from all disciplines. We want to bring your ideas and stories to life within the boundless and imaginative space of our festival.</p>
+					<a href="#" class="center reveal-button">Read more...</a>
+						
+					<div class="reveal columns" style="display: none;">
 						<p>We started this with a belief that an enormous amount of good can come out of a weekend full of performing arts, talking, dancing and meeting new friends.</p>
 
 						<p>Run entirely by volunteers, everybody mucks in dedicating long, hard hours to build an intimate community space including four stages, installations, camping area and bar, all beautifully decorated by resident artists.</p>
@@ -134,36 +134,12 @@
 				</div>
 
 		</section>
-		<section id="events">
-			<h2>Events</h2>
-				<div class="tiles">
-					{{#each events}}
-						<div class="tile" style="background-image: url(img/contents/{{image}})" data-img="img/contents/{{image}}" data-title="{{title}}" data-desc="{{desc}}">
-							<a href="#">
-								<h3 class="tile__heading">{{title}}</h3>
-							</a>
-						</div>
-					{{/each}}
-				</div> 
-		</section>
-		<section id="friends">
-			<h2>Friends</h2>
-			<div class="tiles">
-			{{#each friends}}
-				<div class="tile" style="background-image: url(img/contents/{{image}})" data-img="img/contents/{{image}}" data-title="{{title}}" data-desc="{{desc}}" data-link="{{website}}">
-					<a href="#">
-						<h3 class="tile__heading">{{title}}</h3>
-					</a>
-				</div>
-			{{/each}}
-			</div>
-		</section>
 		<section id="info">
 			<h2>Info</h2>
 			<div class="expandable">
 			{{#each info}}
 				<div class="faq__item">
-					<a href="#" class="question">
+					<a href="#" class="question reveal-button">
 						<h3>{{question}}</h3>
 					</a>
 					<div class="reveal" style="display:none;">
@@ -189,6 +165,31 @@
 			  <li><img src="img/gallery/11.jpg" alt="" title="Alice Coltrane Ensemble, Steeze Cafe"></li>
 			  <li><img src="img/gallery/12.jpg" alt="" title="Open Air Theatre, 2013"></li>
 			</ul>
+		</section>
+		
+		<section id="events">
+			<h2>Events</h2>
+				<div class="tiles">
+					{{#each events}}
+						<div class="tile" style="background-image: url(img/contents/{{image}})" data-img="img/contents/{{image}}" data-title="{{title}}" data-desc="{{desc}}">
+							<a href="#">
+								<h3 class="tile__heading">{{title}}</h3>
+							</a>
+						</div>
+					{{/each}}
+				</div> 
+		</section>
+		<section id="friends">
+			<h2>Friends</h2>
+			<div class="tiles">
+			{{#each friends}}
+				<div class="tile" style="background-image: url(img/contents/{{image}})" data-img="img/contents/{{image}}" data-title="{{title}}" data-desc="{{desc}}" data-link="{{website}}">
+					<a href="#">
+						<h3 class="tile__heading">{{title}}</h3>
+					</a>
+				</div>
+			{{/each}}
+			</div>
 		</section>
 
 		<section id="tickets" class="tickets inner-wrap">

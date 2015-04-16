@@ -1,65 +1,3 @@
-* {
-    box-sizing: border-box;
-}
-
-html {
-    // line-height: 1.25;
-    background-color: $color2;
-}
-
-html, body {
-    overflow-x: hidden;
-    max-width: 100%;
-}
-
-a {
-    @include link-colors($color3, $color3, $color3, $color3);
-    background: transparent;
-    outline: 0;
-    text-decoration: none;
-    transition: color .2s ease;
-}
-
-a:focus {
-    outline: 0;
-}
-
-::-moz-selection {
-    background: $color3;
-    text-shadow: none;
-}
-
-::selection {
-    background: $color3;
-    text-shadow: none;
-    color: white; 
-}
-
-// ::-webkit-scrollbar {
-//     width: $baseline / 1.5;
-//     height: $baseline / 1.5;
-// }
-
-// ::-webkit-scrollbar-track {
-//     background: darken($color2, 5);
-// }
-
-// ::-webkit-scrollbar-thumb {
-//     background: lighten($color2, 5);
-// }
-
-img {
-    vertical-align: middle;
-    max-width: 100%;
-    border: 0;
-    &::selection {
-        background: transparent;
-    }
-    &::-moz-selection {
-        background: transparent;
-    }
-}
-
 section {
     position: relative;
     padding: 7vw 10% 16vw 10%;
@@ -154,17 +92,6 @@ section {
     }
 }
 
-.inner-wrap {
-    @include min-width($phablet) {
-    padding-right: 16%;
-    padding-left: 16%; 
-    }
-}
-
-.gap {
-    margin-top: 1.5em;
-}
-
 section.tickets {
     text-align: center;
 }
@@ -182,8 +109,4 @@ html.single-section {
         position: static;
         // padding-bottom: 0;
     }
-}
-
-a.tt-widget-tab-button.gettickets-btn {
-    background-color: $red; 
 }

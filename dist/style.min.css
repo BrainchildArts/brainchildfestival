@@ -389,6 +389,11 @@ section {
     color: #272822; }
   section#about, section#events, section#gallery, section#getinvolved {
     padding-top: 6vw; }
+  section#about {
+    padding-bottom: 11vw; }
+    @media only screen and (min-width: 60rem) {
+      section#about {
+        min-height: 0; } }
   @media (max-width: 400px) {
     section#tickets {
       padding-right: 5px;
@@ -932,9 +937,11 @@ label {
     display: inline;
     margin-bottom: 0; } }
 
-.about-tabs {
+ul.about-tabs {
   margin-bottom: 2.5em;
-  font-size: 1.3em; }
+  font-size: 0.9em; }
+  ul.about-tabs li {
+    display: inline-block; }
 
 .filter-tabs {
   list-style: none;
@@ -1013,7 +1020,7 @@ label {
     content: "Bentley Country Park, "; } }
 
 .site-nav {
-  font-size: 0.9em;
+  font-size: 0.8em;
   width: 100%;
   -webkit-transition: all ease .2s .6s;
           transition: all ease .2s .6s;
@@ -1068,3 +1075,6 @@ label {
     @media only screen and (min-width: 950px) {
       .posters img {
         width: 49%; } }
+
+.question.active {
+  text-decoration: underline; }
