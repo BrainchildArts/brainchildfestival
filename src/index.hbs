@@ -50,6 +50,7 @@
 			</div>
 		</header>
 		<section id="about" class="inner-wrap">
+			{{#markdown}}{{info.volunteering.desc}}{{/markdown}}
 			<div class="tabs" id="tabs">
 				<ul class="tabs-ul about-tabs">
 					<li class="tab" id="default-tab"><a href="#story">Story</a></li>
@@ -150,6 +151,18 @@
 			<div class="tiles">
 			{{#each friends}}
 				<div class="tile" style="background-image: url(img/contents/{{image}})" data-img="img/contents/{{image}}" data-title="{{title}}" data-desc="{{desc}}" data-link="{{website}}">
+					<a href="#">
+						<h3 class="tile__heading">{{title}}</h3>
+					</a>
+				</div>
+			{{/each}}
+			</div>
+		</section>
+		<section id="info">
+			<h2>Info</h2>
+			<div class="tiles">
+			{{#each info}}
+				<div class="tile" style="background-image: url(img/contents/alexburey.jpg)" data-img="img/contents/alexburey.jpg" data-title="{{title}}" data-desc="{{desc}}">
 					<a href="#">
 						<h3 class="tile__heading">{{title}}</h3>
 					</a>

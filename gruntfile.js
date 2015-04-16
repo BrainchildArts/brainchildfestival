@@ -6,7 +6,8 @@ module.exports = function (grunt) {
       options: {
         data: './src/data/*.yml',
         helpers: 'src/helpers/helper-*.js',
-        partials: ['./src/partials/*.md', './*.md']
+        partials: ['./src/partials/*.md', './*.md'],
+        plugins: [ 'assemble-markdown-data' ]
       },
       site: {
         files: [

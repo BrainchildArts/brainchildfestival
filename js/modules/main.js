@@ -152,7 +152,7 @@ $("#lineup .tile").click(function(e) {
 });
 
 
-$(".info-overlay").click(function(e) {
+$("#info .tile").click(function(e) {
     var tile = $(this),
         name = tile.data("title"),
         img = tile.data("img"),
