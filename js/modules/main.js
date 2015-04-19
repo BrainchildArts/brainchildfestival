@@ -13,6 +13,12 @@ $( 'li .tab' ).click(function( e ) {
 });
 
 $(document).ready(function() {
+  $.stratus({
+    links: 'http://soundcloud.com/foofighters/sets/wasting-light'
+  });
+});
+
+$(document).ready(function() {
   // init Isotope
   var $container = $('.lineup-tiles');
   function isolineup() {
@@ -143,7 +149,6 @@ $("#lineup .tile").click(function(e) {
       $(".overlay__embeds").append("<p><div class='embed-container'><iframe src='http://www.youtube.com/embed/" + utube + "' frameborder='0' allowfullscreen></iframe></div></p>");
     }
 });
-
 
 $(".reveal-button").click(function(e) {
     e.preventDefault();
