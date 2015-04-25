@@ -1,0 +1,20 @@
+#stratus {
+  position:fixed;
+  bottom:0;
+  left:0;
+  overflow:hidden;
+  z-index: 99999;
+}
+
+#stratus,#stratus iframe {
+  height:32px;
+  width:100%
+}
+
+#stratus iframe {
+  display:none;
+}
+
+#stratus.open,#stratus.open iframe {
+  height:199px !important
+}

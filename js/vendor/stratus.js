@@ -7,8 +7,8 @@
   };
   $.stratus = function(settings) {
     var root_url, src;
-    root_url = settings.env === 'development' ? 'http://example.com:3000' : 'http://stratus.sc';
-    $('head').append("<link rel='stylesheet' href='" + root_url + "/stratus.css' type='text/css'/>");
+    root_url = settings.env === 'development' ? 'http://example.com:3000' : 'http://www.stratus.sc';
+    // their css $('head').append("<link rel='stylesheet' href='" + root_url + "/stratus.css' type='text/css'/>");
     if (settings.align === 'top') {
       $('head').append("<style>#stratus{ top: 0; }</style>");
     }
@@ -23,14 +23,11 @@
     $('#stratus iframe').attr({
       src: src
     });
-    $('#stratus iframe').load(function() {
-      return $(this).css({
-        visibility: 'visible'
-      });
-    });
     $('#stratus').show();
     $('body').on("click", "a.stratus", function() {
       $.postMessage($(this).attr('href'), src, $('#stratus iframe')[0].contentWindow);
+      $('#stratus iframe').show();
+      console.log('initiaiiii');
       return false;
     });
     return $.receiveMessage(function(e) {
@@ -42,5 +39,5 @@
     $('#stratus iframe').attr({
       src: src
     });
-  }
+  };
 }).call(this);
