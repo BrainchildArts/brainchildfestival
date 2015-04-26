@@ -8,13 +8,13 @@
 
 #stratus,#stratus iframe {
   height:32px;
-  width:100%
+  width: 100%;
 }
 
 #stratus iframe {
-  display:none;
+  /*display:none;*/
 }
 
 #stratus.open,#stratus.open iframe {
-  height:199px !important
+  height:199px !important;
 }

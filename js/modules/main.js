@@ -39,10 +39,6 @@ $(document).ready(function() {
   });
 });
 
-$('.stratus').click(function() {
-  $('#stratus').show();
-});
-
 $(document).ready(function() {
   // init Isotope
   var $container = $('.lineup-tiles');

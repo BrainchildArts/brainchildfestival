@@ -26,8 +26,7 @@
     $('#stratus').show();
     $('body').on("click", "a.stratus", function() {
       $.postMessage($(this).attr('href'), src, $('#stratus iframe')[0].contentWindow);
-      $('#stratus iframe').show();
-      console.log('initiaiiii');
+      $('#stratus iframe').show("fast");
       return false;
     });
     return $.receiveMessage(function(e) {
@@ -39,5 +38,5 @@
     $('#stratus iframe').attr({
       src: src
     });
-  };
+  }
 }).call(this);

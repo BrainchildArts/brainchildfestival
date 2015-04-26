@@ -1091,7 +1091,7 @@ ul.about-tabs {
   width: 100%; }
 
 #stratus iframe {
-  display: none; }
+  /*display:none;*/ }
 
 #stratus.open, #stratus.open iframe {
   height: 199px !important; }
