@@ -131,4 +131,9 @@ body{background:transparent}
   #stratus #player #time {
     display: none;
   }
+  #stratus #player .track {
+    position: absolute;
+    left: 64px;
+    z-index: 10;
+  }
 }
