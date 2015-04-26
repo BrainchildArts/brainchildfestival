@@ -20033,6 +20033,7 @@ var sc_array = data_array.join(",");
 $(document).ready(function() {
   $.stratus({
     links: sc_array,
+    theme: 'http://brainchildfestival.co.uk/stratus/stratus.css',
     buying: false,
     color: 'F7426B',
     download: false,
