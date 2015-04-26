@@ -471,7 +471,15 @@ html.single-section section {
   position: static; }
 
 a.tt-widget-tab-button.gettickets-btn {
-  background-color: #F7426B; }
+  background-color: #F7426B !important;
+  z-index: 999999 !important;
+  right: -8px !important;
+  line-height: 30px !important;
+  width: 170px !important;
+  font-size: 19px !important;
+  height: 32px !important;
+  border-top-left-radius: 0px !important;
+  border-top-right-radius: 0px; }
 
 @media print {
   * {
