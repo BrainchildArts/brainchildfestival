@@ -127,7 +127,7 @@ body{background:transparent}
 #stratus #player #share ul#social a{background:url("./social.png")}
 #stratus #player #share #embed input{border-color:#e5e5e5}
 
-@media screen (max-width: 670px) {
+@media all and (max-width: 670px) {
   #stratus #player #time {
     display: none;
   }
