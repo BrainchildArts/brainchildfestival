@@ -67,3 +67,16 @@
   width: 100%;
   height: 100%;
 }
+
+.sc-link {
+  background-color: #F5F5F5;
+  padding: .5em;
+  border-radius: 4px;
+}
+
+a.stratus {
+  background-image: url(../img/partials/sc-play.svg);
+  display: block;
+  height: 50px;
+  width: 50px;
+}

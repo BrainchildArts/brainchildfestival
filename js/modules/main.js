@@ -12,37 +12,10 @@ $( 'li .tab' ).click(function( e ) {
   e.preventDefault();
 });
 
-//send all sc links to stratus //
-
-//make an array from all data-sc attributes
-data_array =[ ];
-data_array = $.makeArray($(".lineup-tiles > .music").map(function()
-{
-      return $(this).attr("data-sc");
-})) ;
-//add soundcloud url
-for ( var i = 0; i < data_array.length; i++ ) {
-    data_array[i] = "https://soundcloud.com/" + data_array[i];
-}
-
-//make it into a list
-var sc_array = data_array.join(",");
-
-//start stratus with all the links
 $(document).ready(function() {
-  $.stratus({
-    links: sc_array,
-    theme: 'http://brainchildfestival.co.uk/stratus/stratus.css',
-    buying: false,
-    color: 'F7426B',
-    download: false,
-    stats: false,
-  });
-});
 
-$(document).ready(function() {
   // init Isotope
-  var $container = $('.lineup-tiles');
+  var $container = $('.tiles');
   function isolineup() {
     $container.isotope({
       itemSelector: '.tile',
@@ -76,6 +49,7 @@ $(document).ready(function() {
         isolineup();
     }
   });
+
   // bind filter button click
   $('.filter').on( 'click', function() {
     var filterValue = $( this ).attr('data-filter');
@@ -165,7 +139,7 @@ $("#lineup .tile").click(function(e) {
       $(".overlay__copy").append("<p> See more <a target='_blank' class='overlay__link' href='" + link + "'>here</a>.</p>");
     }
     if ($( this ).data("sc")) {
-      $(".overlay__embeds").append("<p><iframe id='sc-widget' src='https://w.soundcloud.com/player/?url=https://soundcloud.com/" + soundcloud + "' width='100%' height='110' scrolling='no' frameborder='no'></iframe></p><p><a href='https://soundcloud.com/" + soundcloud + "' class='stratus'>play song</a>");
+      $(".overlay__embeds").append("<p><iframe id='sc-widget' src='https://w.soundcloud.com/player/?url=https://soundcloud.com/" + soundcloud + "' width='100%' height='110' scrolling='no' frameborder='no'></iframe></p><p class='sc-link'><a href='https://soundcloud.com/" + soundcloud + "' class='stratus'></a>");
     }
     if ($( this ).data("utube-id")) {
       $(".overlay__embeds").append("<p><div class='embed-container'><iframe src='http://www.youtube.com/embed/" + utube + "' frameborder='0' allowfullscreen></iframe></div></p>");
@@ -178,8 +152,56 @@ $(".reveal-button").click(function(e) {
     $(this).toggleClass('active');
 });
 
+$("#manifesto .reveal-button").on("click", function() {
+  var el = $(this);
+  if (el.text() == el.data("text-swap")) {
+    el.text(el.data("text-original"));
+  } else {
+    el.data("text-original", el.text());
+    el.text(el.data("text-swap"));
+  }
+});
+
 $("body").on("click", ".overlay__close", function(e) {
     e.preventDefault();
     $("html").removeClass("hide-overflow");
     $(this).parent().remove();
+});
+
+var api = $.sc.api('2fbbba5d82f30b67594d8df69d010d0b');
+
+// permalink to a track
+var track_url = 'https://soundcloud.com/hesterdemos/fallen';
+
+var track_id = api.get('/resolve', { url: track_url });
+var track_title = api.get('/tracks/' + track_id + '/title');
+
+console.log(track_title);
+
+//send all sc links to stratus //
+
+//make an array from all data-sc attributes
+data_array =[ ];
+data_array = $.makeArray($(".lineup-tiles > .music").map(function()
+{
+      return $(this).attr("data-sc");
+})) ;
+//add soundcloud url
+for ( var i = 0; i < data_array.length; i++ ) {
+    data_array[i] = "https://soundcloud.com/" + data_array[i];
+}
+
+//make it into a list
+var sc_array = data_array.join(",");
+
+//start stratus with all the links
+$(document).ready(function() {
+  $.stratus({
+    links: sc_array,
+    theme: 'http://brainchildfestival.co.uk/stratus/stratus.css',
+    buying: false,
+    color: 'F7426B',
+    download: false,
+    stats: false,
+  });
 });

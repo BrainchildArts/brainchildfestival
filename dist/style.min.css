@@ -373,113 +373,19 @@ img {
   img::-moz-selection {
     background: transparent; }
 
-section {
-  position: relative;
-  padding: 7vw 10% 16vw 10%;
-  color: #F1F1EF;
-  background-image: url(../img/background/shape-1.svg);
-  background-size: 85%;
-  background-color: #FEEFDA;
-  background-position: top;
-  color: #272822; }
-  @media only screen and (min-width: 60rem) {
-    section {
-      min-height: 97vh; } }
-  section h2 {
-    color: #272822; }
-  section#about, section#events, section#gallery, section#getinvolved {
-    padding-top: 6vw; }
-  section#about {
-    padding-bottom: 11vw; }
-    @media only screen and (min-width: 60rem) {
-      section#about {
-        min-height: 0; } }
-  @media (max-width: 400px) {
-    section#tickets {
-      padding-right: 5px;
-      padding-left: 5px; } }
-  @media only screen and (min-width: 750px) {
-    section:nth-of-type(1) .tab {
-      display: inline;
-      margin-bottom: 0; } }
-  section:nth-child(odd) {
-    background-color: #D5DBE7;
-    color: #272822;
-    background-position: top; }
-    section:nth-child(odd) h2 {
-      color: #272822; }
-  section:after {
-    background-image: url(../img/background/divider1.png);
-    position: absolute;
-    content: '';
-    pointer-events: none;
-    bottom: -16vw;
-    left: 0;
-    z-index: 5;
-    width: 100%;
-    height: 100%;
-    background-position: bottom;
-    background-size: contain;
-    background-repeat: no-repeat; }
-  section:nth-of-type(1):after {
-    background-image: url(../img/background/divider1.png); }
-  section:nth-of-type(2):after {
-    background-image: url(../img/background/divider2.png); }
-  section:nth-of-type(3):after {
-    background-image: url(../img/background/divider3.png); }
-  section:nth-of-type(4):after {
-    background-image: url(../img/background/divider4.png); }
-  section:nth-of-type(5):after {
-    background-image: url(../img/background/divider5.png); }
-  section:last-of-type:after {
-    background-image: url(../img/background/footer.png);
-    bottom: 0; }
-  section:last-of-type:before {
-    display: none; }
-  section:first-of-type:before {
-    background-image: url(../img/background/header.png);
-    position: absolute;
-    content: '';
-    pointer-events: none;
-    left: 0;
-    top: 0;
-    z-index: 999;
-    width: 100%;
-    height: 100%;
-    background-position: top;
-    background-size: contain;
-    background-repeat: no-repeat; }
-
-@media only screen and (min-width: 40rem) {
-  .inner-wrap {
-    padding-right: 16%;
-    padding-left: 16%; } }
-
-.gap {
-  margin-top: 1.5em; }
-
-section.tickets {
-  text-align: center; }
-
-#lineup p {
-  text-align: center; }
-
-html.single-section, html.single-section > body {
-  height: 100%; }
-
-html.single-section section {
-  position: static; }
-
 a.tt-widget-tab-button.gettickets-btn {
   background-color: #F7426B !important;
   z-index: 999999 !important;
-  right: -8px !important;
+  right: 0px !important;
   line-height: 30px !important;
-  width: 170px !important;
-  font-size: 19px !important;
+  width: 154px !important;
+  font-size: 17px !important;
   height: 32px !important;
-  border-top-left-radius: 0px !important;
-  border-top-right-radius: 0px; }
+  border-radius: 0px !important; }
+
+.center {
+  text-align: center;
+  display: block; }
 
 @media print {
   * {
@@ -681,6 +587,102 @@ label {
   .col-1-8 {
     width: 12.5%; } }
 
+section {
+  position: relative;
+  padding: 7vw 10% 16vw 10%;
+  color: #F1F1EF;
+  background-image: url(../img/background/shape-1.svg);
+  background-size: 85%;
+  background-color: #FEEFDA;
+  background-position: top;
+  color: #272822; }
+  @media only screen and (min-width: 60rem) {
+    section {
+      min-height: 97vh; } }
+  section h2 {
+    color: #272822; }
+  section#about, section#events, section#gallery, section#getinvolved {
+    padding-top: 6vw; }
+  section#about {
+    padding-bottom: 11vw; }
+    @media only screen and (min-width: 60rem) {
+      section#about {
+        min-height: 0; } }
+  @media (max-width: 400px) {
+    section#tickets {
+      padding-right: 5px;
+      padding-left: 5px; } }
+  @media only screen and (min-width: 750px) {
+    section:nth-of-type(1) .tab {
+      display: inline;
+      margin-bottom: 0; } }
+  section:nth-child(odd) {
+    background-color: #D5DBE7;
+    color: #272822;
+    background-position: top; }
+    section:nth-child(odd) h2 {
+      color: #272822; }
+  section:after {
+    background-image: url(../img/background/divider1.png);
+    position: absolute;
+    content: '';
+    pointer-events: none;
+    bottom: -16vw;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    height: 100%;
+    background-position: bottom;
+    background-size: contain;
+    background-repeat: no-repeat; }
+  section:nth-of-type(1):after {
+    background-image: url(../img/background/divider1.png); }
+  section:nth-of-type(2):after {
+    background-image: url(../img/background/divider2.png); }
+  section:nth-of-type(3):after {
+    background-image: url(../img/background/divider3.png); }
+  section:nth-of-type(4):after {
+    background-image: url(../img/background/divider4.png); }
+  section:nth-of-type(5):after {
+    background-image: url(../img/background/divider5.png); }
+  section:last-of-type:after {
+    background-image: url(../img/background/footer.png);
+    bottom: 0; }
+  section:last-of-type:before {
+    display: none; }
+  section:first-of-type:before {
+    background-image: url(../img/background/header.png);
+    position: absolute;
+    content: '';
+    pointer-events: none;
+    left: 0;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-position: top;
+    background-size: contain;
+    background-repeat: no-repeat; }
+
+section.tickets {
+  text-align: center; }
+
+#lineup p {
+  text-align: center; }
+
+html.single-section, html.single-section > body {
+  height: 100%; }
+
+html.single-section section {
+  position: static; }
+
+#manifesto {
+  margin-bottom: 0.5em; }
+  #manifesto .reveal-button {
+    margin-bottom: 0.5em; }
+  #manifesto p.big-txt, #manifesto .overlay__copy p, .overlay__copy #manifesto p {
+    margin-bottom: 0.3em; }
+
 .tiles {
   text-align: center; }
 
@@ -729,23 +731,23 @@ label {
         margin-bottom: -1px;
         white-space: nowrap; } }
 
-.lineup-tiles {
+.tiles {
   margin: 0 auto; }
   @media only screen and (max-width: 439.9375px) {
-    .lineup-tiles .tile {
+    .tiles .tile {
       background-image: none !important;
       width: 100%; }
-      .lineup-tiles .tile__heading {
+      .tiles .tile__heading {
         font-size: 1.37em !important; } }
   @media only screen and (min-width: 440px) {
-    .lineup-tiles .tile {
+    .tiles .tile {
       position: relative;
       float: left;
       margin: 5px;
       padding: 10px;
       width: 150px;
       height: 170px; }
-      .lineup-tiles .tile:before {
+      .tiles .tile:before {
         content: " ";
         background-color: rgba(144, 87, 39, 0.61);
         opacity: 0.6;
@@ -756,9 +758,9 @@ label {
         bottom: 0;
         -webkit-transition: .8s;
                 transition: .8s; }
-      .lineup-tiles .tile:hover:before {
+      .tiles .tile:hover:before {
         opacity: .2; } }
-  .lineup-tiles .tile__heading {
+  .tiles .tile__heading {
     color: #F1F1EF;
     width: 100%;
     padding: 0.375rem 0.25em;
@@ -767,7 +769,7 @@ label {
     text-overflow: ellipsis;
     white-space: normal; }
     @media only screen and (min-width: 440px) {
-      .lineup-tiles .tile__heading {
+      .tiles .tile__heading {
         font-size: 1.2em;
         position: relative;
         top: 50%;
@@ -896,6 +898,17 @@ label {
   left: 0;
   width: 100%;
   height: 100%; }
+
+.sc-link {
+  background-color: #F5F5F5;
+  padding: .5em;
+  border-radius: 4px; }
+
+a.stratus {
+  background-image: url(../img/partials/sc-play.svg);
+  display: block;
+  height: 50px;
+  width: 50px; }
 
 .getinvolved {
   text-align: center; }
@@ -1087,6 +1100,9 @@ ul.about-tabs {
 .question.active {
   text-decoration: underline; }
 
+#info p {
+  font-size: .9em; }
+
 #stratus {
   position: fixed;
   bottom: 0;
@@ -1099,7 +1115,7 @@ ul.about-tabs {
   width: 100%; }
 
 #stratus iframe {
-  /*display:none;*/ }
+  display: none; }
 
 #stratus.open, #stratus.open iframe {
   height: 199px !important; }
