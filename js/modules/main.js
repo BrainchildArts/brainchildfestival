@@ -168,15 +168,17 @@ $("body").on("click", ".overlay__close", function(e) {
     $(this).parent().remove();
 });
 
-var api = $.sc.api('2fbbba5d82f30b67594d8df69d010d0b');
-
 // permalink to a track
 var track_url = 'https://soundcloud.com/hesterdemos/fallen';
 
-var track_id = api.get('/resolve', { url: track_url });
-var track_title = api.get('/tracks/' + track_id + '/title');
+SC.get('/resolve', { url: track_url }, function(track) {
+  SC.get('/tracks/' + track.id + '/comments', function(comments) {
+    for (var i = 0; i < comments.length; i++) {
+      console.log('Someone said: ' + comments[i].body);
+    }
+  });
+});
 
-console.log(track_title);
 
 //send all sc links to stratus //
 
