@@ -601,10 +601,10 @@ section {
       min-height: 97vh; } }
   section h2 {
     color: #272822; }
-  section#about, section#events, section#gallery, section#getinvolved {
+  section#events, section#gallery, section#getinvolved {
     padding-top: 6vw; }
   section#about {
-    padding-bottom: 11vw; }
+    padding: 2.3vw 20% 14vw 20%; }
     @media only screen and (min-width: 60rem) {
       section#about {
         min-height: 0; } }

@@ -10,11 +10,11 @@ section {
     h2 {
         color: $black;
     }
-    &#about, &#events, &#gallery, &#getinvolved {
+    &#events, &#gallery, &#getinvolved {
         padding-top: 6vw;
     }
     &#about {
-        padding-bottom: 11vw;
+        padding: 2.3vw 20% 14vw 20%;
         @include min-width($tablet) {
             min-height: 0;
         }
