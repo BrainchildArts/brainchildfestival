@@ -119,4 +119,9 @@ html.single-section {
     p.big-txt {
         margin-bottom: 0.3em;
     }
+    @media all and (min-width: 855px) {
+        p.big-txt {
+            padding: 0 6vw;
+        }
+    }
 }

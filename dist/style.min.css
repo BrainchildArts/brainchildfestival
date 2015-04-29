@@ -682,6 +682,9 @@ html.single-section section {
     margin-bottom: 0.5em; }
   #manifesto p.big-txt, #manifesto .overlay__copy p, .overlay__copy #manifesto p {
     margin-bottom: 0.3em; }
+  @media all and (min-width: 855px) {
+    #manifesto p.big-txt, #manifesto .overlay__copy p, .overlay__copy #manifesto p {
+      padding: 0 6vw; } }
 
 .tiles {
   text-align: center; }
