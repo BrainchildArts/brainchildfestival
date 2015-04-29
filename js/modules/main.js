@@ -139,7 +139,19 @@ $("#lineup .tile").click(function(e) {
       $(".overlay__copy").append("<p> See more <a target='_blank' class='overlay__link' href='" + link + "'>here</a>.</p>");
     }
     if ($( this ).data("sc")) {
-      $(".overlay__embeds").append("<p><iframe id='sc-widget' src='https://w.soundcloud.com/player/?url=https://soundcloud.com/" + soundcloud + "' width='100%' height='110' scrolling='no' frameborder='no'></iframe></p><p class='sc-link'><a href='https://soundcloud.com/" + soundcloud + "' class='stratus'></a>");
+      // permalink to a track
+      var track_url = "https://soundcloud.com/" + soundcloud;
+
+      SC.get('/resolve/', { url: track_url }, function (track) {
+        console.log(track);
+        console.log(track.user);
+        var track_img = track.artwork_url;
+        if ( track.artwork_url === null) {
+          track_img = track.user.avatar_url;
+        }
+        $(".overlay__embeds").append("<div class='sc-link'><img class='sc-img' src='" + track_img + "'></img><div class='sc-right'><a href='https://soundcloud.com/" + soundcloud + "' class='stratus'></a><div class='sc-titles'><a target='_blank' class='sc-username' href='" + track.user.permalink_url + "'>" + track.user.username + "</a><br/><a target='_blank' class='sc-trackname' href='" + track_url + "'>" + track.title + "</a></div></div></div>");
+      });
+
     }
     if ($( this ).data("utube-id")) {
       $(".overlay__embeds").append("<p><div class='embed-container'><iframe src='http://www.youtube.com/embed/" + utube + "' frameborder='0' allowfullscreen></iframe></div></p>");
@@ -168,16 +180,19 @@ $("body").on("click", ".overlay__close", function(e) {
     $(this).parent().remove();
 });
 
-// permalink to a track
-var track_url = 'https://soundcloud.com/hesterdemos/fallen';
 
-SC.get('/resolve', { url: track_url }, function(track) {
-  SC.get('/tracks/' + track.id + '/comments', function(comments) {
-    for (var i = 0; i < comments.length; i++) {
-      console.log('Someone said: ' + comments[i].body);
-    }
-  });
-});
+
+// SC.get(PATH, function (track, err){
+//   IMG_URL = track.artwork;
+// });
+
+// SC.get('/resolve', { url: track_url }, function(track) {
+//   SC.get('/tracks/' + track.id + '/comments', function(comments) {
+//     for (var i = 0; i < comments.length; i++) {
+//       console.log('Someone said: ' + comments[i].body);
+//     }
+//   });
+// });
 
 
 //send all sc links to stratus //
