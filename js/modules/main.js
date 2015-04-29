@@ -8,9 +8,14 @@ $(document).ready(function() {
     });
 });
 
+$( 'li .tab' ).click(function( e ) {
+  e.preventDefault();
+});
+
 $(document).ready(function() {
+
   // init Isotope
-  var $container = $('.lineup-tiles');
+  var $container = $('.tiles');
   function isolineup() {
     $container.isotope({
       itemSelector: '.tile',
@@ -44,6 +49,7 @@ $(document).ready(function() {
         isolineup();
     }
   });
+
   // bind filter button click
   $('.filter').on( 'click', function() {
     var filterValue = $( this ).attr('data-filter');
@@ -86,17 +92,6 @@ $(function() {
         $(".site-nav").toggleClass("site-nav--visible");
     });
 });
-
-$( 'li .tab' ).click(function( e ) {
-  e.preventDefault();
-});
-
-/* sticky nav
-$(document).ready(function() {
-    $('.site-nav-wrap').waypoint(function() {
-        $(".site-nav").toggleClass("site-nav--stuck");
-    });
-});*/
 
 $(document).ready(function() {
     $('#about').waypoint(function() {
@@ -144,26 +139,86 @@ $("#lineup .tile").click(function(e) {
       $(".overlay__copy").append("<p> See more <a target='_blank' class='overlay__link' href='" + link + "'>here</a>.</p>");
     }
     if ($( this ).data("sc")) {
-      $(".overlay__embeds").append("<p><iframe id='sc-widget' src='https://w.soundcloud.com/player/?url=https://soundcloud.com/" + soundcloud + "' width='100%' height='110' scrolling='no' frameborder='no'></iframe></p>");
+      // permalink to a track
+      var track_url = "https://soundcloud.com/" + soundcloud;
+
+      SC.get('/resolve/', { url: track_url }, function (track) {
+        console.log(track);
+        console.log(track.user);
+        var track_img = track.artwork_url;
+        if ( track.artwork_url === null) {
+          track_img = track.user.avatar_url;
+        }
+        $(".overlay__embeds").append("<div class='sc-link'><img class='sc-img' src='" + track_img + "'></img><div class='sc-right'><a href='https://soundcloud.com/" + soundcloud + "' class='stratus'></a><div class='sc-titles'><a target='_blank' class='sc-username' href='" + track.user.permalink_url + "'>" + track.user.username + "</a><br/><a target='_blank' class='sc-trackname' href='" + track_url + "'>" + track.title + "</a></div></div></div>");
+      });
+
     }
     if ($( this ).data("utube-id")) {
       $(".overlay__embeds").append("<p><div class='embed-container'><iframe src='http://www.youtube.com/embed/" + utube + "' frameborder='0' allowfullscreen></iframe></div></p>");
     }
 });
 
-
-$(".info-overlay").click(function(e) {
-    var tile = $(this),
-        name = tile.data("title"),
-        img = tile.data("img"),
-        desc = tile.data("desc");
+$(".reveal-button").click(function(e) {
     e.preventDefault();
-    $("html").addClass("hide-overflow");
-    $("body").append("<div class='overlay-wrap'><a href='#' class='overlay__close'>Close</a><div class='overlay'><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div></div>");
+    $(this).next('.reveal').slideToggle(330);
+    $(this).toggleClass('active');
+});
+
+$("#manifesto .reveal-button").on("click", function() {
+  var el = $(this);
+  if (el.text() == el.data("text-swap")) {
+    el.text(el.data("text-original"));
+  } else {
+    el.data("text-original", el.text());
+    el.text(el.data("text-swap"));
+  }
 });
 
 $("body").on("click", ".overlay__close", function(e) {
     e.preventDefault();
     $("html").removeClass("hide-overflow");
     $(this).parent().remove();
+});
+
+
+
+// SC.get(PATH, function (track, err){
+//   IMG_URL = track.artwork;
+// });
+
+// SC.get('/resolve', { url: track_url }, function(track) {
+//   SC.get('/tracks/' + track.id + '/comments', function(comments) {
+//     for (var i = 0; i < comments.length; i++) {
+//       console.log('Someone said: ' + comments[i].body);
+//     }
+//   });
+// });
+
+
+//send all sc links to stratus //
+
+//make an array from all data-sc attributes
+data_array =[ ];
+data_array = $.makeArray($(".lineup-tiles > .music").map(function()
+{
+      return $(this).attr("data-sc");
+})) ;
+//add soundcloud url
+for ( var i = 0; i < data_array.length; i++ ) {
+    data_array[i] = "https://soundcloud.com/" + data_array[i];
+}
+
+//make it into a list
+var sc_array = data_array.join(",");
+
+//start stratus with all the links
+$(document).ready(function() {
+  $.stratus({
+    links: sc_array,
+    theme: 'http://brainchildfestival.co.uk/stratus/stratus.css',
+    buying: false,
+    color: 'F7426B',
+    download: false,
+    stats: false,
+  });
 });

@@ -14,6 +14,8 @@
 		<meta property="og:description" content="Brainchild Festival is a 3-day, multi-arts festival. 10-12 July 2015" />
 		<script src="./modernizr.custom.js"></script>
 		<script src="https://w.soundcloud.com/player/api.js" type="text/javascript" async></script>
+		<script src="http://connect.soundcloud.com/sdk.js"></script>
+		<script> SC.initialize({ client_id: '2fbbba5d82f30b67594d8df69d010d0b' });</script>
 		<link rel="stylesheet" href="./style.min.css?version=2">
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -40,9 +42,10 @@
 					<nav class="site-nav--stuck site-nav">
 						<a href="#about">About</a>//
 						<a href="#lineup">Lineup</a>//
+						<a href="#info">Info</a>//
+						<a href="#gallery">Gallery</a>//
 						<a href="#events">Events</a>//
 						<a href="#friends">Friends</a>//
-						<a href="#gallery">Gallery</a>//
             <a href="#tickets">Tickets</a>//
 						<a href="#getinvolved">Get Involved</a>
 					</nav>
@@ -50,17 +53,17 @@
 			</div>
 		</header>
 		<section id="about" class="inner-wrap">
-			<div class="tabs" id="tabs">
+			<div class="tabs" id="tabs tab-collapsible-container">
 				<ul class="tabs-ul about-tabs">
-					<li class="tab" id="default-tab"><a href="#story">Story</a></li>
+					<li class="tab"><a href="#story">Story</a></li>
 					<li class="tab default-tab"><a href="#manifesto">Manifesto</a></li>
 					<li class="tab"><a href="#team">Team</a></li>
 				</ul>
-
 				<div id="manifesto">
-						<p class="big-txt">Welcome to Brainchild, our weekend festival with collaboration and experimentation at its heart. We are dedicated to sharing ideas and developing creativity, with a love of art and thinking from all disciplines. We want to bring your ideas and stories to life within the boundless and imaginative space of our festival.</p>
-
-					<div class="columns">
+					<p class="big-txt">Welcome to Brainchild, our weekend festival with collaboration and experimentation at its heart. We are dedicated to sharing ideas and developing creativity, with a love of art and thinking from all disciplines. We want to bring your ideas and stories to life within the boundless and imaginative space of our festival.</p>
+					<a href="#" class="center reveal-button" data-text-swap="Less..." data-text-swap="Read more...">Read more...</a>
+						
+					<div class="reveal columns" style="display: none;">
 						<p>We started this with a belief that an enormous amount of good can come out of a weekend full of performing arts, talking, dancing and meeting new friends.</p>
 
 						<p>Run entirely by volunteers, everybody mucks in dedicating long, hard hours to build an intimate community space including four stages, installations, camping area and bar, all beautifully decorated by resident artists.</p>
@@ -129,7 +132,7 @@
 								<h3 class="tile__heading">BabeHeaven</h3>
 							</a>
 						
-							<a class="tile isotile music " href="#" data-img="img/contents/baderecords.jpg" style="background-image: url(img/contents/baderecords.jpg)"  data-title="Bade Records Showcase" data-desc="Bade Records are an independent record label based in London. Founded in 2014 by James Sison, Edward Antonio, Charlie Coombes and Henry Stroud (aka Talk&amp;Smoke), Bade Records has built a loyal following in their debut year. Showcasing a deep and melodic sound that has its roots firmly on the continent, they have developed a distinct brand of house and techno that is unique to the UK underground scene."  data-sc="bade-records">
+							<a class="tile isotile music " href="#" data-img="img/contents/baderecords.jpg" style="background-image: url(img/contents/baderecords.jpg)"  data-title="Bade Records Showcase" data-desc="Bade Records are an independent record label based in London. Founded in 2014 by James Sison, Edward Antonio, Charlie Coombes and Henry Stroud (aka Talk&amp;Smoke), Bade Records has built a loyal following in their debut year. Showcasing a deep and melodic sound that has its roots firmly on the continent, they have developed a distinct brand of house and techno that is unique to the UK underground scene."  data-sc="bade-records/varysoo-in-the-clearing-fedele-remix-1">
 								<h3 class="tile__heading">Bade Records Showcase</h3>
 							</a>
 						
@@ -141,15 +144,15 @@
 								<h3 class="tile__heading">Chelou</h3>
 							</a>
 						
-							<a class="tile isotile music " href="#" data-img="img/contents/hectorplimmer.jpg" style="background-image: url(img/contents/hectorplimmer.jpg)"  data-title="Hector Plimmer" data-desc="Hector has astounding talent as a DJ and producer, playing shows both under his own name and together with Wu-Lu to make up their formidable duo Monster Playground. He is a winner of the Steve Reid x PRS InNOVation Award and has recently been featured in Gilles Peterson&#x27;s Brownswood Bubblers. It will be an absolute pleasure to have him with us on the decks at the festival, and in the meantime, you can catch his monthly show &#x27;92 Points&#x27; on NTS Radio."  data-sc="hectorplimmer">
+							<a class="tile isotile music " href="#" data-img="img/contents/hectorplimmer.jpg" style="background-image: url(img/contents/hectorplimmer.jpg)"  data-title="Hector Plimmer" data-desc="Hector has astounding talent as a DJ and producer, playing shows both under his own name and together with Wu-Lu to make up their formidable duo Monster Playground. He is a winner of the Steve Reid x PRS InNOVation Award and has recently been featured in Gilles Peterson&#x27;s Brownswood Bubblers. It will be an absolute pleasure to have him with us on the decks at the festival, and in the meantime, you can catch his monthly show &#x27;92 Points&#x27; on NTS Radio."  data-sc="hectorplimmer/tomorrow-played-by-gilles-peterson-on-bbc-radio-6-20092014">
 								<h3 class="tile__heading">Hector Plimmer</h3>
 							</a>
 						
-							<a class="tile isotile music " href="#" data-img="img/contents/hester.jpg" style="background-image: url(img/contents/hester.jpg)"  data-title="Hester" data-desc="Hester are a 6 piece band hailing from London. Forming in the Autumn of 2013, they are fresh out of the studio where they’ve been recording their debut EP. Their sound has been described as ‘space jazz’, ‘nu-soul’ and ‘funk punk’, and their span of influences is just as vast and peculiar; amongst many others, they list Fela Kuti, Eels, Gil Scott Heron, Tom Waits and Erykah Badu. They are a band that has developed largely through playing live, and are capable of bringing a huge amount of energy both on stage and to their audience.&lt;/p&gt;&lt;p&gt;Although they are very much part of the Brainchild family, this will be their first time playing the festival, and we cannot wait for them to have everybody dancing."  data-sc="hesterdemos">
+							<a class="tile isotile music " href="#" data-img="img/contents/hester.jpg" style="background-image: url(img/contents/hester.jpg)"  data-title="Hester" data-desc="Hester are a 6 piece band hailing from London. Forming in the Autumn of 2013, they are fresh out of the studio where they’ve been recording their debut EP. Their sound has been described as ‘space jazz’, ‘nu-soul’ and ‘funk punk’, and their span of influences is just as vast and peculiar; amongst many others, they list Fela Kuti, Eels, Gil Scott Heron, Tom Waits and Erykah Badu. They are a band that has developed largely through playing live, and are capable of bringing a huge amount of energy both on stage and to their audience.&lt;/p&gt;&lt;p&gt;Although they are very much part of the Brainchild family, this will be their first time playing the festival, and we cannot wait for them to have everybody dancing."  data-sc="hesterdemos/fallen">
 								<h3 class="tile__heading">Hester</h3>
 							</a>
 						
-							<a class="tile isotile music " href="#" data-img="img/contents/loylecarner.jpg" style="background-image: url(img/contents/loylecarner.jpg)"  data-title="Loyle Carner" data-desc="South London emcee Loyle Carner, alongside producer and live partner Rebel Kleff, are Britain’s most recent new hope in hip hop. These two create reminiscent old school hip hop with their own UK and modern influences, with debut EP ‘A Little Late’ causing quite a stir on the airwaves. Touring with the likes of Joey Bada$$ and Atmosphere, Loyle is an exciting young rapper making serious moves on the UK circuit."  data-sc="loyle-carner">
+							<a class="tile isotile music " href="#" data-img="img/contents/loylecarner.jpg" style="background-image: url(img/contents/loylecarner.jpg)"  data-title="Loyle Carner" data-desc="South London emcee Loyle Carner, alongside producer and live partner Rebel Kleff, are Britain’s most recent new hope in hip hop. These two create reminiscent old school hip hop with their own UK and modern influences, with debut EP ‘A Little Late’ causing quite a stir on the airwaves. Touring with the likes of Joey Bada$$ and Atmosphere, Loyle is an exciting young rapper making serious moves on the UK circuit."  data-sc="loyle-carner/cantona">
 								<h3 class="tile__heading">Loyle Carner</h3>
 							</a>
 						
@@ -157,7 +160,7 @@
 								<h3 class="tile__heading">Mokadem</h3>
 							</a>
 						
-							<a class="tile isotile music " href="#" data-img="img/contents/myriadforest.jpg" style="background-image: url(img/contents/myriadforest.jpg)"  data-title="Myriad Forest" data-desc="In our eyes, Myriad Forest is a bit of a super-group, with roots in both Psylus and United Vibrations. They have a musical force that will transport you into another world, with drums, bass, sax and electronics reaching untold strengths together."  data-sc="myriadforest">
+							<a class="tile isotile music " href="#" data-img="img/contents/myriadforest.jpg" style="background-image: url(img/contents/myriadforest.jpg)"  data-title="Myriad Forest" data-desc="In our eyes, Myriad Forest is a bit of a super-group, with roots in both Psylus and United Vibrations. They have a musical force that will transport you into another world, with drums, bass, sax and electronics reaching untold strengths together."  data-sc="myriadforest/reprise">
 								<h3 class="tile__heading">Myriad Forest</h3>
 							</a>
 						
@@ -261,35 +264,35 @@
 								<h3 class="tile__heading">Eye Want Change</h3>
 							</a>
 						
-							<a class="tile isotile music " href="#" data-img="img/contents/alexburey.jpg" style="background-image: url(img/contents/alexburey.jpg)"  data-title="Alex Burey" data-desc="Alex Burey is a 19-year-old producer, songwriter, singer and multi-instrumentalist from South London. His unique musical background has led to an expressive, enthralling and extraordinary style that reshapes the music of countless leftfield influences - from Aphex Twin to Shuggie Otis and Pink Floyd to Outkast - and shades it with stories from the fringes of London life."  data-sc="alexburey">
+							<a class="tile isotile music " href="#" data-img="img/contents/alexburey.jpg" style="background-image: url(img/contents/alexburey.jpg)"  data-title="Alex Burey" data-desc="Alex Burey is a 19-year-old producer, songwriter, singer and multi-instrumentalist from South London. His unique musical background has led to an expressive, enthralling and extraordinary style that reshapes the music of countless leftfield influences - from Aphex Twin to Shuggie Otis and Pink Floyd to Outkast - and shades it with stories from the fringes of London life."  data-sc="alexburey/dome-creed">
 								<h3 class="tile__heading">Alex Burey</h3>
 							</a>
 						
-							<a class="tile isotile music " href="#" data-img="img/contents/catchingflies.jpg" style="background-image: url(img/contents/catchingflies.jpg)"  data-title="Catching Flies" data-desc="When he&#x27;s not collecting glowworms and growing rare fruits, Catching Flies somehow finds the time to make music. Music that pleasures your ears with a bass heavy yet melodic mesh of broody electronics and intricate rhythms, containing shades of everything from hip-hop to house, from soul to jazz.&lt;/p&gt;&lt;p&gt;In late 2012, the 22 year-old decided to self-release his first EP, &#x27;The Stars&#x27;, and it was a decision that paid off, with full support coming in widespread across the blogosphere. Since then, he has supported Bonobo on his European Tour, hit the number one spot on the Hype Machine Chart and gained continuing support from the likes of Gilles Peterson and Annie Mac as well as becoming a firm favourite of YouTube channels, Majestic Casual and SuicideSheep.&lt;/p&gt;&lt;p&gt;Catching Flies’ most recent single ‘Quiet Nights,’ described by Clash Magazine as ‘absolutely beautiful,’ and he is currently working on a debut album for an as of yet unannounced label, with more news to follow soon.&lt;/p&gt;&lt;p&gt;After all this praise and initial kudos, you sense that this is the beginning of something very special indeed. We are so excited for his sundown set at the festival!"  data-sc="catchingfliesmusic">
+							<a class="tile isotile music " href="#" data-img="img/contents/catchingflies.jpg" style="background-image: url(img/contents/catchingflies.jpg)"  data-title="Catching Flies" data-desc="When he&#x27;s not collecting glowworms and growing rare fruits, Catching Flies somehow finds the time to make music. Music that pleasures your ears with a bass heavy yet melodic mesh of broody electronics and intricate rhythms, containing shades of everything from hip-hop to house, from soul to jazz.&lt;/p&gt;&lt;p&gt;In late 2012, the 22 year-old decided to self-release his first EP, &#x27;The Stars&#x27;, and it was a decision that paid off, with full support coming in widespread across the blogosphere. Since then, he has supported Bonobo on his European Tour, hit the number one spot on the Hype Machine Chart and gained continuing support from the likes of Gilles Peterson and Annie Mac as well as becoming a firm favourite of YouTube channels, Majestic Casual and SuicideSheep.&lt;/p&gt;&lt;p&gt;Catching Flies’ most recent single ‘Quiet Nights,’ described by Clash Magazine as ‘absolutely beautiful,’ and he is currently working on a debut album for an as of yet unannounced label, with more news to follow soon.&lt;/p&gt;&lt;p&gt;After all this praise and initial kudos, you sense that this is the beginning of something very special indeed. We are so excited for his sundown set at the festival!"  data-sc="catchingfliesmusic/stay-forever">
 								<h3 class="tile__heading">Catching Flies</h3>
 							</a>
 						
-							<a class="tile isotile music " href="#" data-img="img/contents/pedaler.jpg" style="background-image: url(img/contents/pedaler.jpg)"  data-title="Pedaler" data-desc="When Alec is not winning national championships as a cyclist, he takes his time to spinning decks. He always has the floor going with his mixes, spanning Bass/House/Garage/Techno/Grime/Disco/Funk/Soul."  data-sc="alecbriggs">
+							<a class="tile isotile music " href="#" data-img="img/contents/pedaler.jpg" style="background-image: url(img/contents/pedaler.jpg)"  data-title="Pedaler" data-desc="When Alec is not winning national championships as a cyclist, he takes his time to spinning decks. He always has the floor going with his mixes, spanning Bass/House/Garage/Techno/Grime/Disco/Funk/Soul."  data-sc="alecbriggs/pedaler-where-love-lives-dub-unmastered">
 								<h3 class="tile__heading">Pedaler</h3>
 							</a>
 						
-							<a class="tile isotile music poetry " href="#" data-img="img/contents/jamesmassiah.jpg" style="background-image: url(img/contents/jamesmassiah.jpg)"  data-title="James Massiah" data-desc="The indefatigable James Massiah will be with us telling poems, DJing, discussing and dancing all weekend. He&#x27;s a true inspiration and we are so happy to have him as part of the family."  data-sc="jamesmassiah">
+							<a class="tile isotile music poetry " href="#" data-img="img/contents/jamesmassiah.jpg" style="background-image: url(img/contents/jamesmassiah.jpg)"  data-title="James Massiah" data-desc="The indefatigable James Massiah will be with us telling poems, DJing, discussing and dancing all weekend. He&#x27;s a true inspiration and we are so happy to have him as part of the family."  data-sc="jamesmassiah/james-massiah-waiting-for-shiloh">
 								<h3 class="tile__heading">James Massiah</h3>
 							</a>
 						
-							<a class="tile isotile music " href="#" data-img="img/contents/wayward.jpg" style="background-image: url(img/contents/wayward.jpg)"  data-title="Wayward" data-desc="Wayward are duo Lawrence Gale Hayes and Louis Greenwood, Their EP ‘Ugetsu’ is out now on Black Butter Records, a collection of 6 tracks showcasing their intoxicating Balearic and soulful rhythms – sounds that inform Waywards’ already distinctive approach to dance music, producing arresting house tracks."  data-sc="waywarduk">
+							<a class="tile isotile music " href="#" data-img="img/contents/wayward.jpg" style="background-image: url(img/contents/wayward.jpg)"  data-title="Wayward" data-desc="Wayward are duo Lawrence Gale Hayes and Louis Greenwood, Their EP ‘Ugetsu’ is out now on Black Butter Records, a collection of 6 tracks showcasing their intoxicating Balearic and soulful rhythms – sounds that inform Waywards’ already distinctive approach to dance music, producing arresting house tracks."  data-sc="waywarduk/wayward-baile">
 								<h3 class="tile__heading">Wayward</h3>
 							</a>
 						
-							<a class="tile isotile music " href="#" data-img="img/contents/wisdomteeth.jpg" style="background-image: url(img/contents/wisdomteeth.jpg)"  data-title="Wisdom Teeth Records" data-desc="Young, Leeds based record label Wisdom Teeth will be giving us a showcase at the festival, headed up by co-founders Josiah Gladwell (K-Lone) and Oscar Henson (Facta)."  data-sc="wisdomteeth-uk">
+							<a class="tile isotile music " href="#" data-img="img/contents/wisdomteeth.jpg" style="background-image: url(img/contents/wisdomteeth.jpg)"  data-title="Wisdom Teeth Records" data-desc="Young, Leeds based record label Wisdom Teeth will be giving us a showcase at the festival, headed up by co-founders Josiah Gladwell (K-Lone) and Oscar Henson (Facta)."  data-sc="wisdomteeth-uk/wsdm001-a-wen-late-night">
 								<h3 class="tile__heading">Wisdom Teeth Records</h3>
 							</a>
 						
-							<a class="tile isotile music " href="#" data-img="img/contents/hyla.jpg" style="background-image: url(img/contents/hyla.jpg)"  data-title="HYLA" data-desc="HYLA was born out of the thriving south east London scene. Since 2014 HYLA have been creating waves across London and further afield with their intergalactic soul sound. Their debut release ‘You and I’ has been described as “one of this years most impressively ambitious debut tracks”. (Crack in the road, 2014.) Recent gigs include headlining Hoxton bar and kitchen and Rotterdam’s ‘A Festival Downtown’. HYLA are currently in the studio working on their debut EP."  data-sc="hylaband">
+							<a class="tile isotile music " href="#" data-img="img/contents/hyla.jpg" style="background-image: url(img/contents/hyla.jpg)"  data-title="HYLA" data-desc="HYLA was born out of the thriving south east London scene. Since 2014 HYLA have been creating waves across London and further afield with their intergalactic soul sound. Their debut release ‘You and I’ has been described as “one of this years most impressively ambitious debut tracks”. (Crack in the road, 2014.) Recent gigs include headlining Hoxton bar and kitchen and Rotterdam’s ‘A Festival Downtown’. HYLA are currently in the studio working on their debut EP."  data-sc="hylaband/you-and-i">
 								<h3 class="tile__heading">HYLA</h3>
 							</a>
 						
-							<a class="tile isotile music " href="#" data-img="img/contents/jacoballen.jpg" style="background-image: url(img/contents/jacoballen.jpg)"  data-title="Jacob Allen" data-desc="Jacob Allen, age 20, is a singer/songwriter from South London with his debut EP dropping Autumn 2015. He cites Jeff Buckley, D&#x27;Angelo, Radiohead, Billie Holiday, Erykah Badu, Mac Demarco, Bon Iver, Rachmaninov &amp; The Jimi Hendrix Experience as major influences."  data-sc="jacoballenmusic">
+							<a class="tile isotile music " href="#" data-img="img/contents/jacoballen.jpg" style="background-image: url(img/contents/jacoballen.jpg)"  data-title="Jacob Allen" data-desc="Jacob Allen, age 20, is a singer/songwriter from South London with his debut EP dropping Autumn 2015. He cites Jeff Buckley, D&#x27;Angelo, Radiohead, Billie Holiday, Erykah Badu, Mac Demarco, Bon Iver, Rachmaninov &amp; The Jimi Hendrix Experience as major influences."  data-sc="jacoballenmusic/only-trying-to-tell-you">
 								<h3 class="tile__heading">Jacob Allen</h3>
 							</a>
 						
@@ -297,6 +300,137 @@
 				</div>
 
 		</section>
+		<section id="info">
+			<h2>Info</h2>
+			<div class="expandable">
+			
+				<div class="faq__item">
+					<a href="#" class="question reveal-button">
+						<h3>How do I volunteer?</h3>
+					</a>
+					<div class="reveal" style="display:none;">
+						<p>Want to get involved and join the team of beautiful volunteers that make Brainchild possible? Volunteering at Brainchild festival will mainly be a stewarding role. For example helping to set up the festival site, attending the car park, litter picking or bar work. They may also be other opportunities during set up to help construct in a more creative manner.</p>
+<p>The volunteer system works with a ticket bond, you help out with two 3 hour shifts and one 4 hour shift and then get half of your ticket cost back at the end of the festival. Some shift patterns will start on the Thursday to help set up, if you choose to do this you get an extra day on site and then more time to enjoy your weekend. Likewise, some will end on the Monday, meaning you work less over the course of the weekend.</p>
+<p>The volunteer team is brilliant to be a part of and we will try our best to put you on jobs with your friends if they volunteer too. Volunteers are an important part of Brainchild as without them the festival would not be the amazing event that it is. Therefore to show our love you are all invited to the staff party on Monday evening after the pack down to celebrate another magnificent Brainchild.</p>
+<p>So dont hesitate to buy your volunteer ticket and jump on board. We would love for you to join the crew and make Brainchild 2015 truly spectacular. If you have any questions please email <strong>tomo@brainchildfestival.co.uk</strong></p>
+
+					</div>
+				</div>
+			
+				<div class="faq__item">
+					<a href="#" class="question reveal-button">
+						<h3>Where is the festival and how do I get there?</h3>
+					</a>
+					<div class="reveal" style="display:none;">
+						<p>We’re running in the fields and woods of Bentley Wildfowl and Motor Museum, Halland, East Sussex, BN8 5AF. There <em>is</em> even a mini railway to take you on a tour round the site!</p>
+<p>Getting here by train: Nearest stations are Uckfield and Lewes. London Bridge to Uckfield is 1hr 10 minutes, and Brighton to Lewes is 15 minutes. </p>
+<p>Getting here by car: 30 minutes from Brighton via A27 &amp; A26, 60-90 minutes from London via A22.</p>
+
+					</div>
+				</div>
+			
+				<div class="faq__item">
+					<a href="#" class="question reveal-button">
+						<h3>Whats the deal with camping?</h3>
+					</a>
+					<div class="reveal" style="display:none;">
+						<p>We’ve got a big campsite right next to the main festival area, none of the hours of walking that you have to do at big festivals! The camping area is big enough for everyone at the festival to camp together. All you need to do is bring your tent. Please bear in mind we can’t have campervans or campfires at the festival.</p>
+
+					</div>
+				</div>
+			
+				<div class="faq__item">
+					<a href="#" class="question reveal-button">
+						<h3>What should I bring with me?</h3>
+					</a>
+					<div class="reveal" style="display:none;">
+						<p>Essentials: your ticket and some valid ID. Brainchild is an 18+ festival and you will need this and your ticket to get your wristband and gain entry.</p>
+<p>Please do bring: things that will help you gain from the festival, so notebooks, yoga mats, cameras, instruments for the jams…</p>
+<p>Please <strong>dont</strong> bring any glass, fireworks or illegal substances. We have a zero tolerance approach to illegal drugs and legal highs. Anyone found to be in possession of these on site will have them confiscated and may face ejection from the festival.</p>
+
+					</div>
+				</div>
+			
+				<div class="faq__item">
+					<a href="#" class="question reveal-button">
+						<h3>Will there be showers?</h3>
+					</a>
+					<div class="reveal" style="display:none;">
+						<p>Yes! We&#x27;ll have more showers this year, so bring your towels and washing stuff if you want to use them.</p>
+
+					</div>
+				</div>
+			
+				<div class="faq__item">
+					<a href="#" class="question reveal-button">
+						<h3>How much alcohol can I bring?</h3>
+					</a>
+					<div class="reveal" style="display:none;">
+						<p>All alcohol must be decanted into plastic bottles - we have a strict no glass rule on site. Per person, alcohol is limited to either: a 70cl bottle of spirits, OR one crate of beer/cider/ale OR two bottles of wine. Alcohol can only be brought in on first entry.</p>
+
+					</div>
+				</div>
+			
+				<div class="faq__item">
+					<a href="#" class="question reveal-button">
+						<h3>Is the festival family friendly?</h3>
+					</a>
+					<div class="reveal" style="display:none;">
+						<p>Brainchild is an 18+ festival, so we can’t allow kids on site. Sorry!</p>
+
+					</div>
+				</div>
+			
+				<div class="faq__item">
+					<a href="#" class="question reveal-button">
+						<h3>How do you cater for disabilities?</h3>
+					</a>
+					<div class="reveal" style="display:none;">
+						<p>Please get in touch with us about any requirements that you have and we can arrange priority parking spaces, camping and stage seating.</p>
+
+					</div>
+				</div>
+			
+				<div class="faq__item">
+					<a href="#" class="question reveal-button">
+						<h3>When does the festival start and finish?</h3>
+					</a>
+					<div class="reveal" style="display:none;">
+						<p>Gates open at 12:00 on Friday 10th July, with acts beginning shortly afterwards - the sooner you can get on site the better! The gates close again around 12:00 on Monday 13th July.</p>
+
+					</div>
+				</div>
+			
+				<div class="faq__item">
+					<a href="#" class="question reveal-button">
+						<h3>What is there to eat?</h3>
+					</a>
+					<div class="reveal" style="display:none;">
+						<p>We will have a great catering tent, open all hours and providing many options for breakfast, lunch and dinner throughout the festival. More details about our menus will be published nearer to the event.</p>
+
+					</div>
+				</div>
+			
+			</div>
+		</section>
+		<section id="gallery" class="gallery">
+			<h2>Gallery</h2>
+			<ul class="bxslider">
+			  <li><img src="img/gallery/1.jpg" alt="" title="Brainchildren, 2013"></li>
+			  <li><img src="img/gallery/2.jpg" alt="" title="Singing Workshop, 2013"></li>
+			  <li><img src="img/gallery/3.jpg" alt="" title="The &apos;The Hive&apos; Installation, 2013"></li>
+			  <li><img src="img/gallery/4.jpg" alt="" title="Illustrating The Shack, 2013"></li>
+			  <li><img src="img/gallery/5.jpg" alt="" title="Dancing at The Shack"></li>
+			  <li><img src="img/gallery/6.jpg" alt="" title="My Panda Shall Fly, 2013"></li>
+			  <li><img src="img/gallery/7.jpg" alt="" title="Spoken Word at The Forum, 2013"></li>
+			  <li><img src="img/gallery/8.jpg" alt="" title="Main Stage, 2013"></li>
+			  <li><img src="img/gallery/9.jpg" alt="" title="Brainchildren"></li>
+			  <li><img src="img/gallery/10.jpg" alt="" title="The Cave, 2013"></li>
+			  <li><img src="img/gallery/11.jpg" alt="" title="Alice Coltrane Ensemble, Steeze Cafe"></li>
+			  <li><img src="img/gallery/12.jpg" alt="" title="Open Air Theatre, 2013"></li>
+			</ul>
+		</section>
+		
 		<section id="events">
 			<h2>Events</h2>
 				<div class="tiles">
@@ -441,28 +575,11 @@
 			
 			</div>
 		</section>
-		<section id="gallery" class="gallery">
-			<h2>Gallery</h2>
-			<ul class="bxslider">
-			  <li><img src="img/gallery/1.jpg" alt="" title="Brainchildren, 2013"></li>
-			  <li><img src="img/gallery/2.jpg" alt="" title="Singing Workshop, 2013"></li>
-			  <li><img src="img/gallery/3.jpg" alt="" title="The &apos;The Hive&apos; Installation, 2013"></li>
-			  <li><img src="img/gallery/4.jpg" alt="" title="Illustrating The Shack, 2013"></li>
-			  <li><img src="img/gallery/5.jpg" alt="" title="Dancing at The Shack"></li>
-			  <li><img src="img/gallery/6.jpg" alt="" title="My Panda Shall Fly, 2013"></li>
-			  <li><img src="img/gallery/7.jpg" alt="" title="Spoken Word at The Forum, 2013"></li>
-			  <li><img src="img/gallery/8.jpg" alt="" title="Main Stage, 2013"></li>
-			  <li><img src="img/gallery/9.jpg" alt="" title="Brainchildren"></li>
-			  <li><img src="img/gallery/10.jpg" alt="" title="The Cave, 2013"></li>
-			  <li><img src="img/gallery/11.jpg" alt="" title="Alice Coltrane Ensemble, Steeze Cafe"></li>
-			  <li><img src="img/gallery/12.jpg" alt="" title="Open Air Theatre, 2013"></li>
-			</ul>
-		</section>
 
 		<section id="tickets" class="tickets inner-wrap">
 			<h2>Tickets</h2>
 			<p class="big-txt">The sooner you buy your tickets, the better we can make the festival...</p>
-      <p>We still have some spaces left for volunteers. If you come along and help out, we'll give you half the ticket money back at the end. More info <a href="#" class="info-overlay" data-img="img/contents/volunteering.jpg" data-title="Volunteering" data-desc="&lt;p&gt;Want to get involved and join the team of beautiful Volunteers that make Brainchild possible?&lt;/p&gt; &lt;p&gt;Volunteering at Brainchild festival will mainly be a stewarding role. For example helping to set up the festival site, attending the car park, litter picking or bar work. They may also be other opportunities during set up to help construct in a more creative manner.&lt;/p&gt; &lt;p&gt;The volunteer system works with a ticket bond, you help out with two 3 hour shifts and one 4 hour shift and then get half of your ticket cost back at the end of the festival.&lt;/p&gt;&lt;p&gt;Some shift patterns will start on the Thursday to help set up, if you choose to do this you get an extra day on site and then more time to enjoy your weekend. Likewise, some will end on the Monday, meaning you work less over the course of the weekend.&lt;/p&gt; &lt;p&gt;The volunteer team is brilliant to be a part of and we will try our best to put you on jobs with your friends if they volunteer too. The working environment is fun and offers lots diversity, there will be plenty of interesting and exciting things to help out with.&lt;/p&gt; &lt;p&gt;Volunteers are an important part of Brainchild as without them the festival would not be the amazing event that it is. Therefore to show our love you are all invited to the staff party on Monday evening after the pack down to celebrate another magnificent Brainchild.&lt;/p&gt; &lt;p&gt;So don&amp;#39;t hesitate to buy your volunteer ticket and jump on board. We would love for you to join the crew and make Brainchild 2015 truly spectacular.&lt;/p&gt; &lt;p&gt;If you have any questions please email &lt;b&gt;tomo@brainchildfestival.co.uk&lt;/b&gt;&lt;/p&gt;">here</a>.</p>
+      <p>We still have some spaces left for volunteers. If you come along and help out, we'll give you half the ticket money back at the end. More info <a href="#" class="info-overlay" data-img="img/contents/" data-title="" data-desc="">here</a>.</p>
 				<!-- Ticket Tailor Widget. -->
 					<div class="tt-widget"><div class="tt-widget-fallback"><p><a href="//www.tickettailor.com/new-order/21378/ad81/ref/website_widget/" target="_blank">Click here to buy tickets</a><br /><small><a href="http://www.tickettailor.com?rf=wdg" class="tt-widget-powered">Sell tickets online with Ticket Tailor</a></small></p></div><script src="https://dc161a0a89fedd6639c9-03787a0970cd749432e2a6d3b34c55df.ssl.cf3.rackcdn.com/tt-widget.js" data-url="//www.tickettailor.com/new-order/21378/ad81/ref/website_widget/" data-type="inline" data-inline-minimal="true" data-inline-bg-fill="false"></script></div>
 				<!-- End of Ticket Tailor Widget -->

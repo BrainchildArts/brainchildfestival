@@ -26,6 +26,7 @@
   &__embeds {
     max-width: 500px;
     margin: auto;
+    padding-right: 1em;
   }
   @media only screen and (min-width: 60rem) {
     &__copy {
@@ -66,4 +67,68 @@
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+.sc-link {
+  background-color: #F5F5F5;
+  padding: .5em;
+  padding-right: 1em;
+  border-radius: 4px;
+  color: #333;
+  display: inline-block;
+  margin: auto;
+  margin-bottom: 1.5rem;
+  height: 110px;
+  width: 100%;
+  img {
+    margin-right: 15px;
+    float: left;
+  }
+  .sc-right {
+    overflow: hidden;
+  }
+  a.stratus {
+    background-image: url(../img/partials/sc-play.svg);
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin-top: 3px;
+    margin-right: 6px;
+  }
+  .sc-titles {
+    display: block;
+  }
+  .sc-username,.sc-trackname {
+    cursor: auto;
+    display: inline-block;
+    font-style: normal;
+    font-variant: normal;
+    max-width: 100%;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-decoration: none;
+    text-overflow: ellipsis;
+    text-shadow: rgba(255, 255, 255, 0.901961) 0px 1px 0px;
+    vertical-align: bottom;
+    white-space: nowrap;
+  }
+  a.sc-username {
+    color: #999;
+    font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Garuda, Verdana, Tahoma, sans-serif;
+    font-size: 12px;
+    
+    font-weight: 100;
+    height: 15.4545450210571px;
+    line-height: 16px;
+    margin-bottom: 1px;
+  }
+  a.sc-trackname {
+    color: #333;
+    font-family: Interstate, 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', Garuda, Verdana, Tahoma, sans-serif;
+    font-size: 14px;
+    font-weight: normal;
+    height: 17.27272605896px;
+    line-height: 18px;
+    max-width: 100%;
+  }
 }

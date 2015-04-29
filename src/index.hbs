@@ -14,6 +14,8 @@
 		<meta property="og:description" content="Brainchild Festival is a 3-day, multi-arts festival. 10-12 July 2015" />
 		<script src="./modernizr.custom.js"></script>
 		<script src="https://w.soundcloud.com/player/api.js" type="text/javascript" async></script>
+		<script src="http://connect.soundcloud.com/sdk.js"></script>
+		<script> SC.initialize({ client_id: '2fbbba5d82f30b67594d8df69d010d0b' });</script>
 		<link rel="stylesheet" href="./style.min.css?version=2">
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
@@ -40,9 +42,10 @@
 					<nav class="site-nav--stuck site-nav">
 						<a href="#about">About</a>//
 						<a href="#lineup">Lineup</a>//
+						<a href="#info">Info</a>//
+						<a href="#gallery">Gallery</a>//
 						<a href="#events">Events</a>//
 						<a href="#friends">Friends</a>//
-						<a href="#gallery">Gallery</a>//
             <a href="#tickets">Tickets</a>//
 						<a href="#getinvolved">Get Involved</a>
 					</nav>
@@ -50,17 +53,17 @@
 			</div>
 		</header>
 		<section id="about" class="inner-wrap">
-			<div class="tabs" id="tabs">
+			<div class="tabs" id="tabs tab-collapsible-container">
 				<ul class="tabs-ul about-tabs">
-					<li class="tab" id="default-tab"><a href="#story">Story</a></li>
+					<li class="tab"><a href="#story">Story</a></li>
 					<li class="tab default-tab"><a href="#manifesto">Manifesto</a></li>
 					<li class="tab"><a href="#team">Team</a></li>
 				</ul>
-
 				<div id="manifesto">
-						<p class="big-txt">Welcome to Brainchild, our weekend festival with collaboration and experimentation at its heart. We are dedicated to sharing ideas and developing creativity, with a love of art and thinking from all disciplines. We want to bring your ideas and stories to life within the boundless and imaginative space of our festival.</p>
-
-					<div class="columns">
+					<p class="big-txt">Welcome to Brainchild, our weekend festival with collaboration and experimentation at its heart. We are dedicated to sharing ideas and developing creativity, with a love of art and thinking from all disciplines. We want to bring your ideas and stories to life within the boundless and imaginative space of our festival.</p>
+					<a href="#" class="center reveal-button" data-text-swap="Less..." data-text-swap="Read more...">Read more...</a>
+						
+					<div class="reveal columns" style="display: none;">
 						<p>We started this with a belief that an enormous amount of good can come out of a weekend full of performing arts, talking, dancing and meeting new friends.</p>
 
 						<p>Run entirely by volunteers, everybody mucks in dedicating long, hard hours to build an intimate community space including four stages, installations, camping area and bar, all beautifully decorated by resident artists.</p>
@@ -133,6 +136,39 @@
 				</div>
 
 		</section>
+		<section id="info">
+			<h2>Info</h2>
+			<div class="expandable">
+			{{#each info}}
+				<div class="faq__item">
+					<a href="#" class="question reveal-button">
+						<h3>{{question}}</h3>
+					</a>
+					<div class="reveal" style="display:none;">
+						{{#markdown}}{{answer}}{{/markdown}}
+					</div>
+				</div>
+			{{/each}}
+			</div>
+		</section>
+		<section id="gallery" class="gallery">
+			<h2>Gallery</h2>
+			<ul class="bxslider">
+			  <li><img src="img/gallery/1.jpg" alt="" title="Brainchildren, 2013"></li>
+			  <li><img src="img/gallery/2.jpg" alt="" title="Singing Workshop, 2013"></li>
+			  <li><img src="img/gallery/3.jpg" alt="" title="The &apos;The Hive&apos; Installation, 2013"></li>
+			  <li><img src="img/gallery/4.jpg" alt="" title="Illustrating The Shack, 2013"></li>
+			  <li><img src="img/gallery/5.jpg" alt="" title="Dancing at The Shack"></li>
+			  <li><img src="img/gallery/6.jpg" alt="" title="My Panda Shall Fly, 2013"></li>
+			  <li><img src="img/gallery/7.jpg" alt="" title="Spoken Word at The Forum, 2013"></li>
+			  <li><img src="img/gallery/8.jpg" alt="" title="Main Stage, 2013"></li>
+			  <li><img src="img/gallery/9.jpg" alt="" title="Brainchildren"></li>
+			  <li><img src="img/gallery/10.jpg" alt="" title="The Cave, 2013"></li>
+			  <li><img src="img/gallery/11.jpg" alt="" title="Alice Coltrane Ensemble, Steeze Cafe"></li>
+			  <li><img src="img/gallery/12.jpg" alt="" title="Open Air Theatre, 2013"></li>
+			</ul>
+		</section>
+		
 		<section id="events">
 			<h2>Events</h2>
 				<div class="tiles">
@@ -156,23 +192,6 @@
 				</div>
 			{{/each}}
 			</div>
-		</section>
-		<section id="gallery" class="gallery">
-			<h2>Gallery</h2>
-			<ul class="bxslider">
-			  <li><img src="img/gallery/1.jpg" alt="" title="Brainchildren, 2013"></li>
-			  <li><img src="img/gallery/2.jpg" alt="" title="Singing Workshop, 2013"></li>
-			  <li><img src="img/gallery/3.jpg" alt="" title="The &apos;The Hive&apos; Installation, 2013"></li>
-			  <li><img src="img/gallery/4.jpg" alt="" title="Illustrating The Shack, 2013"></li>
-			  <li><img src="img/gallery/5.jpg" alt="" title="Dancing at The Shack"></li>
-			  <li><img src="img/gallery/6.jpg" alt="" title="My Panda Shall Fly, 2013"></li>
-			  <li><img src="img/gallery/7.jpg" alt="" title="Spoken Word at The Forum, 2013"></li>
-			  <li><img src="img/gallery/8.jpg" alt="" title="Main Stage, 2013"></li>
-			  <li><img src="img/gallery/9.jpg" alt="" title="Brainchildren"></li>
-			  <li><img src="img/gallery/10.jpg" alt="" title="The Cave, 2013"></li>
-			  <li><img src="img/gallery/11.jpg" alt="" title="Alice Coltrane Ensemble, Steeze Cafe"></li>
-			  <li><img src="img/gallery/12.jpg" alt="" title="Open Air Theatre, 2013"></li>
-			</ul>
 		</section>
 
 		<section id="tickets" class="tickets inner-wrap">
