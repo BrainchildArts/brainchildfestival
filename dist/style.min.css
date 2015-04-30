@@ -1149,7 +1149,11 @@ ul.about-tabs {
   text-decoration: underline; }
 
 #info p {
-  font-size: .9em; }
+  font-size: 1em;
+  text-align: center;
+  max-width: 35em;
+  margin-left: auto;
+  margin-right: auto; }
 
 #stratus {
   position: fixed;
