@@ -24,7 +24,7 @@ gulp.task('browser-sync', ['styles'], function() {
 
 // Chained Tasks
 gulp.task('default', function() {
-    gulp.start('styles', 'jshint', 'scripts', 'grunt-assemble', 'browser-sync');
+    gulp.start('styles', 'jshint', 'scripts', 'grunt-assemble', 'browser-sync', 'watch');
 });
 
 // CSS
@@ -83,7 +83,6 @@ gulp.task('scripts', function() {
 
 // Watch Task
 gulp.task('watch', function() {
-    gulp.start('default');
     function logger(event) {
         console.log('File ' + chalk.yellow(event.path) + ' was ' + chalk.yellow(event.type));
     }

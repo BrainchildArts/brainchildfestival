@@ -67,6 +67,9 @@ h6 {
 
 p {
     font-size: 1.03em;
+    max-width: 37em;
+    margin-right: auto;
+    margin-left: auto;
 } 
 
 .big-txt {
@@ -91,9 +94,8 @@ p {
 }
 
 .columns {
-    @include min-width($tablet) {
-        columns: 2;
-    }
+    columns: 2 17em;
+    column-gap: 2em;
 }
 
 .contactslist {

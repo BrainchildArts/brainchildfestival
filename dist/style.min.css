@@ -470,7 +470,10 @@ h6 {
   font-size: 0.75em; }
 
 p {
-  font-size: 1.03em; }
+  font-size: 1.03em;
+  max-width: 37em;
+  margin-right: auto;
+  margin-left: auto; }
 
 .big-txt, .overlay__copy p {
   font-size: 1.25em; }
@@ -491,11 +494,13 @@ p {
       margin-right: 2.2em;
       margin-left: 2.2em; } }
 
-@media only screen and (min-width: 60rem) {
-  .columns {
-    -webkit-columns: 2;
-       -moz-columns: 2;
-            columns: 2; } }
+.columns {
+  -webkit-columns: 2 17em;
+     -moz-columns: 2 17em;
+          columns: 2 17em;
+  -webkit-column-gap: 2em;
+     -moz-column-gap: 2em;
+          column-gap: 2em; }
 
 .contactslist {
   list-style: none;
@@ -675,16 +680,6 @@ html.single-section, html.single-section > body {
 
 html.single-section section {
   position: static; }
-
-#manifesto {
-  margin-bottom: 0.5em; }
-  #manifesto .reveal-button {
-    margin-bottom: 0.5em; }
-  #manifesto p.big-txt, #manifesto .overlay__copy p, .overlay__copy #manifesto p {
-    margin-bottom: 0.3em; }
-  @media all and (min-width: 855px) {
-    #manifesto p.big-txt, #manifesto .overlay__copy p, .overlay__copy #manifesto p {
-      padding: 0 6vw; } }
 
 .tiles {
   text-align: center; }
