@@ -1,5 +1,12 @@
 ---
   -
+    name: "Adam Blake"
+    image: "adam.jpg"
+    bio: "As he's the father of one of our main organisers, we do have a slightly biased viewpoint. But his performances at Steez and at Brainchild Festival alike have shown us how many of our contemporaries are also ready to groove to his powerful blues playing. One of Steez' inherent strengths has been the appreciation of music from so many genres, across different generations. Someone once said that his growling vocals made it sound like he had drunk a bottle of whiskey a day for years, which we're glad to say is not at all true, but they were right to pick up on the vocals for we believe they're part of what makes his performances so electrifying. He often plays a selection of open tuned bottleneck slide numbers – drawing from his love of Elmore James and Mississippi Fred McDowell – and then switches to standard tuning to deliver a selection of his own devising. Most importantly, he draws the audience in to the stories that the blues have told him, sharing the humour and pathos of these timeless human situations."
+    utube-id: "qP2ahHqxs3Q"
+    tags:
+    - music
+  -
     name: "BabeHeaven"
     image: "babeheaven.jpg"
     bio: "BabeHeaven are an exciting new West London band formed by 3 friends in 2014. Echoing elements of Massive attack and early Cocteau Twins, they immediately grab your attention with their haunting vocals and glimmering production. Look out for gigs in May this year!"
@@ -14,6 +21,20 @@
     tags:
     - music
   -
+    name: "Bastian"
+    image: "bastian.jpg"
+    bio: "In the last few years, Birmingham based Bastian has steadily made a name for himself with a number of residencies across the city and shows around the UK. He’s developed a selection that runs strictly on the underground with a passion and track selection dedicated to making the crowd move. As resident for Shadow City Bastian relishes the opportunity to shape the music to fit the special guests. With selection spanning Disco, house and techno, Shadow City has become known as a party that truly gets the dance floor ticking, fuelled by Bastian and resident partner in crime, Opyn . Having played with the likes of Four Tet, Ben Ufo, Groove Armada, Cassy and Krystal Klear as well as at festivals such as Outlook & Dimensions, Soundwave and Snowboxx, Bastian’s making waves in 2015.  With productions on the horizon and praise from seminal club nights around the UK, Bastian is making his mark on Birmingham and further afield."
+    soundcloud: "bastiandj/sets/mixes"
+    tags:
+    - music
+  -
+    name: "Ben Hayes"
+    image: "benhayes.jpg"
+    bio: "Based in south east London, Ben Hayes music is soulful, future facing and profound (Clash, Pause Musicale). Carefully lacing programmed synthesisers, the warmth of live instrumental performance and deftly manipulated found sound,  Ben Hayes punctuates evolving organic textures with evocatively lopsided beats. What's so special about Ben is the way he brings the minute hidden beauty to the foreground, revealing stunning sounds that would otherwise pass us by.</p><p>After releasing his Hedonia EP to support from FACT, Clash and Complex UK, he has crafted his sound into a transportive live show, drawing together some of the finest jazz and electronic musicians in the south east scene."
+    soundcloud: "benhayes/ray-against-the-clock"
+    tags:
+    - music
+  -
     name: "Ben Hauke"
     image: "benhauke.jpg"
     bio: "Ben is a beatmaker with a skill and an ear that is totally compelling. Whether he's mixing live or jamming with someone's poem, or other instruments, it is fascinating to watch and listen for the soundscape he carves out as he transforms the airwaves around him. We are overjoyed he'll be with us for the festival, bringing his wizard mastery of the MPC and unique composing style to the mix for the weekend."
@@ -21,10 +42,73 @@
     tags:
     - music
   -
+    name: "Capua Collective"
+    image: "capua.jpg"
+    bio: ""
+    soundcloud: "capua-collective/montevago-ft-georgia-thursting"
+    tags:
+    - music
+  -
     name: "Chelou"
     image: "chelou.jpg"
     bio: "From the first few seconds of hearing Chelou's EP 'The Quiet', you know that something special is happening. His music is atmospheric, skilful and full of soul. The infusion of electronics and acoustics reflect his unique pool of influences, ranging from PJ Harvey to Nirvana and Brian Jonestown and a host of electronic music. We can't wait for him to be part of the festival."
     soundcloud: "chelouofficial/the-quiet-preview"
+    tags:
+    - music
+  - 
+    name: "Circula"
+    image: "circula.jpg"
+    bio: "Currently residing in Berlin, Circula blends the influence of musicianship and electronic production into his work. A member of the sound-system Groundvibes, Circula is driven by the influece of jazz and funk from far and wide, continually drawn to big beats and meaningful bass lines."
+    soundcloud: "pushandrun/circula-lost"
+    tags:
+    - music
+  -
+    name: "Corinthians"
+    image: "corinthians.jpg"
+    bio: "Corinthians came into being in the summer of 2014 to help bring a psychedelic dream to life during one night in the Big Top tent at Wilderness Festival. It was so much fun that they thought they should stick around. Since then, they have been developing their sound in South East London as a collaborative project, channeling sun-drenched harmonies, synths, guitars and thundering drums into their own brand of futuristic psych-pop. Corinthians list the Zombies, Late of the Pier and the Flaming Lips among their most prominent influences, and invite you to explore their world, somewhere between the sunshine and the shadows."
+    soundcloud: "corinthiansband/caverns-8-9-13"
+    tags:
+    - music
+  -
+    name: "Deep Sounds"
+    image: "deep.jpg"
+    bio: "Founded in early 2014, Deep Sounds are a collective of DJ’s based in Yorkshire. Striving to keep their back-to-back sets fresh, but throwing in some classics for good measure, expect everything from house to garage, bass to techno, and maybe even a little bit of disco!"
+    soundcloud: "deepsoundsuk/deep-sessions-001"
+    tags:
+    - music
+  -
+    name: "Elder Island"
+    image: "elder.jpg"
+    bio: "Elder Island is the hatchling brainchild of Katy Sargent, David Havard and Luke Thornton.</p></p>Their sound comprises cello and female vocals enwreathed in a multi-layered chorus of guitar, keys, bass and beats. The band met whilst studying in Bristol and has been intermittently producing and playing music together ever since."
+    soundcloud: "elderisland/elder-island-the-big-unknown"
+    tags:
+    - music
+  -
+    name: "Euphony"
+    image: "euphony.jpg"
+    bio: "Euphony, a lively 9 piece group from Brighton, play a blend of upbeat, boppy music, designed to get people movin’. From Beans On Toast to Gentle Mystics, from Cat Empire to King Tubby, Euphony are 9 youths mashing together their collective minds to bring you classics old and new. With a proven history of inciting mass skank-outs on stages, in tents and in campsites, Euphony will guaranteed take you by surprise. Be sure to carry your sense of humour!"
+    link: "http://euphonybrighton.bandcamp.com/"
+    tags:
+    - music
+  -
+    name: "Footshooter"
+    image: "foot.jpg"
+    bio: "Footshooter is a Brighton-based producer, DJ and the newest addition to the Mad Vibes Collective. As well as production work for MVC (including Slam The Poet's recent release, 'Cosmic Background Radio') and Brighton/Oxford's Voodoo Collective, he's made an appearance at Steez with the poet Tommy Sissons, as well as performing a live beats set with soul band Normanton Street and MVC's Slam The Poet in Brighton town.</p><p>His lively DJ sets contain an eclectic mix, including his own productions, ranging from hip-hop to afrobeat to footwork and everything in between, aiming to make some hips move while keeping it soulful."
+    soundcloud: "footshooter/gimme-2-minutes-intro"
+    tags:
+    - music
+  -
+    name: "Haraket"
+    image: "haraket.jpg"
+    bio: "Haraket (‘movement’ in Turkish) are a five-piece band based in Southeast London. Their two EP's ('Taint/ATTGO' and 'Ilk') on Melodica Recordings attracted attention from points as diverse as Zane Lowe (BBC Radio 1), Stuart Maconie, Gideon Coe, Tom Ravenscroft (BBC 6 Music), John Kennedy (XFM), DJ Magazine, The Line of Best Fit and Stamp The Wax.</p><p>Preserving wall-of-sound dynamics combining disparate elements of electronics, post-rock influenced guitars, live / programmed beats, impassioned vocal lines, pounding bass, atmospheric keyboards and cool jazz influenced trumpet."
+    soundcloud: "haraket/levelhead"
+    tags:
+    - music
+  -
+    name: "Heather Wall"
+    image: "heather.jpg"
+    bio: "Heather Wall is known for playing a wide range of music spanning from electronic to jazz, to 70s African funk and even Brazilian carnival songs. She began running her own nights playing soca, dancehall and afrobeats in dingy clubs in South Manchester.<p><p>Heather spent the last year working with Gilles Peterson and his London record label, Brownswood Recordings.</p><p>She’s DJ’d the mainstage at Greenbelt festival for seven years, as well as the Gilles Peterson Worldwide Stage at On Blackheath last year. In London she’s DJ’d at Bussey Building, BL-NK as part of Brownswood DJs, Bedroom Bar, Drink Shop & Dance. Outside of London she could regularly be found at Academy 1, 2 and 3, Joshua Brooks and 1 Primrose Street in Manchester.</p><p>Currently residing in a more background role at NTS, she’s a regular face at gigs and clubs across London and Manchester."
+    soundcloud: "dj_heatherwall/best-of-2014-mostly-mobo-podcast"
     tags:
     - music
   -
@@ -42,10 +126,52 @@
     tags:
     - music
   -
+    name: "Jerkcurb"
+    image: "jercurb.jpg"
+    bio: "Many of you may not know the multi talented man that is Jerkcurb. Aside from his wavey illustration work (http://palmgrease.tumblr.com/), he makes guitar music that makes you feel like you’re suspended in something thicker than water but not quite as viscous as jelly. His soundcloud says he makes guitar music for squids, which sort of seems to make sense. Have a listen to this beautiful song."
+    soundcloud: "jerkcurb/midnight-snack"
+    tags:
+    - music
+  -
+    name: "Jonny O'Donnell"
+    image: "jonny.jpg"
+    bio: "With performances at Live at Leeds, The Wardrobe and virtually every other venue on the Leeds circuit under his belt, Jonny is quickly becoming one of the most exciting young acoustic artists in the north. His style reminisces on John Martyn, John Butler and Nick Drake and his music has a timelessness and intimacy reserved only for the greatest of songwriters. Whatever your musical preference this is a Brainchild must!"
+    soundcloud: "jonnyodonnellmusic/bodyspeak"
+    tags:
+    - music
+  -
+    name: "La Petite Mort"
+    image: "lapetite.jpg"
+    bio: "La Petite Mort are a 5 piece Psychedelic group based out of York since 2010. The line up consists of Electric Guitar, Saxophone, Bass, Drums and The Human Voice, sometimes the occasional Sitar. Their sound is best described as GrooveGrungeGaze, drawing elements from Jazz, Shoegaze, Classic Psychedelia and blending them into a rich potion of organic yet modern sonic aromas. La Petite Mort are an infectious live band, improvisation, walls of noise, moments of clarity and endless guest musicians are what makes them such an unforgettable experience. With constant touring and plans for an album, 2015 is set to be the most important year of their journey so far."
+    soundcloud: "lapetitemortxxx/ferris-wheel"
+    tags:
+    - music
+  -
     name: "Loyle Carner"
     image: "loylecarner.jpg"
     bio: "South London emcee Loyle Carner, alongside producer and live partner Rebel Kleff, are Britain’s most recent new hope in hip hop. These two create reminiscent old school hip hop with their own UK and modern influences, with debut EP ‘A Little Late’ causing quite a stir on the airwaves. Touring with the likes of Joey Bada$$ and Atmosphere, Loyle is an exciting young rapper making serious moves on the UK circuit."
     soundcloud: "loyle-carner/cantona"
+    tags:
+    - music
+  -
+    name: "Loucin"
+    image: "loucin.jpg"
+    bio: "With 3 years experience fronting one of the UK's best student Dance Bands at Leeds University, the incredible Loucin Moskofian has transformed from a creative bedroom talent into a powerhouse of a performer. As a solo artist she plays a mixture of beautifully reworked covers and original material. Showcasing influences ranging from the great original jazz and soul singers right through to the intimate songwriters of today, Loucin is certainly one to watch for the future."
+    soundcloud: ""
+    tags:
+    - music
+  -
+    name: "Matthew Halsall Quartet"
+    image: "matthew.jpg"
+    bio: ""
+    soundcloud: "matthewhalsall/matthew-halsall-ode-to-the-big-sea"
+    tags:
+    - music
+  -
+    name: "Max Pope"
+    image: "maxpope.jpg"
+    bio: "A musician of remarkable skill and a writer of songs that belie his years, he is clearly an artist that is a student of his craft. Consummately at ease in the live setting and with music that acknowledges the past, but clearly lives in the present, Max is a star for the future.</p><p>With a debut EP set for release in June, Max Pope will be one to watch out for this summer."
+    soundcloud: "maxthepope/gone-to-count-sheep"
     tags:
     - music
   -
@@ -56,6 +182,20 @@
     tags:
     - music
   -
+    name: "Monika"
+    image: "monika.jpg"
+    bio: "South London producer Monika has been writing music for around 3 years and is making waves on the drum and bass circuit. Longstanding member of the Brainchild family, he will be returning to charm the crowds with his unique take on the 170pbm genre.</p><p>With releases on MedSchool and Ingredients, Monika is one to look out for."
+    soundcloud: "musicmonika/no-air-breathe2"
+    tags:
+    - music
+  -
+    name: "Moses Boyd Exodus"
+    image: "moses.jpg"
+    bio: "Brainchild of drummer, producer and composer Moses Boyd, The Exodus explores music of an eclectic sound pallette. From spiritual jazz to grime beats The Exodus is adept in both acoustic and electronic soundworlds. Born in south London primarily self taught moses began playing drums at 13 and began performing regularly across London at 17. And has since toured the world playing at many of the world stages and festivals. In 2014 Moses was awarded  the WCOM Young jazz musican of the year and recieved the 'Steve Reid innovation award' from PRS for music foundation.</p><p>Still a regular sideman Moses has worked with the likes of lonnie liston smith, Giles Peterson, Kwabs, Jimmy Napes, Soweto Kinch and Zara McFarlane and many more."
+    soundcloud: "moses-boyd/axis-blue"
+    tags:
+    - music
+  -
     name: "Myriad Forest"
     image: "myriadforest.jpg"
     bio: "In our eyes, Myriad Forest is a bit of a super-group, with roots in both Psylus and United Vibrations. They have a musical force that will transport you into another world, with drums, bass, sax and electronics reaching untold strengths together."
@@ -63,9 +203,17 @@
     tags:
     - music
   -
+    name: "MVC"
+    image: "mvc.jpg"
+    bio: 'The Mad Vibez Collective are most veritable chaps combining many styles, mediums and mindsets to bring positive music for positive movements.</p><p>In their own words, "We want to build this as broad as possible, breaking the usual uni-media form collectives often take. MVC brothers and sisters (unfortunately mostly brothers) include Sumochief, BeBe, Mr. Ottis, Ja Josh, Raggo Foot, JadaSea The Ambassador, MC Pinty, Lank Slacks, Leenius, Mad Lean, Southpaw, Ben Hauke, The Jackal, Edgar The Beatmaker, Sicknotes Radio and anyone else who has ever helped out/contributed to the cause. Big love to the Steez and Brainchild families for all the love theyve shown over the last few years.This is a movement of peace, boombap inspired beats and politically pissed off MCs. We mean to congregate, remake and create over the bass and beats of the south east. MVC Peacex"'
+    soundcloud: "slamthepoet/the-lesson-ben-hauke-remix"
+    tags:
+    - music
+  -
     name: "Nerija"
     image: "nerija.jpg"
     bio: "Nérija (pronounced ‘Ne-ree-ya’) began from a Tomorrow’s Warriors initiative which premised that many girls often start playing jazz at the same time as their male counterparts, but often do not develop at the same rate. The Warriors have therefore begun separate development sessions for young women with the aim of creating a space for them in which they do not feel intimidated by counterproductive competitiveness, or feel discouraged by perceiving jazz as a uniquely masculine art form. Nérija embodies this initiative.</p><p>However, Nérija has also begun to embody something more, represented by the choosing of their name, taken from the Hebrew name ‘Nerijah’, which means ‘lamp (or light) of God’. The focus on the concept of a light with divine power may be the common desire that binds the group beyond the confines of the warriors:</p><p>&quot;It is the search for individual strength in the face of external expectations, a strength which shows itself not in competitiveness, desire for approval, or to prove that women can play well, but in the ability to discover and remain who we are, being honest with ourselves and others when to do so is incredibly hard.</p><p>Our music is a reflection of this, our friendship, and the continual search for ‘Nérija’&quot;."      soundcloud: "nerijamusic/redamancy"
+    soundcloud: "nerijamusic/redamancy"
     tags:
     - music
   -
