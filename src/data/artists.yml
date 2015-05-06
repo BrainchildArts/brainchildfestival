@@ -212,8 +212,29 @@
   -
     name: "Nerija"
     image: "nerija.jpg"
-    bio: "Nérija (pronounced ‘Ne-ree-ya’) began from a Tomorrow’s Warriors initiative which premised that many girls often start playing jazz at the same time as their male counterparts, but often do not develop at the same rate. The Warriors have therefore begun separate development sessions for young women with the aim of creating a space for them in which they do not feel intimidated by counterproductive competitiveness, or feel discouraged by perceiving jazz as a uniquely masculine art form. Nérija embodies this initiative.</p><p>However, Nérija has also begun to embody something more, represented by the choosing of their name, taken from the Hebrew name ‘Nerijah’, which means ‘lamp (or light) of God’. The focus on the concept of a light with divine power may be the common desire that binds the group beyond the confines of the warriors:</p><p>&quot;It is the search for individual strength in the face of external expectations, a strength which shows itself not in competitiveness, desire for approval, or to prove that women can play well, but in the ability to discover and remain who we are, being honest with ourselves and others when to do so is incredibly hard.</p><p>Our music is a reflection of this, our friendship, and the continual search for ‘Nérija’&quot;."      soundcloud: "nerijamusic/redamancy"
+    bio: "Nérija (pronounced ‘Ne-ree-ya’) began from a Tomorrow’s Warriors initiative which premised that many girls often start playing jazz at the same time as their male counterparts, but often do not develop at the same rate. The Warriors have therefore begun separate development sessions for young women with the aim of creating a space for them in which they do not feel intimidated by counterproductive competitiveness, or feel discouraged by perceiving jazz as a uniquely masculine art form. Nérija embodies this initiative.</p><p>However, Nérija has also begun to embody something more, represented by the choosing of their name, taken from the Hebrew name ‘Nerijah’, which means ‘lamp (or light) of God’. The focus on the concept of a light with divine power may be the common desire that binds the group beyond the confines of the warriors:</p><p>&quot;It is the search for individual strength in the face of external expectations, a strength which shows itself not in competitiveness, desire for approval, or to prove that women can play well, but in the ability to discover and remain who we are, being honest with ourselves and others when to do so is incredibly hard.</p><p>Our music is a reflection of this, our friendship, and the continual search for ‘Nérija’&quot;."
     soundcloud: "nerijamusic/redamancy"
+    tags:
+    - music
+  -
+    name: "Nomad Soul"
+    image: "nomad.jpg"
+    bio: "Nomad Soul combine elements of jazz, folk, soul and hip-hop, creating ambient textures and driving grooves. Since forming the 4 piece in 2012, they have extended their line up featuring many different horn players from around London. Emphasis is placed on the cinematic idiom where they hope to incorporate some visual elements especially for the festival. This year the band are currently working on their début album."
+    soundcloud: "nomad-soul-collective/forever-ft-lucinda"
+    tags:
+    - music
+  -
+    name: "Oscar Laurence"
+    image: "oscar.jpg"
+    bio: "Oscar started playing classical guitar at the age of 9, at this time he also started singing and song writing. At 15 he became interested in jazz and at 18 he began studying jazz guitar at Trinity Laban Conservatoir of Music and Dance. Now at the age of 23 he plays all over London and the UK with his own band fusing hip hop, afro jazz and soul. He can also be seen performing with other groups/artists such as Sumochief, Hyla, Shivum Sharma, Poppy Ajudha and Myriad Forest."
+    soundcloud: "oscarlaurence/smile-on-a-screen-ft-james-massiah-prod-maxwell-owin"
+    tags:
+    - music
+  -
+    name: "Parshmaune"
+    image: "parshmaune.png"
+    bio: 'Parshmaune currently stands as an ensemble of six musicians.</p><p>However Parshmaune is not the next critically-acclaimed jaw-dropping, phenomena to burst out of thin air. Parshmaune may not blow your favourite artists out of the water and Parshmaune certainly won’t be all that your ears have longed for.</p><p>Most importantly, Parshmaune is not a monstrous list of adjectives, hoping to build a cliché, over-exaggerated perception of a new ensemble. Without pretence, sound can’t be represented with words, which is why seeing and hearing them for yourselves will be the only thing to ever explain their endeavours as muscians.</p>Simply put, Parshmaune is Parshmaune. "Parsh-morn".'
+    soundcloud: "parshmaune/this-isnt-called-four"
     tags:
     - music
   -
@@ -224,10 +245,59 @@
     tags:
     - music
   -
+    name: "Poppy Ajudha"
+    image: "poppy.png"
+    bio: "Poppy Ajudha is a 19 year old singer songwriter from South East London. At the age of 16 she began being mentored by reggae artist Natty, gaining experience through performing with him and with her band at his Vibes and Pressure events. Over the last year she has formed a new band and performed at venues such as The Bussey Building, The Southbank Centre, Passing Clouds and Hootananny Brixton. Since then collaborating with artists such as Amane, Othasoul, JungleVIP, Grades and Sumochief. Poppy has become increasingly involved in the South London music event STEEZ where she performs regularly, and will also be performing at Native Dancer's EP launch alongside Eric Lau in April. She is currently working on her EP, and is releasing her newest song 'Davids Song' with record label Indigo Soul this June, as well as further collaborations and remixes which will be released later this year."
+    soundcloud: ""
+    tags:
+    - music
+  -
+    name: "Port Isla"
+    image: "port.jpg"
+    bio: "On a good day, Port Isla are a four piece band formed in Norwich. </p><p>In 2011, Will Bloomfield met fellow UEA students Stanley Spilman and Henry Kilmister. They then spent the next couple of months writing and playing acoustic gigs around Norfolk. Willem Olenski soon joined to complete the current line up. They have since played at The Great Escape festival, Latitude festival, thanks to huge support via BBC Introducing, Reeperbahn Festival in Hamburg and in 2013 they were invited by Emily Eavis to play Glastonbury. They have released their first two singles, Adventurers and Sinking Ship, for free and to huge acclaim with the latter being selected as Zane Lowe’s ‘Next Hype’. They are both available to download from their Soundcloud page with a debut E.P expected imminently.</p><p>On a bad day, they cover 80's power ballads, complain about beard growth and argue about the correct usage of knots."
+    soundcloud: "port-isla/sinking-ship-1"
+    tags:
+    - music
+  -
+    name: "Puma Rosa"
+    image: "pumarosa.jpg"
+    bio: ""
+    soundcloud: "pumarosamusic/red"
+    tags:
+    - music
+  -
     name: "Rags Rudi"
     image: "ragsrudi.jpg"
     bio: "East London’s Rags Rudi is a six piece ensemble playing a head-nodding, feet-sparking cocktail of ska, hip-hop, dub and punk."
     soundcloud: "rags-rudi/as-serious-as-your-life"
+    tags:
+    - music
+  -
+    name: "Shivum Sharma"
+    image: "shivum.jpg"
+    bio: "There are few experiences that can compare to the first time we heard Shivum sing. It was a STEEZ and the upstairs of the Fox and Firkin in Lewisham was packed out - everyone was silent and totally transfixed. His voice has that beautiful quality in that it's both sensitive and very powerful, with a vivid melody-palate described by Wonderland magazine as 'splashed with Aphex Twin’s avant garde ambiance, Erykah Badu’s softly-softly soul pop, and the ethereal indie cadences of the Cocteau Twins'.</p></p>Shivum is currently producing his own EP which we are delighted to hear will be played to us all at the festival."
+    soundcloud: "shivum-sharma/flicker-2"
+    tags:
+    - music
+  -
+    name: "Sista Sista"
+    image: "sista.jpg"
+    bio: "SISTA SISTA is a party thrown and DJed by Flo Dill and Gracie Fletcher. From small beginnings in a basement club, they now host a regular residents-only party at one of London’s top venues, and - when the weather permits - outdoor day and night parties. SISTA SISTA is just as concerned with providing an atmosphere as playing good tunes, with a music policy defined only by dance floor friendly selection, and a belief in the importance of the personal touch."
+    soundcloud: ""
+    tags:
+    - music
+  -
+    name: "South East Dub Collective"
+    image: "sedub.jpg"
+    bio: "We decided to cook up something really special for this one... For the 2013 festival we enjoyed an afternoon of dub courtesy of Kalichakra Soundsystem. This year, they have evolved to become the South East Dub Collective, comprising of Brainchild artists from Nerija, Sumochief and many more (inc. Rosie Turton, Danny Wallington, Oracle MC, Joe Armon-Jones). For their live dub set they will be bringing other musicians on stage from across the lineup and heading into a jam that will take it all to the next level. We are so excited for this!"
+    soundcloud: ""
+    tags:
+    - music
+  -
+    name: "Stuart McCallum & Rioghnach Connolly"
+    image: "stuart.jpg"
+    bio: ""
+    soundcloud: ""
     tags:
     - music
   -
@@ -238,10 +308,66 @@
     tags:
     - music
   -
+    name: "Tank and the Bangas"
+    image: "tank.jpg"
+    bio: "They are coming all the way from New Orleans! We can hardly believe it.</p><p>Formed during an open-mic set in New Orleans, Tank and The Bangas have all the qualities that relate them to the city that birthed them but a flair that separates them as well. Their performances range from being “One of the most energetic shows you’ll ever see” to “A gospel tent in Mississippi”. Rummaging through their sound like a thrift store hippie, you’ll find the Bangas to provoke a musical reference of Rhythmic Soul and Spoken word among other genres such as Rock, Gospel, Funk, and Folk. Combining the various musical technique among the Bangas, coupled with the instilling play on lyrics from the lead vocalist; Tank and The Bangas have quilted a unique sound that singles them as one of the most distinctive groups to come out of New Orleans.</p><p>Group members include Tank/ Lead vocalist/Norman Spence on Bass/keyboard, Joshua Johnson/Drums, Merell Burkett/keys/ Nita Bailey/Percussion; and various other Bangas."
+    soundcloud: ""
+    tags:
+    - music
+  -
+    name: "Tom Misch"
+    image: "tommisch.jpg"
+    bio: "Rarely do you come across a talent like Tom’s. Having had violin lessons from a very early age, followed by an intense love for the guitar, his productions seamlessly incorporate a breadth of instruments and influences from hip-hop and soul to classical. But beyond his stunning technical abilities, his music is powerfully evocative and full of feeling. Collaborators so far include Loyle Carner, Carmody, Jordan Rakei, Bearcubs, Tom Mudie and his sister, Laura Misch. We can’t wait for his DJ set and to have him with us for the weekend."
+    soundcloud: "soulection/tom-misch-the-journey"
+    tags:
+    - music
+  -
+    name: "T-Dunn"
+    image: "tdunn.jpg"
+    bio: "Toby Dunn, or T Dunn as he’s known around Manchester where he’s held down residencies at Obscure, Stevie Wonderland & Amen Brother/Hit & Run proudly defies musical pigeonholing. Though implied by the aforementioned Garage, Disco and Jungle nights, it’s most implicitly stated by his extensive record collection which he began amassing at the age of 15 whilst exploring the burgeoning dubstep scene of his native London. Developing from this foundation, Toby now wields an impressive musical repertoire spanning much of the dance music spectrum and we’re excited to see what he has in store."
+    soundcloud: ""
+    tags:
+    - music
+  -
     name: "The Busy Twist"
     image: "thebusytwist.jpg"
     bio: "The Busy Twist are a London based production duo creating African Inspired Bass Music. The two childhood friends Gabriel Benn (Tuesday Born) and Ollie Williams (Ollie Twist) are on a musical quest to transcend borders with their feel good and energetic vibes bridging the gap between cultures from across the world.</p><p>Having spent the last 3 years travelling between London and Ghana working with local musicians from around the country they have developed and crafted their unique sound embodying elements of South African house, Kuduro, 2 step and UK funky."
     soundcloud: "thebusytwist/ldn-luanda-free-download"
+    tags:
+    - music
+  -
+    name: "The Comet Is Coming"
+    image: "comet.jpg"
+    bio: "When we found out the comet was coming to brainchild we could not contain our joy. The super group that is Maxwell Hewett, Dan Leavers (Soccer 96) and Shabaka Hutchings have given us some of the best live experiences we've ever had in our lives. We’ll never forget how energised the crowd was at steez in december 2014, hundreds of people looking around after their set asking, ‘...what was that?...’. </p><p>Maxwell provides the percussion, Dan the electronics (+ hair flicking) and Shabaka the saxophone. Dan also plays in DA-10 of WotNot Records, and Shabaka plays in the Sun Ra Arkestra as the youngest member, as well as in countless other phenomenal jazz groups - big congratulations to him for his recent nomination by Jazz FM for ‘Instrumentalist of the Year’. </p><p>It’s an interstellar journey of the most powerful music you can imagine. We promise it will change your life. Forever."
+    soundcloud: "total-refreshment/the-comet-is-coming-through"
+    tags:
+    - music
+  -
+    name: "Theon Cross"
+    image: "theon.jpg"
+    bio: "Theon Cross is a Tuba Player, Composer and bandleader who's worked with some phenomenal musicians. He plays in bands such as the Moses Boyd Exodus, The Kansas Smitty’s House Band and the award winning Sons of Kemet where he has toured various Music festivals In the UK and abroad including North Sea, Latitude, Umbria, Glasgow, Berlin, and Cape Town jazz Festival.  He has also worked with other various artists and  bands including the Tomorrow’s Warriors,  Abram Wilson, the Nu Civilisation Orchestra, the American pianist Jon Batiste and his band Stay Human and  also for Hip Hop artist Pharoahe Monch. His own music is a blend of different styles ranging from Hip Hip, Jazz, Electronic music and reggae."
+    soundcloud: ""
+    tags:
+    - music
+  -
+    name: "Thidius"
+    image: "thidius.jpg"
+    bio: "Longstanding Brainchild and Steez family members, we can't wait to welcome back Thidius to the festival. </p><p>Thidius emerged when siblings Izzy and George Risk (vocals and guitar), started exploring sounds and song writing together with childhood friend Freddie Nice. They managed to create a fresh and cohesive sound and quickly embraced the south London gigging scene. With the new edition of electric bass, James Wilson (King Krule) and on drums, kit and percussion, Ed Bernez (Haraket) the band took on a new shape while developing a unique and fresh sound. Now focusing on recording their second EP the band hope to be hitting the festival scene this summer!"
+    soundcloud: "thidius/regain"
+    tags:
+    - music
+  -
+    name: "Twinkat Soul"
+    image: "twinkat.jpg"
+    bio: "Started up at the end of last year, Twinkat Soul have been busy curating some mad nights underneath the arches in Brixton, at Corsica Studios and at Brixton East, where they recently had Jamie Isaac play parts of his new album alongside some breathtaking visuals. Twinkat have roots very dear to our hearts, with residents including Ben Hauke, Maxwell Owin, Jackal Wyfreid and My Panda Shall Fly bringing everything from dub and reggae to hip-hop, soul, funk and house to get you moving.</p><p>We’re very excited to have them at the festival this year for a takeover at The Shack."
+    soundcloud: ""
+    tags:
+    - music
+  -
+    name: "Wooden Arms"
+    image: "wooden.jpg"
+    bio: "The musical concept behind Norwich based Wooden Arms is one of classical crossover. Music structures and instrumentation are influenced by the likes of Chopin and Mozart whilst the modern melodies and production values the very essence of Grizzly Bear and Andrew Bird. They overlook the norm and pay immaculate attention to texture of sound and rapturous harmonies, orchestrating their music like a chamber group meets reverb drenched guitar and complex samples. Add to this mix their incredible choral harmonies and you’re left with a captivatingly symphonic sound that mixes classically trained composition with fresh, contemporary songwriting."
+    soundcloud: "woodenarmsband/tide"
     tags:
     - music
   -
