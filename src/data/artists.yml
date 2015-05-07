@@ -378,6 +378,28 @@
     tags:
     - theatre
   -
+    name: "Maria Ferguson: 'Fat Girls Don't Dance'"
+    image: "maria.jpg"
+    bio: "Roundhouse Resident Artist Maria Ferguson explores her relationship with the the F word (food) with the help of her first love (dance).Maria is a performance poet from Romford, Essex, who makes up one sixth of Roundhouse born collective 'Early Doors' and one eleventh of spoken word ensemble 'A Cloud of Foxes'. She has performed extensively on the UK circuit as well as at festivals such as Secret Garden Party, Bestival and The Edinburgh Fringe. She writes a lot about love, whisky and her love of whisky, and this is her first time at Brainchild."
+    link: ""
+    tags:
+    - theatre
+    - poetry
+  -
+    name: "Harry Baker"
+    image: "harrybaker.jpg"
+    bio: "Harry Baker is a performance poet who has had three sold-out shows at the Edinburgh Festival, performed a TEDx talk, and won the title at the World Poetry Slam Championships. An Bristol University student, Harry has lived in Germany and in 2014 released his first book of poetry, The Sunshine Kid. He has performed at festivals around the UK, and is one of the few people who will be coming to Brainchild for the third year in a row – he’s practically family! This year, Harry is going to be working with us to be our first official Brainchild Poet-in-residence so watch this space…"
+    link: ""
+    tags:
+    - poetry
+  -
+    name: "Hector Aponysus"
+    image: "hector.jpg"
+    bio: "This talented lad will be with us the whole weekend, jumping on mic at the Steez Cafe, joining cyphers, telling poems and spreading goodness. His poems and his insight will stick with you long after he’s off stage. And the joy of Brainchild? He’s there to talk to afterwards. We are very excited to welcome him to the festival family."
+    link: ""
+    tags:
+    - poetry
+  -
     name: "Jemima Foxtrot"
     image: "jemimafoxtrot.jpg"
     bio: "Jemima Foxtrot is a live poet who blends snippets of her favourite vocalists and original songs with semi-confessional words about sex, concrete, politics, hedonism and so much more. She is especially fascinated by rhythm and sound.</p><p>Originally from Hebden Bridge, West Yorkshire, she performs extensively across the country. Now London-based she cites walking as a key part of her creative process where on her journeys she has been known to trade poems for lighters, chewing gum, books of poetry, chips and even a full Indian takeaway.</p><p>A tiny Yorkshire lady with a singing voice that will knock you for six, Jemima was shortlisted for the Arts Foundation Spoken Word Fellowship 2015."
@@ -390,6 +412,18 @@
     tags:
     - poetry
   -
+    name: "Rosie Knight"
+    image: "rosie.jpg"
+    bio: "Rosie Knight writes poems and comics. She's performed all over from London to Paris, Chicago to Seattle, China to Birmingham, and is also a member of the Brainchild family as someone who is returning after coming to the last two festivals. Described as “the sort of girl you’d want to know”, Rosie’s poems pack a punch, with a lot of her writing exploring her relationship with Hackney and the people around her. She has released a 7 inch record and was part of Poejazzi’s innovative retelling of Ginsburg’s classic poem, Howl 2.0. She is also a teacher, having worked with young people around the country for over 7 years."
+    tags:
+    - poetry
+  -
+    name: "Paul Cree"
+    image: "paul.jpg"
+    bio: "Paul Cree is a writer with a background as a rapper and MC who has performing poems and stories since 2007. Since then, he has performed around the UK at festivals and events such as Bestival, Lattitude, Secret Garden Party, One Taste and the Edinburgh Fringe festival. He has won slam competitions at Farrago, Bang said The Gun, Lyric Lounge and was runner-up in the televised 2010 Manorlogz UK Extreme Spoken Word competition. His first solo show, A Tale From The Bedsit, working with award winning director Stef O'Driscol, was commissioned and produced by the Roundhouse, and he has just began performing his second, ‘No Milk for the Foxes’, for the Camden People’s Theatre.</p><p>Paul’s words have a special quality – half nostalgia, half achingly current, but all of it magical, with a flow that sends you on long winding paths that make you feel as though you’re the only person he’s talking to (as he makes you a cup of tea). We’re so excited to have him at Brainchild, and we can’t wait for everyone else to love him like we do!"
+    tags:
+    - poetry
+  -
     name: "Tommy Sissons"
     image: "tommysissons.jpg"
     bio: "Tommy is a 19 year old poet from Brighton currently studying in at Goldsmiths in London. His work focuses on numerous themes that touch on the impact of politics on youth culture, urban lifestyles & working class values. He is the 2014 Slambassadors Champion and 2012 and 2013 Brighton Hammer and Tongue Champion, coming 5th nationally. As well as coming to Brainchild, he has performed at venues nationwide including the Royal Albert Hall, the Roundhouse Theatre, the Southbank Centre & the Birmingham Rep."
@@ -397,7 +431,7 @@
     tags:
     - poetry
   - 
-    name: "'Finding Home' by Cecilia Knapp"
+    name: "Cecilia Knapp: 'Finding Home'"
     image: "ceciliaknapp.jpg"
     bio: "Along the cycle paths, alleyways and canals of London comes a spoken word theatre coming-of-age story that maps the journey of a young girl from Brighton to the tenements of East London as a 20-something. Directed by Stef O’Driscoll (A Tale From A Bedsit, Hopelessly Devoted) Finding Home is brought to the stage through an evocative collaboration of words,visuals, vocals and instrumentals, both classical and contemporary.</p><p>Cecilia Knapp is a Brighton born, London based spoken word artist who has performed extensively around the UK, taken 3 shows to the Edinburgh Fringe and played at Festivals from Secret Garden Party to Bestival. She has been published in several anthologies and made work for the BBC, been played on numerous radio stations including XFM and frequently teaches creative writing in schools and with young people."
     tags:
@@ -410,6 +444,12 @@
     tags:
     - dance
   - 
+    name: "Troupe: 'The Dead Moon'"
+    image: "deadmoon.jpg"
+    bio: "Troupe presents The Dead Moon, a new folk musical based on a trio of twisted tales from ancient English folklore. Discover what happens when you make oaths you cannot keep, what happens when you bind yourself to fickle spirits and how to survive when the moon disappears from the sky. If you venture into the Brainchild woodlands, you’ll find puppetry, original folk music and the long lost landscape of the Lincolnshire carrs."
+    tags:
+    - theatre
+  - 
     name: "New Funk Poets"
     image: "newfunkpoets.jpg"
     bio: "Stunning poems, beats and stories from a powerful four piece close to our hearts: James Massiah, Andrea Phillips, Brother Portrait and Belinda Zhawi."
@@ -418,9 +458,82 @@
     - poetry
     - music
   - 
+    name: "Jack Rooke: 'Good Grief'"
+    image: "jackrooke.jpg"
+    bio: "With a coffin fun of sympathy snacks, Jack Rooke and his 85 year old Nan invite you to their weird and wonderful world of bereavement. Blending comedy, film and storytelling, Rooke's debut hour celebrates lost loved ones and finding happiness after tragedy. As featured on BBC Radio 1's 'Guide To Happiness', The Independent's 'New Review' and The Sunday Times."
+    link: "thegoodgriefproject.com"
+    tags:
+    - poetry
+    - theatre
+  - 
+    name: "Hector St Leger: 'Pyramus + Thisbe'"
+    image: "pyramus.jpg"
+    bio: "A brief manic-pixie-dream-play about love and connection in the age of smartphones, Snapchat, and instant messaging. In a retelling of Ovid’s Metamorphoses, a set of star-crossed lovers now find themselves on Tinder, looking for a meaningful connection. As romance unfurls across the realms of social media, linked by the truest of loves and the most infinite of broadbands, will they actually find that the screen keeping them together is the very thing keeping them apart?</p><p>'I can't wait until I can photoshop my actual face. What's that called? Surgery?'</p><p>Henry St Leger is a young theatre practitioner, poet and Cambridge English graduate. He flirts variously with directing, playwriting, reviewing, and you - and has worked on productions at the Edinburgh Fringe, Minack Theatre in Cornwall, Cambridge Arts Theatre, ADC, Arcola and The Courtyard in London."
+    link: ""
+    tags:
+    - theatre
+  - 
+    name: "Tight Theatre: 'Pussy'"
+    image: "pussy.jpg"
+    bio: "New and vibrant Bristol based company Tight Theatre bring you PUSSY, a show that combines elements of cabaret, mime and dance to create a daring and innovative piece. Devised by the young, all-female cast, the performers expose to the stage the private actions of women trying to live up to pop culture ideals – from lip-syncing their way through Destiny’s Child songs to identifying an abundance of vaginal imagery. The show is a comically wicked insight into what it’s really like to be a young woman living in today’s world."
+    tags:
+    - theatre
+  - 
+    name: "Theatre With Legs: 'Maybe I should Freeze My Eggs'"
+    image: "theatrewithlegs.jpg"
+    bio: 'Theatre with Legs was co-founded in 2011 when Lucy Bairstow and Jess Murrain met training as actors at the Royal Central School of Speech and Drama. Their work is solely devised and combines comedy, live music, clown and storytelling.  Their material is full heart, playful and often very dark. They recently performed as a headline act at The A and the E’s spoken word and performance night; ‘SPÆKING’ with a series of shorts (Bussey Building, Peckham). Prior to this they performed ‘Christmas Clowns; Walk About Town’ (a promenade clown performance) as part of The East Dulwich Christmas Cracker. Their full length production ‘Maybe I Should Freeze my Eggs’ debuted at the Camden Fringe Festival in 2014 and was revived  in 2015 at the New Wimbledon Studio as part of Illuminate Festival. Theatre With Legs are now very excited to bring the show to Brainchild Festival 2015.'
+    link: "https://www.facebook.com/TheatreWithLegs"
+    tags:
+    - theatre
+  - 
+    name: "Bigspoon Theatre: 'Jane Doe'"
+    image: "janedoe.jpg"
+    bio: '“Sir, I just took care of your daughter when she was drunk and made sure she was safe.”</p><p>Is it clear what consent means in an underage context? Can we predict the way that information moves online? What does it mean if there is no physical evidence of a crime and the victim has no memory of one occurring?</p><p>Inspired by the events that took place in Steubenville in 2012-13, Big Spoon Theatre invites you to join them and witness the beginning of a devised project that explores how social media and the press have the power to act both as a vehicle for victimization and as an agent of vigilante justice. Drawing on documentary material and based on the shocking story that unfolded in the small town that was watched by the world, Big Spoon Theatre brings you a dynamic and rigorous ensemble piece that examines what it is like to be young in a culture of enforced masculinity that teaches men to value women as currency.'
+    link: ""
+    tags:
+    - theatre
+  -
+    name: "Pumpkin Players"
+    image: "pumpkin.jpg"
+    bio: "The Pumpkin Players bring together artists from many performance disciplines, such as costume, performance, writing and art. A London-based company who perform original drama and new writing at festivals around the UK. They also provide workshops and performances for schools and communities."</p><p>Keep an eye out for The Pumpkin Players and their series of thought-provoking sketches. Fun, quirky and often absurd these scenes will be popping up around the festival to surprise and entertain!"
+    tags:
+    - theatre
+  - 
+    name: "David Bard"
+    image: "david.jpg"
+    bio: "David lives between London and Edinburgh. Between dreams and reality. Between aubergines and carpentry. He is obsessed with art and music, and has been writing and performing comedy for a few years now and we can't wait to welcome him to the festival."
+    tags:
+    - theatre
+  - 
+    name: "Super Happy Fun Time"
+    image: "superhappy.jpg"
+    bio: "Rad prizes! Funtastic hosts! TV gaming classics! All laminated in an 80s cheesy gloss... YES - it's Rabbie Pallet's Super Happy Fun Time Variety Show Festival Special!</p><p>A recent venture of Rabbie Pallet, Julif Pallof and pals, Fungasm Gameshows seeks to disperse bonkersness via national gaming. For the festival they present to you YOUR FAVOURITE TV GAME SHOWS to take part in - Blind Date! Catch Phrase! The Generation Game! And more... Come on down!"
+    tags:
+    - theatre
+  - 
+    name: "Mirth & Misery: 'Death Puppet Klezma Jam'"
+    image: "deathpuppet.jpg"
+    bio: "Skeletal rhythms, rotten dances and bone jangling beats - the Death Puppet Klezma Jam is here! </p><p>Mirth and Misery invite you to enter their world of putrified puppetry and witness their manipulation of the damned. Combining string and table-top puppetry with the Eastern European music of four piece band Benny and the Cheesegrinder come and watch their puppets perform to the endless bounce of the balkan, klezma beat. Each character has a song and each song tells a story....Who lives? Who dies? Who cares?"
+    tags:
+    - theatre
+  - 
     name: "SWOU"
     image: "swou.jpg"
     bio: "Sex Worker Open University is a project created by and for sex workers with the aim to empower their community through workshops, debates, actions and art project, as well as fighting against criminalisation.​ We are really excited to have some representatives with us for the weekend to contribute to and lead discussions, particularly relating to our themes of ‘body’, ‘space’, ‘power’ and ‘change’."
+    tags:
+    - talks
+    - workshops
+  - 
+    name: "The Inkling"
+    image: "inkling.jpg"
+    bio: "Founded by students in 2012, The Inkling is a beautifully designed and curated magazine featuring thoughtful and personal essays and illustrations.</p><p>Four of their essayists will be coming to Brainchild to lead short talks and discussions around their essays and research, covering everything from how the internet can frame reality (Facebook and political censorship, Google’s restructuring of knowledge and the web’s acceleration of hypochondria) to love (how ‘being in love’ is tied to gender and identity, issues around the contraceptive pill and a male equivalent, contemporary coupledom and the stigma of being alone)."
+    tags:
+    - talks
+    - workshops
+  - 
+    name: "Connection for Action: Social Justice Network"
+    image: "cfa.jpg"
+    bio: "Connection for Action is a new project which aims to promote collaboration across a diverse range of activist and creative communities. We hope to create opportunities for existing activist causes to expand and develop by facilitating open and informal discussion and providing accessible informative material about social justice issues."
     tags:
     - talks
     - workshops
@@ -433,6 +546,30 @@
     - talks
     - workshops
   - 
+    name: "The A & The E: CHAENGE"
+    image: "theaandthee.jpg"
+    bio: ""
+    link: ""
+    tags:
+    - talks
+    - poetry
+  - 
+    name: "Pilgrimage to Brainchild"
+    image: "pilgrimage.jpg"
+    bio: "Philip Speakman, artist and wannabe-wondering-wizard, will be leading a walking tour from London to this years Brainchild Festival. In an effort to escape the tyranny of purpose their small band will set out on a 5 day trek, meandering through the english countryside like an arty giant slug and leaving a trail made of whimsy and the tears of Richard Long. From the traditions of pilgrimage, where states of mediation and dislocation challenge the mind and the body, to the protest marches of the Romantics and the students of the 60’s, every step is a steeped in history, culture and more than a little Hobbit envy. The joinery will be recorded in a way that may live on throughout and after the festival."
+    link: ""
+    tags:
+    - talks
+    - art
+  - 
+    name: "Mark Farid: The Identifiable Anonymous"
+    image: "markfarid.jpg"
+    bio: "With reference to the progression of Seeing I (a project where Mark will wear a virtual reality headset for 28 days, only seeing and hearing what someone else experiences for that month) and the thought processes driving Mark’s newest project, (working title) The Identifiable Anonymous, Mark will be looking at both the physical and the virtual worlds and how both systems have been created with the illusion of freewill. Hidden behind the facade of greater individualism, greater freedom and greater knowledge is this illusion of freewill. Where this promotion of individuality exists within the power structure of conformity, where our idiosyncrasies are nothing more than an endearing, engineered novelty, where true autonomy does not belong to the individual."
+    link: "www.meta-narrative.co.uk"
+    tags:
+    - talks
+    - art
+  - 
     name: "Rethinking Economics"
     image: "rethinkingeconomics.jpg"
     bio: "This revolutionary network of students are leading the way in the re-telling of economics. A group of thinkers and writers engaged in demystifying, diversifying and reinvigorating economics for all. They will be bringing some brilliant discussions to Brainchild."
@@ -440,6 +577,14 @@
     tags:
     - talks
     - workshops
+  - 
+    name: "Fruit and Flowers"
+    image: "fruit.jpg"
+    bio: "When we heard that Max was making a film with Sam we were filled with excitement. Going by what we knew of Maxwell Owin productions, we had a feeling that the film would have a special quality, and when we saw the first 16 minute edit at Passing Clouds, those suspicions were confirmed. The video takes you through archived footage of cities, landscapes, shapes and colours, all in time with seamless, jazz and hip-hop infused musical productions. Join Max and Sam in our cinema yurt to see the full piece with live electronics, and watch the teaser below."
+    utube-id: "MIqF77kmfh8"
+    tags:
+    - film
+    - music
   - 
     name: "Filming the Unfilmable"
     image: "filmingunfilmable.jpg"
@@ -454,6 +599,20 @@
     tags:
     - talks
     - workshops
+  - 
+    name: "Be Yours Truly: Visualising The Dream"
+    image: "byt.png"
+    bio: "Be Yours Truly was launched in 2014 as a zine sharing inspiring stories, empowering knowledge and the creative works of talented people. We believe there is an audience yearning for exciting and enriching opportunities, who wish to connect with like minded people.</p><p>The workshop aims to support people recognise their true ambitions. We offer a space where idea development, action planning and connection with others is possible."
+    tags:
+    - workshops
+  - 
+    name: "TRAID re:made"
+    image: "traid.png"
+    bio: "It's a real pleasure to finally be teaming up with TRAID, whose work we have admired for years. They are a charity that turn clothes waste into funds and resources to reduce the environmental and social impacts of our clothes, increasing clothes re-use across the UK and funding international developemnt projects to improve conditons and working practices in the textile industry.</[><p>At the festival they’ll be running a short talk and workshop to give us all the chance to mend and upcycle our clothes. From clothes swaps, to denim repairs (very handy for the summer months!), or the crafting of bags from old tshirts with custom made Brainchild fabric badges, we've got lots of activities lined up. Depending on demand we will be finalising the workshop activity nearer to the festival, so let us know what you’d like to do by emailing team@brainchildfestival.co.uk."
+    link: "http://www.traid.org.uk/about-traid/"
+    tags:
+    - workshops
+    - talks
   - 
     name: "Life Drawing with Bella"
     image: "drawwithbella.jpg"
@@ -566,3 +725,4 @@
     soundcloud: "jacoballenmusic/only-trying-to-tell-you"
     tags:
     - music
+
