@@ -44,7 +44,7 @@
   -
     name: "Capua Collective"
     image: "capua.jpg"
-    bio: ""
+    bio: "Capua Collective are an ever-evolving live electronica outfit, bringing together soul, hip-hop and world sounds in a spectacle that blurs musical boundaries.</p><p>‘Home grown acid jazz throwbacks; Capua Collective mix extended chilled out instrumentals, punctuated by an occasional female vocal’ – Vibrations Magazine, October 2014.</p><p>The group's roots lie with Francis Bavetta and Jack Beattie, who began producing together in 2012. The reception of the music was overwhelming and before long there was demand for "Capua" to perform. By the beginning 2013, a quintet had come together with drummer Jacob Maskell-Key, guitarist Ewan Galbraith and Louis Davidson on percussion. Over the year the groups' musically adventurous reputation grew, as did its numbers, taking onboard saxophonist Andy Heyes, vocalist Georgia Thursting and resident master of sound Pete Jones.To date, Capua Collective have played alongside artists such as Submotion Orchestra, XXYYXX and Fatima of Eglo Records, and continue to inspire audiences around the UK."
     soundcloud: "capua-collective/montevago-ft-georgia-thursting"
     tags:
     - music
@@ -163,7 +163,7 @@
   -
     name: "Matthew Halsall Quartet"
     image: "matthew.jpg"
-    bio: ""
+    bio: "Manchester based trumpeter, composer, arranger and band-leader Matthew Halsall is one of the rising stars of European Jazz. His unique eastern-influenced sound draws on the modal jazz of Pharoah Sanders and John Coltrane and has been described as 'rain-streaked spiritual jazz from Manchester' by the Independent On Sunday and his uniquely life-affirming music has been championed by the likes of Gilles Peterson and Patrick Forge. This concert features his hard-grooving, Matthew Halsall Quartet Taz Modi (Submotion Orchestra) keyboards, Gavin Barras (Gondwana Orchestra) double bass and Luke Flowers (Cinematic Orchestra).</p><p>Influenced by the likes of Robert Glasper, Portico Quartet, Flying Lotus, Madlib, Alice & John Coltrane and Erik Truffaz, Halsall’s 4Tet takes his beautiful, melodic music into warped new territories as the trumpeter explores new sonic textures using a combination delays, reverbs and loop pedal effects.</p><p>“Grooving through time on the spiritual sunship' Mojo Magazine </p><p>“'Kind Of Blue' meets The Cinematic Orchestra … With hypnotic grooves, and a meditative slow-build to his solos, Halsall's music is saturated in a life-affirming glow'”. Time Out"
     soundcloud: "matthewhalsall/matthew-halsall-ode-to-the-big-sea"
     tags:
     - music
@@ -232,14 +232,14 @@
     - music
   -
     name: "Parshmaune"
-    image: "parshmaune.jpg"
+    image: "parshmaune.png"
     bio: 'Parshmaune currently stands as an ensemble of six musicians.</p><p>However Parshmaune is not the next critically-acclaimed jaw-dropping, phenomena to burst out of thin air. Parshmaune may not blow your favourite artists out of the water and Parshmaune certainly won’t be all that your ears have longed for.</p><p>Most importantly, Parshmaune is not a monstrous list of adjectives, hoping to build a cliché, over-exaggerated perception of a new ensemble. Without pretence, sound can’t be represented with words, which is why seeing and hearing them for yourselves will be the only thing to ever explain their endeavours as muscians.</p>Simply put, Parshmaune is Parshmaune. "Parsh-morn".'
     soundcloud: "parshmaune/this-isnt-called-four"
     tags:
     - music
   -
     name: "Pix"
-    image: "pix.jpg"
+    image: "pix.png"
     bio: "A musical magpie, Hannah lists everything from Aphex Twin to Joni Mitchell as influences, her off-kilter electronic folk compositions and sharp lyricism inspired by muses as wide and diverse as Dylan and Donovan, American poet e e cummings and the magic realism of Watership Down, via Stephen King novels and Art of Noise... it’s a heady concoction."
     soundcloud: "p-i-x/a-way-to-say-goodbye"
     tags:
@@ -296,8 +296,8 @@
   -
     name: "Stuart McCallum & Rioghnach Connolly"
     image: "stuart.jpg"
-    bio: ""
-    soundcloud: ""
+    bio: "We are madly excited to present a new project combining the talents of vocalist Rioghnach Connolly and producer/guitarist Stuart McCallum. Rioghnach has a voice that echoes back through the ages of jazz and soul, resonant and resplendent in glorious, exploding power and control. Stuart's soundworld of lush textures of guitars, strings and keyboards are combined with stories of love and loss, treachery and murder, to hypnotise the way that only folk music can. Also featured are Stuart's Cinematic Orchestra band mates John Ellis on keys and Luke Flowers on drums."
+    soundcloud: "stuartmccallum/02-clockmaker"
     tags:
     - music
   -
@@ -546,10 +546,10 @@
     - talks
     - workshops
   - 
-    name: "The A & The E: CHAENGE"
+    name: "The A & The E: CHÆNGE"
     image: "theaandthee.jpg"
-    bio: ""
-    link: ""
+    bio: "The A & The E will be hosting a ‘GÆTHERING’-style poetry session and panel in collaboration with Brainchild inspired by one of the festival's themes, 'Change'. Through poetry and discussion we will address what 'change' means to each of us."
+    link: "www.theaandthee.com"
     tags:
     - talks
     - poetry
@@ -594,20 +594,20 @@
     - film
   - 
     name: "Skin Deep: Sound System Unplugged"
-    image: "skindeep.jpg"
+    image: "skindeep.png"
     bio: "A live demonstration of how a reggae sound system actually works. Julian Henriques (sound artist and author of Sonic Bodies) in association with Skin Deep, explores how and why sound matters for art and for politics, and its significance within the black liberation movements."
     tags:
     - talks
     - workshops
   - 
     name: "Be Yours Truly: Visualising The Dream"
-    image: "byt.jpg"
+    image: "byt.png"
     bio: "Be Yours Truly was launched in 2014 as a zine sharing inspiring stories, empowering knowledge and the creative works of talented people. We believe there is an audience yearning for exciting and enriching opportunities, who wish to connect with like minded people.</p><p>The workshop aims to support people recognise their true ambitions. We offer a space where idea development, action planning and connection with others is possible."
     tags:
     - workshops
   - 
     name: "TRAID re:made"
-    image: "traid.jpg"
+    image: "traid.png"
     bio: "It's a real pleasure to finally be teaming up with TRAID, whose work we have admired for years. They are a charity that turn clothes waste into funds and resources to reduce the environmental and social impacts of our clothes, increasing clothes re-use across the UK and funding international developemnt projects to improve conditons and working practices in the textile industry.</[><p>At the festival they’ll be running a short talk and workshop to give us all the chance to mend and upcycle our clothes. From clothes swaps, to denim repairs (very handy for the summer months!), or the crafting of bags from old tshirts with custom made Brainchild fabric badges, we've got lots of activities lined up. Depending on demand we will be finalising the workshop activity nearer to the festival, so let us know what you’d like to do by emailing team@brainchildfestival.co.uk."
     link: "http://www.traid.org.uk/about-traid/"
     tags:
@@ -634,7 +634,7 @@
     - workshops
   - 
     name: "Stop-Motion Animation Workshop"
-    image: "stopmotion.jpg"
+    image: "stopmotion.png"
     bio: "Over the weekend, we will be running two stop-motion animation workshop sessions, with the endgoal of a short animated sequence made to music from Brainchild musicians, animated by people at the festival! Sessions will take place both indoor and outdoor, led by emerging filmmaker Guy Verge Wallace. We will explore puppet building, storyboarding and the technicals of animation itself. Open to all experienced animators and absolute beginners - the more varied the participants, the more exciting the film."
     link: "https://vimeo.com/15313906"
     tags:
