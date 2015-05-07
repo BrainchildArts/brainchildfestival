@@ -25,7 +25,7 @@ gulp.task('browser-sync', ['styles'], function() {
 
 // Chained Tasks
 gulp.task('default', function() {
-    gulp.start('styles', 'jshint', 'scripts', 'grunt-assemble', 'browser-sync', 'thumbs', 'watch');
+    gulp.start('styles', 'jshint', 'scripts', 'grunt-assemble', 'browser-sync', 'watch');
 });
 
 // CSS
