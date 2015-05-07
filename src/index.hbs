@@ -31,7 +31,7 @@
 	<body>
 		<header class="site-header">
 			<video id="video_background" class="billboard headervideo" preload="auto" autoplay="autoplay" loop="loop" poster="./img/background/video-poster.jpg">
-				<source src="./video/bc-highlights-mute.mp4" type="video/mp4">
+				<source src="https://drive.google.com/uc?export=download&id=0B2oLskYH6EgjYW80dEdzalJtYW8" type="video/mp4">
 			</video>
 			<img class="video-img billboard" src="/img/background/video-poster.jpg">
  			<div class="splash">
@@ -128,7 +128,7 @@
 
 					<div class="tiles lineup-tiles">
 						{{#each artists}}
-							<a class="tile isotile {{#tags}}{{this}} {{/tags}}" href="#" {{#if image}}data-img="img/contents/{{image}}" style="background-image: url(img/contents/{{image}})" {{else}} style="background-image: url(http://lorempixel.com/200/200/animals/?ver={{@index}})"{{/if}} data-title="{{name}}" data-desc="{{bio}}" {{#if link}}data-link="{{link}}"{{/if}}{{#if soundcloud}} data-sc="{{soundcloud}}"{{/if}}{{#if utube-id}} data-utube-id="{{utube-id}}"{{/if}}>
+							<a class="tile isotile {{#tags}}{{this}} {{/tags}}" href="#" {{#if image}}data-img="img/contents/{{image}}" style="background-image: url(img/contents/thumbs/{{image}})" {{else}} style="background-image: url(http://lorempixel.com/200/200/animals/?ver={{@index}})"{{/if}} data-title="{{name}}" data-desc="{{bio}}" {{#if link}}data-link="{{link}}"{{/if}}{{#if soundcloud}} data-sc="{{soundcloud}}"{{/if}}{{#if utube-id}} data-utube-id="{{utube-id}}"{{/if}}>
 								<h3 class="tile__heading">{{name}}</h3>
 							</a>
 						{{/each}}
@@ -173,7 +173,7 @@
 			<h2>Events</h2>
 				<div class="tiles">
 					{{#each events}}
-						<div class="tile" style="background-image: url(img/contents/{{image}})" data-img="img/contents/{{image}}" data-title="{{title}}" data-desc="{{desc}}">
+						<div class="tile" style="background-image: url(img/contents/thumbs/{{image}})" data-img="img/contents/{{image}}" data-title="{{title}}" data-desc="{{desc}}">
 							<a href="#">
 								<h3 class="tile__heading">{{title}}</h3>
 							</a>
@@ -185,7 +185,7 @@
 			<h2>Friends</h2>
 			<div class="tiles">
 			{{#each friends}}
-				<div class="tile" style="background-image: url(img/contents/{{image}})" data-img="img/contents/{{image}}" data-title="{{title}}" data-desc="{{desc}}" data-link="{{website}}">
+				<div class="tile" style="background-image: url(img/contents/thumbs/{{image}})" data-img="img/contents/{{image}}" data-title="{{title}}" data-desc="{{desc}}" data-link="{{website}}">
 					<a href="#">
 						<h3 class="tile__heading">{{title}}</h3>
 					</a>

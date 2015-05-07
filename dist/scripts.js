@@ -20195,6 +20195,17 @@ $("body").on("click", ".overlay__close", function(e) {
 //   });
 // });
 
+//start stratus with one link
+$(document).ready(function() {
+  $.stratus({
+    links: 'https://soundcloud.com/total-refreshment/the-comet-is-coming-through',
+    theme: 'http://brainchildfestival.co.uk/stratus/stratus.css',
+    buying: false,
+    color: 'F7426B',
+    download: false,
+    stats: false,
+  });
+});
 
 //send all sc links to stratus //
 
@@ -20212,8 +20223,8 @@ for ( var i = 0; i < data_array.length; i++ ) {
 //make it into a list
 var sc_array = data_array.join(",");
 
-//start stratus with all the links
-$(document).ready(function() {
+//send all the links
+$('body').on("click", "a.stratus", function() {
   $.stratus({
     links: sc_array,
     theme: 'http://brainchildfestival.co.uk/stratus/stratus.css',
