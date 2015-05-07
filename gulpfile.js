@@ -8,6 +8,7 @@ var server = lr();
 var chalk = require('chalk');
 var browserSync = require('browser-sync');
 var reload      = browserSync.reload;
+var imagemin = require('gulp-imagemin');
 
 require('gulp-grunt')(gulp);
 
@@ -24,7 +25,7 @@ gulp.task('browser-sync', ['styles'], function() {
 
 // Chained Tasks
 gulp.task('default', function() {
-    gulp.start('styles', 'jshint', 'scripts', 'grunt-assemble', 'browser-sync', 'watch');
+    gulp.start('styles', 'jshint', 'scripts', 'grunt-assemble', 'browser-sync', 'thumbs', 'watch');
 });
 
 // CSS
@@ -111,3 +112,33 @@ function errorAlert(err) {
     console.log(err.toString());
     this.emit("end");
 }
+
+gulp.task('images', function() {
+    gulp.start('thumbs', 'gallery');
+});
+
+gulp.task('thumbs', function () {
+  gulp.src('dist/img/contents/*')
+    .pipe(plugins.imageResize({ 
+      width : 300,
+      height : 300,
+      crop : true,
+      upscale : false,
+      imageMagick: true
+    }))
+    .pipe(imagemin({
+        progressive: true
+    }))
+    .pipe(gulp.dest('dist/img/contents/thumbs/'));
+});
+
+gulp.task('gallery', function () {
+  gulp.src('dist/img/gallery/*')
+    .pipe(plugins.imageResize({ 
+      width : 1200,
+      crop : false,
+      upscale : false,
+      imageMagick: true
+    }))
+    .pipe(gulp.dest('dist/img/gallery/'));
+});
