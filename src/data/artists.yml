@@ -24,7 +24,7 @@
     name: "Bastian"
     image: "bastian.jpg"
     bio: "In the last few years, Birmingham based Bastian has steadily made a name for himself with a number of residencies across the city and shows around the UK. He’s developed a selection that runs strictly on the underground with a passion and track selection dedicated to making the crowd move. As resident for Shadow City Bastian relishes the opportunity to shape the music to fit the special guests. With selection spanning Disco, house and techno, Shadow City has become known as a party that truly gets the dance floor ticking, fuelled by Bastian and resident partner in crime, Opyn . Having played with the likes of Four Tet, Ben Ufo, Groove Armada, Cassy and Krystal Klear as well as at festivals such as Outlook & Dimensions, Soundwave and Snowboxx, Bastian’s making waves in 2015.  With productions on the horizon and praise from seminal club nights around the UK, Bastian is making his mark on Birmingham and further afield."
-    soundcloud: "bastiandj/sets/mixes"
+    link: "https://soundcloud.com/bastiandj/sets/mixes"
     tags:
     - music
   -
@@ -38,7 +38,7 @@
     name: "Ben Hauke"
     image: "benhauke.jpg"
     bio: "Ben is a beatmaker with a skill and an ear that is totally compelling. Whether he's mixing live or jamming with someone's poem, or other instruments, it is fascinating to watch and listen for the soundscape he carves out as he transforms the airwaves around him. We are overjoyed he'll be with us for the festival, bringing his wizard mastery of the MPC and unique composing style to the mix for the weekend."
-    soundcloud: "bjamin/ben-hauke-mini-mix-wari-ep"
+    soundcloud: "bjamin/neptune-estate-remix"
     tags:
     - music
   -
@@ -73,7 +73,7 @@
     name: "Deep Sounds"
     image: "deep.jpg"
     bio: "Founded in early 2014, Deep Sounds are a collective of DJ’s based in Yorkshire. Striving to keep their back-to-back sets fresh, but throwing in some classics for good measure, expect everything from house to garage, bass to techno, and maybe even a little bit of disco!"
-    soundcloud: "deepsoundsuk/deep-sessions-001"
+    link: "https://soundcloud.com/deepsoundsuk/deep-sessions-001"
     tags:
     - music
   -
@@ -108,7 +108,7 @@
     name: "Heather Wall"
     image: "heather.jpg"
     bio: "Heather Wall is known for playing a wide range of music spanning from electronic to jazz, to 70s African funk and even Brazilian carnival songs. She began running her own nights playing soca, dancehall and afrobeats in dingy clubs in South Manchester.<p><p>Heather spent the last year working with Gilles Peterson and his London record label, Brownswood Recordings.</p><p>She’s DJ’d the mainstage at Greenbelt festival for seven years, as well as the Gilles Peterson Worldwide Stage at On Blackheath last year. In London she’s DJ’d at Bussey Building, BL-NK as part of Brownswood DJs, Bedroom Bar, Drink Shop & Dance. Outside of London she could regularly be found at Academy 1, 2 and 3, Joshua Brooks and 1 Primrose Street in Manchester.</p><p>Currently residing in a more background role at NTS, she’s a regular face at gigs and clubs across London and Manchester."
-    soundcloud: "dj_heatherwall/best-of-2014-mostly-mobo-podcast"
+    link: "https://soundcloud.com/dj_heatherwall/best-of-2014-mostly-mobo-podcast"
     tags:
     - music
   -
@@ -164,7 +164,7 @@
     name: "Matthew Halsall Quartet"
     image: "matthew.jpg"
     bio: "Manchester based trumpeter, composer, arranger and band-leader Matthew Halsall is one of the rising stars of European Jazz. His unique eastern-influenced sound draws on the modal jazz of Pharoah Sanders and John Coltrane and has been described as 'rain-streaked spiritual jazz from Manchester' by the Independent On Sunday and his uniquely life-affirming music has been championed by the likes of Gilles Peterson and Patrick Forge. This concert features his hard-grooving, Matthew Halsall Quartet Taz Modi (Submotion Orchestra) keyboards, Gavin Barras (Gondwana Orchestra) double bass and Luke Flowers (Cinematic Orchestra).</p><p>Influenced by the likes of Robert Glasper, Portico Quartet, Flying Lotus, Madlib, Alice & John Coltrane and Erik Truffaz, Halsall’s 4Tet takes his beautiful, melodic music into warped new territories as the trumpeter explores new sonic textures using a combination delays, reverbs and loop pedal effects.</p><p>'Grooving through time on the spiritual sunship' Mojo Magazine </p><p>'Kind Of Blue' meets The Cinematic Orchestra … With hypnotic grooves, and a meditative slow-build to his solos, Halsall's music is saturated in a life-affirming glow'. Time Out"
-    soundcloud: "matthewhalsall/matthew-halsall-ode-to-the-big-sea"
+    soundcloud: "matthewhalsall/matthew-halsall-a-love-supreme"
     tags:
     - music
   -
@@ -453,7 +453,7 @@
     name: "New Funk Poets"
     image: "newfunkpoets.jpg"
     bio: "Stunning poems, beats and stories from a powerful four piece close to our hearts: James Massiah, Andrea Phillips, Brother Portrait and Belinda Zhawi."
-    soundcloud: "theaandthee/naew-funk-poets-live-at-shoreditch-house-15th-december-2014"
+    link: "https://soundcloud.com/theaandthee/naew-funk-poets-live-at-shoreditch-house-15th-december-2014"
     tags:
     - poetry
     - music

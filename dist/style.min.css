@@ -911,7 +911,8 @@ html.single-section section {
   width: 100%; }
   .sc-link img {
     margin-right: 15px;
-    float: left; }
+    float: left;
+    height: 100%; }
   .sc-link .sc-right {
     overflow: hidden; }
   .sc-link a.stratus {
