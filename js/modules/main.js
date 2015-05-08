@@ -143,13 +143,11 @@ $("#lineup .tile").click(function(e) {
       var track_url = "https://soundcloud.com/" + soundcloud;
 
       SC.get('/resolve/', { url: track_url }, function (track) {
-        console.log(track);
-        console.log(track.user);
         var track_img = track.artwork_url;
         if ( track.artwork_url === null) {
           track_img = track.user.avatar_url;
         }
-        $(".overlay__embeds").append("<div class='sc-link'><img class='sc-img' src='" + track_img + "'></img><div class='sc-right'><a href='https://soundcloud.com/" + soundcloud + "' class='stratus'></a><div class='sc-titles'><a target='_blank' class='sc-username' href='" + track.user.permalink_url + "'>" + track.user.username + "</a><br/><a target='_blank' class='sc-trackname' href='" + track_url + "'>" + track.title + "</a></div></div></div>");
+        $(".overlay__embeds").append("<div class='sc-link'><img class='sc-img' src='" + track_img + "'></img><div class='sc-right'><a target='_blank' href='https://soundcloud.com/" + soundcloud + "' class='stratus'></a><div class='sc-titles'><a target='_blank' class='sc-username' href='" + track.user.permalink_url + "'>" + track.user.username + "</a><br/><a target='_blank' class='sc-trackname' href='" + track_url + "'>" + track.title + "</a></div></div></div>");
       });
 
     }
@@ -181,20 +179,6 @@ $("body").on("click", ".overlay__close", function(e) {
 });
 
 
-
-// SC.get(PATH, function (track, err){
-//   IMG_URL = track.artwork;
-// });
-
-// SC.get('/resolve', { url: track_url }, function(track) {
-//   SC.get('/tracks/' + track.id + '/comments', function(comments) {
-//     for (var i = 0; i < comments.length; i++) {
-//       console.log('Someone said: ' + comments[i].body);
-//     }
-//   });
-// });
-
-
 //send all sc links to stratus //
 
 //make an array from all data-sc attributes
@@ -209,12 +193,12 @@ for ( var i = 0; i < data_array.length; i++ ) {
 }
 
 //make it into a list
-var sc_array = data_array.join(",");
+var sc_list = data_array.join(",");
 
 //send all the links
 $(window).load(function() {
   $.stratus({
-    links: 'https://soundcloud.com/total-refreshment/the-comet-is-coming-through',
+    links: 'https://soundcloud.com/brainchild-sound-system/sets/brainchild-2015',
     theme: 'http://brainchildfestival.co.uk/stratus/stratus.css',
     buying: false,
     color: 'F7426B',
