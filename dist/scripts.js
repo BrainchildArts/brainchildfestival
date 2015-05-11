@@ -20096,11 +20096,11 @@ $(function() {
 });
 
 //sticky nav
-$(document).ready(function() {
-    $('.site-nav-wrap').waypoint(function() {
-        $(".site-nav").toggleClass("site-nav--stuck");
-    });
-});
+// $(document).ready(function() {
+//     $('.site-nav-wrap').waypoint(function() {
+//         $(".site-nav").toggleClass("site-nav--stuck");
+//     });
+// });
 
 
 $(document).ready(function() {
