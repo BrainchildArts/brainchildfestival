@@ -127,7 +127,7 @@
 
 					<div class="tiles lineup-tiles">
 						{{#each artists}}
-							<a class="tile isotile {{#tags}}{{this}} {{/tags}}" href="#" {{#if image}}data-img="img/contents/{{image}}" style="background-image: url(img/contents/thumbs/{{image}})" {{else}} style="background-image: url(http://lorempixel.com/200/200/animals/?ver={{@index}})"{{/if}} data-title="{{name}}" data-desc="{{bio}}" {{#if link}}data-link="{{link}}"{{/if}}{{#if soundcloud}} data-sc="{{soundcloud}}"{{/if}}{{#if utube-id}} data-utube-id="{{utube-id}}"{{/if}}>
+							<a class="tile isotile {{#tags}}{{this}} {{/tags}}" href="#" {{#if image}}data-img="img/contents/{{image}}" style="background-image: url(img/contents/thumbs/{{image}})" {{else}} style="background-image: url(http://lorempixel.com/200/200/animals/?ver={{@index}})"{{/if}} data-title="{{name}}" data-desc="{{#markdown}}{{bio}}{{/markdown}}" {{#if link}}data-link="{{link}}"{{/if}}{{#if soundcloud}} data-sc="{{soundcloud}}"{{/if}}{{#if utube-id}} data-utube-id="{{utube-id}}"{{/if}}>
 								<h3 class="tile__heading">{{name}}</h3>
 							</a>
 						{{/each}}
