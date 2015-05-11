@@ -49,22 +49,25 @@
   }
 }
 
-.splash .location {
+.location .widerscreen {
   @media (min-width: 470px) {
-    &:before {
-      content:"Bentley Country Park, ";
-    }  
+    display: inline;
   }
 }
 
 .site-nav {
-    font-size: 0.8em;
+    font-size: 1.9vmax;
     width: 100%;
+    display: none;
     transition: all ease .2s .6s;
     position: relative;
     z-index: 9999;
-    background: none; 
+    background: none;
+    height: 35px;
+    line-height: 35px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.57);
     a {
+        display: inline-block;
         color: $white !important;
         padding: 0 0.2em;
         &:hover, &:active {
@@ -76,6 +79,22 @@
             transition: all ease .2s; 
         }
     }
+    .social__twitter,.social__facebook {
+        text-indent: 2000px;
+        position: relative;
+        display: inline-block;
+        margin: 0 0.275rem;
+        width: 2rem;
+        height: 90%;
+
+        background-size: contain;
+        background-repeat: no-repeat;
+        background-position: center;
+        &:hover {
+            background-color: initial;
+            opacity: .6;
+        }
+    }
     &--stuck {
         position: fixed;
         z-index: 9999;
@@ -83,28 +102,31 @@
         pointer-events: auto;
         top: 0;
         left: 0;
-        padding: 4px 0 4px 0;
         background: rgba($color3, .8);
         -webkit-transition: .2s;
         -moz-transition: .2s;
         -ms-transition: .2s;
         -o-transition: .2s;
         transition: .2s;
+        text-shadow: none;
         &:hover {
             background: rgba($color3, 1); 
         }
         a:hover,
         a:active {
-            background-color: $color2;
+            background-color: darken($color3,5%);
         }
     }
-    &--stuck a {
-        padding: 4px 0.2em 4px 0.2em;
+    @include min-width(729px) {
+        display: block;
+        .socials {
+            width: 1.3rem;
+        }
     }
-    @include max-width($tablet) {
-        display: none;
+    @include min-width($tablet) {
+        font-size: 0.8em;
     }
-    @include min-width(1065px) {
+    @include min-width(1200px) {
         font-size: 1em;
     }
 }

@@ -2,7 +2,7 @@
     @extend %unstyled-list;
     font-size: 0;
     margin-bottom: $baseline * 2;
-    li {
+    li,a {
         display: inline-block;
         margin: 0 $baseline / 4;
         a {
