@@ -54,7 +54,7 @@ $(document).ready(function() {
   $('.filter').on( 'click', function() {
     var filterValue = $( this ).attr('data-filter');
     // use filterFn if matches value
-    $container.isotope({ filter: filterValue });
+    $('#lineup .tiles').isotope({ filter: filterValue });
     console.log('click');
   });
   // change is-checked class on buttons
@@ -131,6 +131,7 @@ $("#friends .tile").click(function(e) {
     $("body").append("<div class='overlay-wrap'><a href='#' class='overlay__close'>Close</a><div class='overlay'><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p><p><a target='_blank' class='overlay__link' href='" + link + "'>" + name + "</a></p></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div></div>");
 });
 
+
 ///////////lineup main bit.
 $("#lineup .tile").click(function(e) {
     var tile = $(this),
@@ -146,6 +147,9 @@ $("#lineup .tile").click(function(e) {
     if ($( this ).data("link")) {
       $(".overlay__copy").append("<p> See more <a target='_blank' class='overlay__link' href='" + link + "'>here</a>.</p>");
     }
+    $("html").click(function(event) {
+      $(this).next();
+    });
     if ($( this ).data("sc")) {
       // permalink to a track
       var track_url = "https://soundcloud.com/" + soundcloud;
