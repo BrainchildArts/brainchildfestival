@@ -14,6 +14,7 @@ $( 'li .tab' ).click(function( e ) {
 
 $(document).ready(function() {
 
+
   // init Isotope
   var $container = $('.tiles');
   function isolineup() {
@@ -42,6 +43,13 @@ $(document).ready(function() {
       }
     });
   }
+  $(".tile").click (function () {
+  $container.isotope('reloaditems'); 
+  $container.isotope({
+   sortby: 'original-order'
+  })
+  .isotope('relayout'); 
+  });
   $(window).resize(function () {
     if ($(window).innerWidth() < 440) {
         $container.isotope('destroy');
@@ -133,40 +141,40 @@ $("#friends .tile").click(function(e) {
 
 
 ///////////lineup main bit.
-$("#lineup .tile").click(function(e) {
-    var tile = $(this),
-        name = tile.data("title"),
-        img = tile.data("img"),
-        desc = tile.data("desc"),
-        link = tile.data("link"),
-        utube = tile.data("utube-id"),
-        soundcloud = tile.data("sc");
-    e.preventDefault();
-    $("html").addClass("hide-overflow");
-    $("body").append("<div class='overlay-wrap'><a href='#' class='overlay__close'>Close</a><div class='overlay'><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p></div><div class='overlay__embeds'></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div></div>");
-    if ($( this ).data("link")) {
-      $(".overlay__copy").append("<p> See more <a target='_blank' class='overlay__link' href='" + link + "'>here</a>.</p>");
-    }
-    $("html").click(function(event) {
-      $(this).next();
-    });
-    if ($( this ).data("sc")) {
-      // permalink to a track
-      var track_url = "https://soundcloud.com/" + soundcloud;
+// $("#lineup .tile").click(function(e) {
+//     var tile = $(this),
+//         name = tile.data("title"),
+//         img = tile.data("img"),
+//         desc = tile.data("desc"),
+//         link = tile.data("link"),
+//         utube = tile.data("utube-id"),
+//         soundcloud = tile.data("sc");
+//     e.preventDefault();
+//     $("html").addClass("hide-overflow");
+//     $(this).append("<div class='overlay-wrap'><a href='#' class='overlay__close'>Close</a><div class='overlay'><div class='col-1-2'><div class='overlay__copy'><h4>" + name + "</h4><p>" + desc + "</p></div><div class='overlay__embeds'></div></div><div class='col-1-2'><img class='overlay__image' src='" + img + "' alt='" + name + "' /></div></div></div>");
+//     if ($( this ).data("link")) {
+//       $(".overlay__copy").append("<p> See more <a target='_blank' class='overlay__link' href='" + link + "'>here</a>.</p>");
+//     }
+//     $("html").click(function(event) {
+//       $(this).next();
+//     });
+//     if ($( this ).data("sc")) {
+//       // permalink to a track
+//       var track_url = "https://soundcloud.com/" + soundcloud;
 
-      SC.get('/resolve/', { url: track_url }, function (track) {
-        var track_img = track.artwork_url;
-        if ( track.artwork_url === null) {
-          track_img = track.user.avatar_url;
-        }
-        $(".overlay__embeds").append("<div class='sc-link'><img class='sc-img' src='" + track_img + "'></img><div class='sc-right'><a target='_blank' href='https://soundcloud.com/" + soundcloud + "' class='stratus'></a><div class='sc-titles'><a target='_blank' class='sc-username' href='" + track.user.permalink_url + "'>" + track.user.username + "</a><br/><a target='_blank' class='sc-trackname' href='" + track_url + "'>" + track.title + "</a></div></div></div>");
-      });
+//       SC.get('/resolve/', { url: track_url }, function (track) {
+//         var track_img = track.artwork_url;
+//         if ( track.artwork_url === null) {
+//           track_img = track.user.avatar_url;
+//         }
+//         $(".overlay__embeds").append("<div class='sc-link'><img class='sc-img' src='" + track_img + "'></img><div class='sc-right'><a target='_blank' href='https://soundcloud.com/" + soundcloud + "' class='stratus'></a><div class='sc-titles'><a target='_blank' class='sc-username' href='" + track.user.permalink_url + "'>" + track.user.username + "</a><br/><a target='_blank' class='sc-trackname' href='" + track_url + "'>" + track.title + "</a></div></div></div>");
+//       });
 
-    }
-    if ($( this ).data("utube-id")) {
-      $(".overlay__embeds").append("<p><div class='embed-container'><iframe src='http://www.youtube.com/embed/" + utube + "' frameborder='0' allowfullscreen></iframe></div></p>");
-    }
-});
+//     }
+//     if ($( this ).data("utube-id")) {
+//       $(".overlay__embeds").append("<p><div class='embed-container'><iframe src='http://www.youtube.com/embed/" + utube + "' frameborder='0' allowfullscreen></iframe></div></p>");
+//     }
+// });
 
 $(".reveal-button").click(function(e) {
     e.preventDefault();

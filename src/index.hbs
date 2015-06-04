@@ -129,12 +129,27 @@
 
 					<div class="tiles lineup-tiles">
 						{{#each artists}}
-							<a class="tile isotile {{#tags}}{{this}} {{/tags}}" href="#" {{#if image}}data-img="img/contents/{{image}}" style="background-image: url(img/contents/thumbs/{{image}})" {{else}} style="background-image: url(http://lorempixel.com/200/200/animals/?ver={{@index}})"{{/if}} data-title="{{name}}" data-desc="{{#markdown}}{{bio}}{{/markdown}}" {{#if link}}data-link="{{link}}"{{/if}}{{#if soundcloud}} data-sc="{{soundcloud}}"{{/if}}{{#if utube-id}} data-utube-id="{{utube-id}}"{{/if}}>
+							<a class="tile isotile {{#tags}}{{this}} {{/tags}}" href="#" {{#if image}}data-img="img/contents/{{image}}" style="background-image: url(img/contents/thumbs/{{image}})" {{/if}} data-title="{{name}}" data-desc="{{#markdown}}{{bio}}{{/markdown}}" {{#if link}}data-link="{{link}}"{{/if}}{{#if soundcloud}} data-sc="{{soundcloud}}"{{/if}}{{#if utube-id}} data-utube-id="{{utube-id}}"{{/if}}>
 								<h3 class="tile__heading">{{name}}</h3>
 							</a>
 						{{/each}}
 					</div>
 				</div>
+
+<hr/>
+
+				<div class="container">
+					<ul id="og-grid" class="og-grid tiles">
+						{{#each artists}}
+						<li>
+							<a class="tile isotile {{#tags}}{{this}} {{/tags}}" href="#" target="_blank" style="background-image: url(img/contents/thumbs/{{image}})" data-thumb-1="img/contents/thumbs/{{image}})" data-thumb-2="img/contents/thumbs/{{image}})" data-thumb-3="img/contents/thumbs/{{image}})" data-largesrc="img/contents/{{image}}" data-title="{{name}}" data-description="{{#markdown}}{{bio}}{{/markdown}}">
+								<h3 class="tile__heading">{{name}}</h3>
+							</a>
+						</li>
+						{{/each}}
+					</ul>
+				</div>
+
 
 		</section>
 		<section id="info">
