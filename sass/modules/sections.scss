@@ -18,6 +18,9 @@ section {
         @include min-width($tablet) {
             min-height: 0;
         }
+        .columns ul {
+            display: inline-block;
+        }
     }
     &#tickets {
         @media (max-width: 400px) {

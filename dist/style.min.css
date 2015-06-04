@@ -616,6 +616,8 @@ section {
     @media only screen and (min-width: 60rem) {
       section#about {
         min-height: 0; } }
+    section#about .columns ul {
+      display: inline-block; }
   @media (max-width: 400px) {
     section#tickets {
       padding-right: 5px;
