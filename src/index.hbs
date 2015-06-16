@@ -17,6 +17,7 @@
 		<script src="http://connect.soundcloud.com/sdk.js"></script>
 		<script> SC.initialize({ client_id: '2fbbba5d82f30b67594d8df69d010d0b' });</script>
 		<link rel="stylesheet" href="./style.min.css?version=2">
+		<link href='http://fonts.googleapis.com/css?family=Roboto:400,300,300italic,400italic,500,500italic,700,700italic' rel='stylesheet' type='text/css'>
 		<script>
 		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -135,8 +136,22 @@
 						{{/each}}
 					</div>
 				</div>
-
 		</section>
+
+		<section id="areas">
+			<h2>Areas</h2>
+			<p class="big-txt">Here's a bit more about what you'll find at the festival. As well as countless installations and small spaces to enjoy, here are our main stages and performance areas.</p>
+			<div class="areas__main">
+			{{#each areas}}
+				<div class="area {{uid}}">
+					<div class="area__image" style="background-image: url(../img/partials/areas--{{uid}}.png)"></div>
+					<h3>{{name}}</h3>
+					<p>{{#markdown}}{{info}}{{/markdown}}</p>
+				</div>
+			{{/each}}
+			</div>
+		</section>
+
 		<section id="info">
 			<h2>Info</h2>
 			<div class="expandable">
@@ -153,7 +168,6 @@
 			</div>
 		</section>
 		<section id="gallery" class="gallery">
-			<h2>Gallery</h2>
 			<ul class="bxslider">
 			  <li><img src="img/gallery/1.jpg" alt="" title="Brainchildren, 2013"></li>
 			  <li><img src="img/gallery/2.jpg" alt="" title="Singing Workshop, 2013"></li>
@@ -209,7 +223,8 @@
 			<h2>Get Involved</h2>
 				</ul>
 				<div>
-					<p class="big-txt">We are currently on the look out for ideas big and small to take place at the festival. Writers, dancers, musicians, filmmakers, artists, thinkers, teachers, drinks mixers, clothes makers, if you feel inspired to bring something along, email us:</p>
+					<p class="big-txt">We are now totally full up for this year, but if you still want to get in touch, then we always love hearing about new projects so send us a message.</p>
+					<p class="big-txt">We're always on the lookout for new people to join the team on production, marketing, coverage and programming</p>
 						<ul class="contactslist big-txt">
 							<li>Theatre: <b>Zoe</b></li>
 							<li>Installation &amp; artwork: <b>Lily</b></li>
@@ -224,7 +239,7 @@
             <p class="big-txt"><b>@brainchildfestival.co.uk</b></p>
 				</div>
 			
-			<h2 class="innerheader gap">Keep in touch</h2>
+			<h2 class="innerheader gap">Keep in touch!</h2>
 			<p class="big-txt">Join the mailing list and we'll send you the occasional update on events and opportunities.</p>
 
 			<!-- Begin MailChimp Signup Form -->

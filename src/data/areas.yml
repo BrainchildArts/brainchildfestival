@@ -1,0 +1,31 @@
+---
+- 
+  name: "The Shack"
+  info: 
+        "Made from a scaffolding tower with four inward-facing speakers to create a perfect sonic experience, The Shack will host DJ sets spanning everything from tropical to DnB, afrobeat, garage and funk. The whole structure will be covered in murals by brilliant young illustrators."
+  uid: the-shack
+- 
+  name: "Braindome"
+  info: 
+        "Our big outdoor stage filling the field with beautiful sounds of live sets, collaborations and jams. From 8 piece bands to solo artists, The Braindome will take you on a journey of musical inspiration."
+  uid: braindome
+- 
+  name: "Steez Cafe"
+  info: 
+        "A space run in collaboration with SE London based creative community, Steez. The Cafe will be back again this year with intimate sets from some very talented musicians as well as open jams for musicians and poets and DJ sets into the night."
+  uid: steez-cafe
+- 
+  name: "Cinema Yurt"
+  info: 
+        "A new space for this year. We wanted somewhere dedicated to film. We will show short films, animation, documentaries and beautiful visuals playing throughout the weekend. Look out for some live scores and film workshops too."
+  uid: yurt
+- 
+  name: "The Forum"
+  info: 
+        "The central hub of the ideas, discussions, spoken word and theatre at Brainchild. From life drawing and yoga, panel debates and poetry to drag kings and puppet shows, The Forum is always buzzing with something wonderful."
+  uid: forum
+- 
+  name: "The Woodland"
+  info: 
+        "This is our first year with woodland and for a few spcial shows and sets, we'll be leading you deep into the tall trees and luscious spaces of the woods."
+  uid: woodland

@@ -1,0 +1,33 @@
+#areas {
+  text-align: center;
+  @include min-width($phablet) {
+    padding: 7vw 0% 16vw 0%;
+  }
+  .areas__main {
+    @extend .grid;
+  }
+  .area {
+    display: inline-block;
+    @extend .col-1-4;
+    vertical-align: top;
+    p {
+      padding: 0 0.5em 0 0.5em;
+    }
+    @include min-width($phablet) {
+      width: 25%;
+    }
+  }
+  .area__image {
+    height: 120px;
+    margin: auto;
+    margin-bottom: 1.2em;
+    background-size: contain;
+    background-position: bottom;
+    background-repeat: no-repeat;
+    overflow-y: visible;
+  }
+  .the-shack .area__image{
+    margin-top: 1.9em;
+    margin-bottom: -0.5em;
+  }
+}
