@@ -7,6 +7,13 @@
     tags:
     - music
   -
+    name: "Alex Kealy"
+    image: "alexkealy.jpg"
+    bio: "Alex Kealy is a gangly, self-hating comedian trapped inside the body of a gangly, self-hating comedian. He's also a So You Think You're Funny finalist and ‘hugely funny’ (Broadway Baby).</p><p>Other achievements include reaching the finals of The Hobgoblin Comedy Award and Reading New Comedian of the Year, as well as Grade 2 Pianoforte (Pass)."
+    tags:
+    - theatre
+    - comedy
+  -
     name: "BabeHeaven"
     image: "babeheaven.jpg"
     bio: "Babeheaven are an exciting new West London band formed by 3 friends in 2014. These soft, glitching love songs echo elements of Massive Attack and early Cocteau Twins. Nancy Anderson's beautiful vocals, the glimmering production and some infectious melodies make this a dream you want to have again and again."
@@ -498,6 +505,7 @@
     bio: "David lives between London and Edinburgh. Between dreams and reality. Between aubergines and carpentry. He is obsessed with art and music, and has been writing and performing comedy for a few years now and we can't wait to welcome him to the festival."
     tags:
     - theatre
+    - comedy
   - 
     name: "Mirth & Misery: 'Death Puppet Klezma Jam'"
     image: "deathpuppet.jpg"
@@ -678,6 +686,13 @@
     tags:
     - music
   - 
+    name: "Roya Shadmund"
+    image: "royashadmund.jpg"
+    bio: "Roya Shadmand is a spoken word poet (in theory) and stand-up comedian (kind of) from Southampton. Her poetry isn't necessarily very funny and her comedy certainly isn't very poetic. She calls it compartmentalising. Others call it a clear indication of a multiple personality disorder. Potato potato."
+    tags:
+    - theatre
+    - comedy
+  -
     name: "James Massiah"
     image: "jamesmassiah.jpg"
     bio: "The indefatigable James Massiah will be with us telling poems, DJing, discussing and dancing all weekend. He's a true inspiration and we are so happy to have him as part of the family."
