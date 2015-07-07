@@ -79,3 +79,23 @@ a.tt-widget-tab-button.gettickets-btn {
 .widerscreen {
     display: none;
 }
+
+.alt-bg {
+    background-color: $color1;
+    background-image: none;
+}
+
+.backbutton {
+    margin: .3em;
+    background-color: $color2;
+    padding: .4em;
+    border-radius: 5px;
+    display: inline-block;
+}
+
+#schedule {
+    margin-top: 3em;
+    a {
+        color: $orange;
+    }
+}

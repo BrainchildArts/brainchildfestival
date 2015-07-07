@@ -390,6 +390,22 @@ a.tt-widget-tab-button.gettickets-btn {
 .widerscreen {
   display: none; }
 
+.alt-bg {
+  background-color: #FEEFDA;
+  background-image: none; }
+
+.backbutton {
+  margin: .3em;
+  background-color: #D5DBE7;
+  padding: .4em;
+  border-radius: 5px;
+  display: inline-block; }
+
+#schedule {
+  margin-top: 3em; }
+  #schedule a {
+    color: #F39161; }
+
 @media print {
   * {
     background: transparent !important;
